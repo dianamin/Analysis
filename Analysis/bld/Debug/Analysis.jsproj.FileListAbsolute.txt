@@ -1,0 +1,13 @@
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\Analysis.build.appxrecipe
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\priconfig.xml.intermediate
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\layout.resfiles.intermediate
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\resources.resfiles.intermediate
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\pri.resfiles.intermediate
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\priconfig.xml
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\layout.resfiles
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\resources.resfiles
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\pri.resfiles
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\LanguageQualifiers.txt
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Debug\ProjectArchitectures.txt

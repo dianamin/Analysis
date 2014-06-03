@@ -1,0 +1,9 @@
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Release\resources.pri
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Release\AppxManifest.xml
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Release\Analysis.build.appxrecipe
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Release\priconfig.xml
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Release\layout.resfiles
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Release\resources.resfiles
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Release\pri.resfiles
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Release\LanguageQualifiers.txt
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\Release\ProjectArchitectures.txt

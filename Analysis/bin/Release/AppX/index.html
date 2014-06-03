@@ -1,0 +1,77 @@
+﻿<!--<!DOCTYPE html>-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Analysis</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+        <script src="/js/default.js"></script>
+    <!-- Analysis references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <div class ="row">
+            <div class="col-md-1"> logo </div>
+            <div class ="col-md-3" id ="titlu"> Mathematical Analysis </div>
+            <div class ="col-md-8">
+                <blockquote>
+                    <p id = "c">
+                        Matematica va fi limba latină a viitorului, obligatorie pentru toți oamenii de știință. Tocmai pentru că matematica permite accelerarea maximă a circulației ideilor științifice. - G. Moisil
+                    </p>
+                </blockquote>
+            </div>
+        <ul class="nav nav-pills">
+            <li class="active" onclick = "nav(1)" id ="m1"><a href="#">Noțiuni introductive</a></li>
+            <li onclick = "nav(2)" id ="m2"><a href="#">Limite de șiruri</a></li>
+            <li onclick = "nav(3)" id ="m3"><a href="#">Limite de funcții</a></li>
+            <li onclick = "nav(4)" id ="m4"><a href="#">Continuitate</a></li>
+            <li onclick = "nav(5)" id ="m5"><a href="#">Derivabilitate</a></li>
+            <li onclick = "nav(6)" id ="m6"><a href="#">Grafice de funcții</a></li>
+            <li onclick = "nav(7)" id ="m7"><a href="#">Probleme</a></li>
+            <li onclick = "nav(8)" id ="m8"><a href="#">Jocuri</a></li>
+        </ul>
+           </div>
+    </header>
+    <div class ="row" id ="wrapper">
+        <div class ="col-md-4" id="menu">
+            <h3>Lecții</h3>
+            <ul style ="list-style: none;">
+                <li class ="stg" onclick = "lectie(1)" id ="l1" style ="display: block;"><a href ="#">Numere reale</a></li> 
+                <li class ="stg" onclick = "lectie(2)" id ="l2" style ="display: block;"><a href ="#">Submulțimi mărginite ale lui <b> R </b></a></li> 
+                <li class ="stg" onclick = "lectie(3)" id ="l3" style ="display: block;"><a href ="#">Vecinătate a unui punct</a></li> 
+                <li class ="stg" onclick = "lectie(4)" id ="l4" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(5)" id ="l5" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(6)" id ="l6" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(7)" id ="l7" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(8)" id ="l8" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(9)" id ="l9" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(10)" id ="l10" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(11)" id ="l11" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(12)" id ="l12" style ="display: none;"><a href ="#"></a></li>
+            </ul>
+
+        </div>
+        <div class ="col-md-8">
+            
+            <div id ="content">
+               
+            </div>
+            <div class = "exemplu" onclick = "getExemplu(1)" id ="e1">
+               :)
+            </div>
+
+        </div>
+    </div>
+</body>
+
+
+</html>
+
