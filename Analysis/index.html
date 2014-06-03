@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Analysis</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+     <script src="/js/default.js"></script>
+     <script src ="probleme.js"></script>
+
+    <!-- Analysis references -->
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/default.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <div class ="row">
+            <div class="col-md-1"> <img src ="/images/logo2.png" class ="img-content" style ="height: 60px; width: 60px; margin-left: 10px;"/> </div>
+            <div class ="col-md-3" id ="titlu"><span class ="w">M</span><span class ="w">a</span><span class ="w">t</span><span class ="w">h</span><span class ="w">e</span><span class ="w">m</span><span class ="w">a</span><span class ="w">t</span><span class ="w">i</span><span class ="w">c</span><span class ="w">a</span><span class ="w">l</span><span class ="w"> A</span><span class ="w">n</span><span class ="w">a</span><span class ="w">l</span><span class ="w">y</span><span class ="w">s</span><span class ="w">i</span><span class ="w">s</span></div>
+            <div class ="col-md-8">
+                <blockquote>
+                    <p id = "c">
+                        Matematica va fi limba latină a viitorului, obligatorie pentru toți oamenii de știință. Tocmai pentru că matematica permite accelerarea maximă a circulației ideilor științifice. - G. Moisil
+                    </p>
+                </blockquote>
+            </div>
+        <ul class="nav nav-pills">
+            <li class="active" onclick = "nav(1)" id ="m1"><a href="#">Noțiuni introductive</a></li>
+            <li onclick = "nav(2)" id ="m2"><a href="#">Limite de șiruri</a></li>
+            <li onclick = "nav(3)" id ="m3"><a href="#">Limite de funcții</a></li>
+            <li onclick = "nav(4)" id ="m4"><a href="#">Continuitate</a></li>
+            <li onclick = "nav(5)" id ="m5"><a href="#">Derivabilitate</a></li>
+            <li onclick = "nav(6)" id ="m6"><a href="#">Grafice de funcții</a></li>
+            <li onclick = "nav(7)" id ="m7"><a href="#">Probleme</a></li>
+            <li onclick = "nav(8)" id ="m8"><a href="#">Joc</a></li>
+            
+        </ul>
+           </div>
+    </header>
+    <div class ="row" id ="wrapper">
+        <div class ="col-md-4" id="menu">
+            <h3 id ="tl">Lecții</h3>
+            <ul style ="list-style: none;">
+                <li class ="stg" onclick = "lectie(1)" id ="l1" style ="display: block;"><a href ="#">Numere reale</a></li> 
+                <li class ="stg" onclick = "lectie(2)" id ="l2" style ="display: block;"><a href ="#">Submulțimi mărginite ale lui <b> R </b></a></li> 
+                <li class ="stg" onclick = "lectie(3)" id ="l3" style ="display: block;"><a href ="#">Vecinătate a unui punct</a></li> 
+                <li class ="stg" onclick = "lectie(4)" id ="l4" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(5)" id ="l5" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(6)" id ="l6" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(7)" id ="l7" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(8)" id ="l8" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(9)" id ="l9" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(10)" id ="l10" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(11)" id ="l11" style ="display: none;"><a href ="#"></a></li>
+                <li class ="stg" onclick = "lectie(12)" id ="l12" style ="display: none;"><a href ="#"></a></li>
+            </ul>
+            <div id ="scor">Scor <br /> 0</div>
+        </div>
+        <div class ="col-md-8">
+            
+            <div id ="content" class ="c">
+                <h2>Alege lecția!</h2>
+            </div>
+            <div id ="probleme" class ="c" style ="display:none;">
+                <h2 id ="capitol">Șiruri</h2>
+                <img src ="/images/next.png" id ="next" onclick ="next()"/>
+                <div id ="enunt"> Calculați limita <img src ='/images/probleme/e1.png' class ='img-content' />.</div>
+                <div class="form-group" id ="divrezultat">
+                    <table><tr>
+                    <td><label class="control-label" for="inputSuccess2" style ="transition: all 0.5s;">Răspuns = </label></td>
+                    <td><input type="text" class="form-control" id="rezultat"> </td><td> <img src ="/images/ag.png" class ="answer" id ="right"/> </td><td><img src ="/images/ab.png" class ="answer" id ="wrong"/></td>
+                    </tr></table>
+                </div>
+                <div class ="hint" id ="h1">hint 1</div>
+                <div class ="hint" id ="h2">hint 2</div>
+                <div class ="hint" id ="h3">hint 3</div>
+                <div class ="btn btn-primary" onclick ="check()">Verifică</div>
+            </div>
+            <div id ="joc" class ="c" style ="display:none;">
+                
+                <div id ="startjoc">
+                    <img src ="/images/robot2.png" class ="robot2"/> <div class ="msgleft" style ="margin-top: -30px;">Nu știu răspunsurile! Ajută-ma!</div> <br />
+                    <div class ="btn btn-primary" onclick ="startJoc()">Începe!</div>
+                </div>
+                <div id ="combat" style ="background-image: url('/images/bg/6.png');">
+                    <div id ="scene">                 
+                            <img src ="/images/robot2.png" class ="personaj-joc" style =" position: absolute; top: 40px; left: 10px;" />
+                            <div style ="margin-top: 40px; text-align: center;">
+                                <div id ="answer" class ="msgleft">
+                                    <div id ="a1" class="btn btn-default" onclick ="choice(1)"></div>
+                                    <div id ="a2" class="btn btn-default" onclick ="choice(2)"></div>
+                                </div>
+                                <div id ="query" class ="msgright"></div>
+                            </div>
+                            <div id ="adv" style =" position: absolute; top: 40px; right: 10px;"></div>                    
+                    </div>
+            </div>
+                <div id ="stopjoc" style ="display: none;">
+                    <img src ="/images/robot2.png" class ="robot2"/> <div class ="msgleft" style ="margin-top: -30px;" id ="rez"></div> <br />
+                    <div class ="btn btn-primary" onclick ="startJoc()">Să ne luptăm din nou!</div>
+                </div>
+            
+
+        </div>
+            <div class = "exemplu" onclick = "getExemplu(1)" id ="e1">
+                
+            </div>
+    </div>
+       
+</body>
+
+
+</html>
+

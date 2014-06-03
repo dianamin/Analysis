@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>424618ed-0c7e-4a5f-bf7c-b703f257445e</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>Analysis_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="default.html" />
+    <Content Include="images\a.png" />
+    <Content Include="images\ab.png" />
+    <Content Include="images\adunare.png" />
+    <Content Include="images\adversari\1.png" />
+    <Content Include="images\adversari\2.png" />
+    <Content Include="images\adversari\3.png" />
+    <Content Include="images\adversari\4.png" />
+    <Content Include="images\ag.png" />
+    <Content Include="images\axa.png" />
+    <Content Include="images\bg\1.png" />
+    <Content Include="images\bg\2.png" />
+    <Content Include="images\bg\3.png" />
+    <Content Include="images\bg\4.png" />
+    <Content Include="images\bg\5.png" />
+    <Content Include="images\bg\6.png" />
+    <Content Include="images\bg\7.png" />
+    <Content Include="images\caiet.png" />
+    <Content Include="images\case.png" />
+    <Content Include="images\caz1.png" />
+    <Content Include="images\caz2.png" />
+    <Content Include="images\caz3.png" />
+    <Content Include="images\caz4.png" />
+    <Content Include="images\cleste.png" />
+    <Content Include="images\cleste2.png" />
+    <Content Include="images\clestef.png" />
+    <Content Include="images\compunere.png" />
+    <Content Include="images\concav.png" />
+    <Content Include="images\convex.png" />
+    <Content Include="images\dd.png" />
+    <Content Include="images\deriv.png" />
+    <Content Include="images\derivate\d1.png" />
+    <Content Include="images\derivate\d10.png" />
+    <Content Include="images\derivate\d11.png" />
+    <Content Include="images\derivate\d12.png" />
+    <Content Include="images\derivate\d13.png" />
+    <Content Include="images\derivate\d14.png" />
+    <Content Include="images\derivate\d15.png" />
+    <Content Include="images\derivate\d2.png" />
+    <Content Include="images\derivate\d3.png" />
+    <Content Include="images\derivate\d4.png" />
+    <Content Include="images\derivate\d5.png" />
+    <Content Include="images\derivate\d6.png" />
+    <Content Include="images\derivate\d7.png" />
+    <Content Include="images\derivate\d8.png" />
+    <Content Include="images\derivate\d9.png" />
+    <Content Include="images\derivate\r1.png" />
+    <Content Include="images\derivate\r10.png" />
+    <Content Include="images\derivate\r11.png" />
+    <Content Include="images\derivate\r12.png" />
+    <Content Include="images\derivate\r13.png" />
+    <Content Include="images\derivate\r14.png" />
+    <Content Include="images\derivate\r15.png" />
+    <Content Include="images\derivate\r2.png" />
+    <Content Include="images\derivate\r3.png" />
+    <Content Include="images\derivate\r4.png" />
+    <Content Include="images\derivate\r5.png" />
+    <Content Include="images\derivate\r6.png" />
+    <Content Include="images\derivate\r7.png" />
+    <Content Include="images\derivate\r8.png" />
+    <Content Include="images\derivate\r9.png" />
+    <Content Include="images\diagrama.png" />
+    <Content Include="images\ds.png" />
+    <Content Include="images\en.png" />
+    <Content Include="images\en2.png" />
+    <Content Include="images\fcont.png" />
+    <Content Include="images\fermat.png" />
+    <Content Include="images\fibo.png" />
+    <Content Include="images\fnecont.png" />
+    <Content Include="images\hospital.png" />
+    <Content Include="images\impartire.png" />
+    <Content Include="images\inflexiune.png" />
+    <Content Include="images\inmultire.png" />
+    <Content Include="images\inmultirec.png" />
+    <Content Include="images\lagrange.png" />
+    <Content Include="images\ld.png" />
+    <Content Include="images\lime.png" />
+    <Content Include="images\lime2.png" />
+    <Content Include="images\limf.png" />
+    <Content Include="images\limf2.png" />
+    <Content Include="images\limg.png" />
+    <Content Include="images\limh.png" />
+    <Content Include="images\limitef\l1.png" />
+    <Content Include="images\limitef\l2.png" />
+    <Content Include="images\limitef\l3.png" />
+    <Content Include="images\limitef\l4.png" />
+    <Content Include="images\limitef\l5.png" />
+    <Content Include="images\limitef\l6.png" />
+    <Content Include="images\limitef\l7.png" />
+    <Content Include="images\limitef\l8.png" />
+    <Content Include="images\limitef\l9.png" />
+    <Content Include="images\limite\l1.png" />
+    <Content Include="images\limite\l10.png" />
+    <Content Include="images\limite\l2.png" />
+    <Content Include="images\limite\l3.png" />
+    <Content Include="images\limite\l4.png" />
+    <Content Include="images\limite\l5.png" />
+    <Content Include="images\limite\l6.png" />
+    <Content Include="images\limite\l7.png" />
+    <Content Include="images\limite\l8.png" />
+    <Content Include="images\limite\l9.png" />
+    <Content Include="images\limr.png" />
+    <Content Include="images\limsir.png" />
+    <Content Include="images\limsir2.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo2.png" />
+    <Content Include="images\ls.png" />
+    <Content Include="images\lsld.png" />
+    <Content Include="images\m.png" />
+    <Content Include="images\marginit.png" />
+    <Content Include="images\max.png" />
+    <Content Include="images\min.png" />
+    <Content Include="images\n.png" />
+    <Content Include="images\nderiv.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\nolimit.png" />
+    <Content Include="images\oblic.png" />
+    <Content Include="images\orizontal.png" />
+    <Content Include="images\probleme\e1.png" />
+    <Content Include="images\probleme\e2.png" />
+    <Content Include="images\probleme\e3.png" />
+    <Content Include="images\probleme\e4a.png" />
+    <Content Include="images\probleme\e4b.png" />
+    <Content Include="images\probleme\e5.png" />
+    <Content Include="images\probleme\e6.png" />
+    <Content Include="images\probleme\e7.png" />
+    <Content Include="images\probleme\h12.png" />
+    <Content Include="images\probleme\h13.png" />
+    <Content Include="images\probleme\h21.png" />
+    <Content Include="images\probleme\h22.png" />
+    <Content Include="images\probleme\h23a.png" />
+    <Content Include="images\probleme\h23b.png" />
+    <Content Include="images\probleme\h31.png" />
+    <Content Include="images\probleme\h32.png" />
+    <Content Include="images\probleme\h33.png" />
+    <Content Include="images\probleme\h42.png" />
+    <Content Include="images\probleme\h43.png" />
+    <Content Include="images\probleme\h51.png" />
+    <Content Include="images\R.png" />
+    <Content Include="images\r1.png" />
+    <Content Include="images\r2.png" />
+    <Content Include="images\raport.png" />
+    <Content Include="images\robot.png" />
+    <Content Include="images\robot2.png" />
+    <Content Include="images\rolle.png" />
+    <Content Include="images\sc.png" />
+    <Content Include="images\sir.png" />
+    <Content Include="images\sirrolle.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\SplashScreen.scale-100.png" />
+    <Content Include="images\SplashScreen.scale-140.png" />
+    <Content Include="images\SplashScreen.scale-180.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\subsequence.png" />
+    <Content Include="images\vertical.png" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\script.js" />
+    <None Include="Analysis_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
