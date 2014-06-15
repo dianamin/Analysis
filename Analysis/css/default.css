@@ -111,7 +111,6 @@ header {
 .c {
     padding: 40px;
     background: white;
-    /*background-image: url('http://physipop.files.wordpress.com/2009/04/large-squared-paper.png');*/
     height: 300px;
     margin-left: 20px;
     border: solid 2px;
@@ -119,7 +118,7 @@ header {
     text-align: justify;
     background-size: cover;
     color: #428bca;
-
+    width: auto;
     overflow-y: scroll;
 }
 .table {

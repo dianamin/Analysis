@@ -5,18 +5,18 @@
     <WindowsUser>DIDI</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>8FFB656EC20EFCE2EEA9E9CF1AD866429E9B5684E6128CA743AD39C3086A8244</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.8_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>E7B3F1881DD33E7E488FAC2DED4A6677BE47E7948D6BB0A05BC06974E19D5E23</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.9_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>424618ed-0c7e-4a5f-bf7c-b703f257445e_2dvk2c9r5r43w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>424618ed-0c7e-4a5f-bf7c-b703f257445e</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=DIDI</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.8</RegisteredVersion>
+    <RegisteredVersion>1.0.0.9</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-03T21:28:08.319</Modified>
+      <Modified>2014-06-03T22:12:33.174</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -38,7 +38,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-06-03T22:11:40.856</Modified>
+      <Modified>2014-06-15T18:38:11.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\default.html">
       <PackagePath>default.html</PackagePath>
@@ -46,7 +46,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-06-03T19:32:31.416</Modified>
+      <Modified>2014-06-15T18:58:06.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\a.png">
       <PackagePath>images\a.png</PackagePath>
@@ -685,7 +685,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-06-03T22:05:34.957</Modified>
+      <Modified>2014-06-15T18:43:56.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
@@ -693,7 +693,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-03T21:28:08.071</Modified>
+      <Modified>2014-06-03T22:12:32.759</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

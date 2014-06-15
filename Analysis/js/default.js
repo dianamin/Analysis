@@ -756,7 +756,7 @@ var lmax = 12;
 
 citatRandom = function () {
     var x = Math.floor(Math.random() * nrc);
-    document.getElementById("c").innerHTML = citate[x];
+    document.getElementById("c").innerHTML = citate[x] + "<br />";
     return x;
 }
 curent = 1;
