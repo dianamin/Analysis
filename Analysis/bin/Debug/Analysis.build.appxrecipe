@@ -25,6 +25,9 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\bootstrap.min.css">
       <PackagePath>css\bootstrap.min.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\narrow.css">
+      <PackagePath>css\narrow.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>

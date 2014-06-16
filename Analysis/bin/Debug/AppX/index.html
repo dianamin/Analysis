@@ -14,17 +14,18 @@
 
     <!-- Analysis references -->
     <link href="/css/bootstrap.css" rel="stylesheet" />
-    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/css/default.css" rel="stylesheet"/>
+    <link href="/css/narrow.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 800px)" >
 
 </head>
 
 <body>
     <header>
         <div class ="row">
-            <div class="col-md-1"> <img src ="/images/logo2.png" class ="img-content" style ="height: 60px; width: 60px; margin-left: 10px;"/> </div>
-            <div class ="col-md-3" id ="titlu"><span class ="w">M</span><span class ="w">a</span><span class ="w">t</span><span class ="w">h</span><span class ="w">e</span><span class ="w">m</span><span class ="w">a</span><span class ="w">t</span><span class ="w">i</span><span class ="w">c</span><span class ="w">a</span><span class ="w">l</span><span class ="w"> A</span><span class ="w">n</span><span class ="w">a</span><span class ="w">l</span><span class ="w">y</span><span class ="w">s</span><span class ="w">i</span><span class ="w">s</span></div>
+            <div class="col-md-1 col-xs-3"> <img src ="/images/logo2.png" class ="img-content" id ="logo"/> </div>
+            <div class ="col-md-3 col-xs-9" id ="titlu"><span class ="w">M</span><span class ="w">a</span><span class ="w">t</span><span class ="w">h</span><span class ="w">e</span><span class ="w">m</span><span class ="w">a</span><span class ="w">t</span><span class ="w">i</span><span class ="w">c</span><span class ="w">a</span><span class ="w">l</span><span class ="w"> A</span><span class ="w">n</span><span class ="w">a</span><span class ="w">l</span><span class ="w">y</span><span class ="w">s</span><span class ="w">i</span><span class ="w">s</span></div>
             <div class ="col-md-8">
-                <blockquote>
+                <blockquote id ="citat">
                     <p id = "c">
                         Matematica va fi limba latină a viitorului, obligatorie pentru toți oamenii de știință. Tocmai pentru că matematica permite accelerarea maximă a circulației ideilor științifice. - G. Moisil
                     </p>
@@ -32,7 +33,7 @@
             </div>
             </div>
             <br />
-        <div>
+        <div id ="top">
             <ul class="nav nav-pills">
                 <li class="active" onclick = "nav(1)" id ="m1"><a href="#">Noțiuni introductive</a></li>
                 <li onclick = "nav(2)" id ="m2"><a href="#">Limite de șiruri</a></li>
@@ -47,7 +48,7 @@
           
     </header>
     <div class ="row" id ="wrapper">
-        <div class ="col-md-4" id="menu" style ="width: 25%;">
+        <div class ="col-md-4" id="menu" style ="width: 25%; min-width: 250px;">
             <h3 id ="tl">Lecții</h3>
             <ul style ="list-style: none;">
                 <li class ="stg" onclick = "lectie(1)" id ="l1" style ="display: block;"><a href ="#">Numere reale</a></li> 

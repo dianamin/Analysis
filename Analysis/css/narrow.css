@@ -1,0 +1,49 @@
+﻿body {
+    overflow-y: scroll;
+}
+
+
+#citat {
+    display: none;
+}
+
+header {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+#logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#top {
+    height: 50px;
+    overflow-y: scroll;
+    text-align: center;
+    margin-right: 15px;
+}
+.c {
+    margin-left: -15px;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+h2 {
+    text-align: center;
+}
+#rezultat {
+    width: 90px;
+}
+#m8 {
+    display: none;
+}
+#probleme {
+    text-align: left;
+}
+.exemplu {
+    opacity: 0;
+    margin-left: -15px;
+}
+
+#glasses {
+    margin-top: 0px;
+}

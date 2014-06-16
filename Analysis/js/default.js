@@ -53,7 +53,7 @@ var leftpanel = [
     ['Asimptote', 'Reprezentări grafice'],
 ];
 var lectii = [
-    ['<!-- Numere reale -->   <h2> Numere reale <img src = "/images/axa.png" class = "img-content"/> </h2> \
+    ['<!-- Numere reale -->   <h2> Numere reale </h2><img src = "/images/axa.png" class = "img-content"/> </h2> \
             <span class ="glyphicon glyphicon-pencil"></span> Mulțimea numerelor reale are ca reprezentare geometrică axa numerelor reale. <br /> \
             \
             <span class ="glyphicon glyphicon-pencil"></span> Să ne amintim!\
@@ -116,7 +116,7 @@ var lectii = [
                 '<h2>Limite de șiruri</h2> \
                 <p><span class ="glyphicon glyphicon-pencil"></span> Șirul (x<sub>n</sub>)<sub>n</sub> <i>are limită</i> l dacă orice vecinătate a lui l conține toți termenii șirului începând de la un anumit rang. </p>  \
                 <p><span class ="glyphicon glyphicon-pencil"></span> Un șir se numește <i>convergent</i> dacă are limita finită. Altfel, se numește <i>divergent</i>. </p> \
-                 <img src ="/images/limsir.png" style ="margin-top: -200px; margin-right: 20px; display: inline-block;"  class = "img-med" /> \
+                 <img src ="/images/limsir.png" id = "glasses"  class = "img-med" /> \
                 <table class ="table" style ="width: 150px; display: inline-block;"> \
                     <thead> \
                         <th> <h2> Notații </h2> \

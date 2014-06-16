@@ -58,6 +58,7 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\narrow.css" />
     <Content Include="default.html" />
     <Content Include="images\a.png" />
     <Content Include="images\ab.png" />

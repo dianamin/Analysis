@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-03T22:12:33.174</Modified>
+      <Modified>2014-06-16T16:25:28.642</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -36,9 +36,13 @@
       <PackagePath>css\bootstrap.min.css</PackagePath>
       <Modified>2014-05-29T11:44:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\narrow.css">
+      <PackagePath>css\narrow.css</PackagePath>
+      <Modified>2014-06-16T17:54:56.229</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-06-15T18:38:11.018</Modified>
+      <Modified>2014-06-16T17:52:39.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\default.html">
       <PackagePath>default.html</PackagePath>
@@ -46,7 +50,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-06-15T18:58:06.636</Modified>
+      <Modified>2014-06-16T18:00:04.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\a.png">
       <PackagePath>images\a.png</PackagePath>
@@ -685,7 +689,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-06-15T18:43:56.833</Modified>
+      <Modified>2014-06-16T17:50:43.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
@@ -693,7 +697,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-03T22:12:32.759</Modified>
+      <Modified>2014-06-16T16:25:27.697</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

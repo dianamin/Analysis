@@ -63,6 +63,11 @@ header {
     margin-top: 100px;
     margin-left: 100px;
 }
+#logo {
+    height: 60px;
+    width: 60px; 
+    margin-left: 10px;
+}
 
 #wrapper {
     width: 80%;
@@ -119,6 +124,7 @@ header {
     background-size: cover;
     color: #428bca;
     width: auto;
+    min-width: 250px;
     overflow-y: scroll;
 }
 .table {
@@ -309,4 +315,8 @@ i, h5 {
     margin-left: auto;
     margin-right: auto;
     display: none;
+}
+
+#glasses {
+    margin-top: -200px; margin-right: 20px; display: inline-block;
 }
