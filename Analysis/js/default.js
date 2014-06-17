@@ -53,7 +53,7 @@ var leftpanel = [
     ['Asimptote', 'Reprezentări grafice'],
 ];
 var lectii = [
-    ['<!-- Numere reale -->   <h2> Numere reale </h2><img src = "/images/axa.png" class = "img-content"/> </h2> \
+    ['<!-- Numere reale -->   <h2> Numere reale </h2> <img src = "/images/axa.png" class = "img-content" style = "width: 200px;"/> <br /> \
             <span class ="glyphicon glyphicon-pencil"></span> Mulțimea numerelor reale are ca reprezentare geometrică axa numerelor reale. <br /> \
             \
             <span class ="glyphicon glyphicon-pencil"></span> Să ne amintim!\
@@ -78,7 +78,7 @@ var lectii = [
             <p> <span class ="glyphicon glyphicon-pencil"></span> O mulțime <i> mărginită </i> este mărginită atât superior, cât și inferior. <img src = "/images/marginit.png" class = "img-content"/></p>\
             <h2> Axioma lui Cantor </h2>\
             <p> Orice mulțime de numere reale mărginită superior admite un cel mai mic majorant. </p>\
-            <table class ="table">\
+            <table class ="table" cellspacing = "5px">\
                 <thead>\
                     <th> <h2> Notații </h2> </th>\
                     <th><img src = "/images/caiet.png" class = "img-content"/> </th>\
@@ -93,7 +93,7 @@ var lectii = [
             ' <h2> Vecinătate a unui punct </h2> \
                 <p> <span class ="glyphicon glyphicon-pencil"></span> Adăugând -∞ și +∞ la mulțimea numerelor reale, obținem <i>dreapta reală încheiată.</i> <img src = "/images/R.png" class = "img-content"/> </p> \
                 <p> <span class ="glyphicon glyphicon-pencil"></span> Se numește <i>vecinătate</i> a numărului real x orice mulțime V ⊂ ℝ care include un interval deschis (a, b) astfel încât x ∈ (a, b).</p> \
-                <img src = "/images/case.png" class = "img-content"/>',
+                <img src = "/images/case.png" class = "img-content" id = "vecinatati"/>',
     ],
     ['<h2>Ce este un șir? </h2>\
                <p> <span class ="glyphicon glyphicon-pencil"></span> Fie k un număr natural fixat și A ⊂ ℝ, N<sub>k</sub> = {n ∈ ℕ | k ≤ n}. <i>Șirul</i> cu elemente din A se referă la o funcție f:N<sub>k</sub>→A.</p>\
@@ -129,7 +129,7 @@ var lectii = [
                 </table>',
                 '<h2>Subșir al unui șir dat</h2>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Fie (a<sub>n</sub>)<sub>n≥p</sub> un șir dat și (k<sub>n</sub>)<sub>n≥0</sub> un șir strict crescător de numere naturale. Șirul (a<sub>k<sub>n</sub></sub>)<sub>n≥0</sub> se numește <i>subșir</i> al șirului (a<sub>n</sub>)<sub>n≥p</sub>.</p>\
-                <img src ="images/subsequence.png" class ="img-content" />\
+                <img src ="images/subsequence.png" class ="img-content smaller" />\
                 <ul class="list-group">\
                   <li class="list-group-item">Dacă un șir este monoton, atunci orice subșir al său este <i>monoton</i>.</li>\
                   <li class="list-group-item">Dacă un șir este mărginit (inferior, superior), atunci orice subșir al său este <i>mărginit</i> (inferior, superior).</li>\
@@ -145,10 +145,10 @@ var lectii = [
                         Dacă există șirul (b<sub>n</sub>)<sub>n</sub> care tinde la 0 și |a<sub>n</sub> - l| ≤ b<sub>n</sub>, atunci <i>a<sub>n</sub>→l</i>.\
                     </li>\
                     <li class="list-group-item">\
-                        <h4> <i>Weierstrass</i> <h4>\
+                        <h4> <i>Weierstrass</i> </h4>\
                         Dacă (x<sub>n</sub>) <sub>n</sub> este monoton și mărginit, atunci este convergent.    \
                     </li> \
-                    li class = "list-group-item"> \
+                    <li class = "list-group-item"> \
                     <h4> <i> Lema lui Cesaro </i> </h4>\
                         Orice șir mărginit de numere reale conține un subșir convergent.\
                     </li>    \
@@ -195,11 +195,11 @@ var lectii = [
                 ' <h2> Numărul <i>e</i> </h2>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Șirul <i>(e<sub>n</sub>)<sub>n≥1</sub></i> este monoton, strict crescător și mărginit. (convergent)</p>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Șirul <i>(E<sub>n</sub>)<sub>n≥0</sub></i> este monoton, strict crescător și mărginit. (convergent)</p>\
-                <img src="/images/en.png" class ="img-content"/>\
-                <img src="/images/en2.png" class ="img-content"/>\
+                <img src="/images/en.png" class ="img-content smaller"/>\
+                <img src="/images/en2.png" class ="img-content smaller"/>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Limita șirului Șirul <i>(e<sub>n</sub>)<sub>n</sub></i> se notează cu litera <i>e</i> (după inițiala numelui lui Euler). </p>\
                 <p> <span class ="glyphicon glyphicon-pencil"></span> Numărul lui Euler, e, este aproximativ egal cu <i>2.71828</i>.</p>\
-                <img src ="/images/lime.png" class ="img-content"/>\
+                <img src ="/images/lime.png" class ="img-content smaller"/>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> <i>e</i> este și limita șirului (E<sub>n</sub>)<sub>n</sub>.</p>',
                 '<h2>Limite remarcabile</h2>\
                 <img class = "robot" src = "/images/robot.png" /> Pune cursorul pe valoarea limitei pentru a o evidenția.\
@@ -211,9 +211,9 @@ var lectii = [
                         <tr>\
                             <td> <img class="limita-img" src ="/images/limite/l1.png" /> </td> <td> <p class ="limita-rez"> e </p></td>\
                         </tr>\
-                        <tr>\
+                        <!--<tr>\
                             <td> <img class="limita-img" src ="/images/limite/l2.png" /> </td> <td> <p class ="limita-rez"> e </p></td>\
-                        </tr>\
+                        </tr>-->\
                         <tr>\
                             <td> <img class="limita-img" src ="/images/limite/l3.png" /> </td> <td> <p class ="limita-rez"> e </p></td>\
                         </tr>\
@@ -334,9 +334,10 @@ var lectii = [
                 <p><span class ="glyphicon glyphicon-pencil"></span> Intuituv, o funcție este continuă dacă graficul său poate fi reprezentat printr-o „linie curbă” neîntreruptă.</p>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> O funcție f : D ⊂ ℝ → ℝ este <i>continuă</i> în x<sub>0</sub> dacă ∀ V din vecinătățile lui f(x<sub>0</sub>)\
                     există U din vecinătățile lui x<sub>0</sub> astfel încât ∀ x ∈ U ∩ D rezultă f(x) ∈ V.</p>\
-                <table>\
-                    <thead><th>Funcție continuă</th> <th>Funcție care nu e continuă</th></thead>\
-                    <tbody><tr><td><img src ="/images/fcont.png" class ="img-med" /></td><td><img src ="/images/fnecont.png" class ="img-med" /></td></tr></tbody>\
+                <div class = "row">\
+                    <div class = "col-md-6">Funcție continuă <br />  <img src ="/images/fcont.png" class ="img-med" /> </div> \
+                    <div class = "col-md-6">Funcție care nu e continuă <br /> </td><td><img src ="/images/fnecont.png" class ="img-med" /> </div>\
+                </div>\
                 </table>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Dacă funcția este continuă într-un punct x<sub>0</sub>, atunci x<sub>0</sub> este <i>punct de continuitate</i>.</p>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Într-un punct izolat al domeniului de definiție, funcția este continuă.</p>\
@@ -367,7 +368,7 @@ var lectii = [
                 <p><span class ="glyphicon glyphicon-pencil"></span> Fie f : D ⊂ ℝ → ℝ și x<sub>0</sub> punct de acumulare al mulțimii D.</p>\
                 <p>Funcția f este <i>derivabilă</i> în x<sub>0</sub> dacă raportul <img src ="/images/raport.png" class ="img-content" /> are limită finită în punctul x<sub>0</sub>.</p>\
                 <p>În acest caz, limita raportului se numește derivata funcției în x<sub>0</sub> și se notează cu f\'(x<sub>0</sub>).</p>\
-                <img src="/images/deriv.png" class ="img-content"/>\
+                <img src="/images/deriv.png" class ="img-content smaller"/>\
                 <p>Derivatele au doua aspecte:\
                     <ul>\
                         <li>Unul <i>calitativ</i>: dacă funcția este sau nu derivabilă într-un punct.</li>\
@@ -381,9 +382,9 @@ var lectii = [
            '<h2>Derivate laterale</h2>\
                 <p>Fie f : D ⊂ ℝ → ℝ și x<sub>0</sub> un punct de acumulare al domeniului D.</p>\
                 <p><span class ="glyphicon glyphicon-pencil"></span>Funcția are <i>derivată la stânga</i> în punctul x<sub>0</sub> dacă există \
-                    <img src ="/images/ds.png" class ="img-content" /> în <img src ="/images/R.png" class ="img-content" />.</p>\
+                    <img src ="/images/ds.png" class ="img-content smaller" /> în <img src ="/images/R.png" class ="img-content" />.</p>\
                 <p><span class ="glyphicon glyphicon-pencil"></span>Funcția are <i>derivată la dreapta</i> în punctul x<sub>0</sub> dacă există \
-                    <img src ="/images/dd.png" class ="img-content" /> în <img src ="/images/R.png" class ="img-content" />. </p>  \
+                    <img src ="/images/dd.png" class ="img-content smaller" /> în <img src ="/images/R.png" class ="img-content" />. </p>  \
                 <p>Derivata la stânga se notează <i>f\'<sub>s</sub>(x)</i>, iar derivata la dreapta <i>f\'<sub>d</sub>(x)</i>.</p>\
                 <ul class="list-group">\
                     <li class="list-group-item">Dacă derivatele laterale ale lui x<sub>0</sub> sunt egale și finite, atunci funcția este derivabilă în x<sub>0</sub> și graficul are tangentă în punctul respectiv. <img src ="/images/caz1.png" class ="img-content" /></li>\
@@ -493,27 +494,27 @@ var lectii = [
                     <li class="list-group-item">\
                         <h4><i>Adunare</i></h4>\
                         <p>Dacă f, g : D → ℝ sunt funcții derivabile pe D, atunci f + g este derivabilă pe D.</p>\
-                        <img src="/images/adunare.png" class ="img-content" />\
+                        <img src="/images/adunare.png" class ="img-content smaller" />\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Înmulțire cu o constanta</i></h4>\
                         <p>Dacă f : D → ℝ este o funcție derivabilă pe D și λ ∈ ℝ*, atunci λf este derivabilă pe D.</p>\
-                        <img src="/images/inmultirec.png" class ="img-content" />\
+                        <img src="/images/inmultirec.png" class ="img-content smaller" />\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Înmulțire</i></h4>\
                         <p>Dacă f, g : D → ℝ sunt funcții derivabile pe D, atunci fg este derivabilă pe D.</p>\
-                        <img src="/images/inmultire.png" class ="img-content" />\
+                        <img src="/images/inmultire.png" class ="img-content smaller" />\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Împărțire</i></h4>\
                         <p>Dacă f, g : D → ℝ sunt funcții derivabile pe D, g(x) ≠ 0, atunci f/g este derivabilă pe D.</p>\
-                        <img src="/images/impartire.png" class ="img-content" />\
+                        <img src="/images/impartire.png" class ="img-content smaller" />\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Compunere</i></h4>\
                         <p>Fie. f, g : D → ℝ. Dacă g este derivabilă în x, iar f este derivabilă în y = f(x), atunci f ∘ g este derivabilă în x.</p>\
-                        <img src="/images/compunere.png" class ="img-content" />\
+                        <img src="/images/compunere.png" class ="img-content smaller" />\
                     </li>\
                 </ul>',
             '<h2>Derivata funcției inverse</h2>\
@@ -521,7 +522,7 @@ var lectii = [
             '<h2>Derivate de ordin superior</h2>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Fie f : D ⊂ ℝ → ℝ și x<sub>0</sub> punct de acumulare. Spunem că f este <i>derivabilă de n ori</i>\
                     în punctul x<sub>0</sub> dacă f este derivabilă de n - 1 ori într-o vecinătate a lui x<sub>0</sub>, iar derivata de ordin n - 1 este la rândul său derivabilă în x<sub>0</sub>.\
-                    Dacă notăm f<sup>(n)</sup>(x<sub>0</sub>) derivata de ordin n în x<sub>0</sub>, reținem că <img src ="/images/nderiv.png" class ="img-content" />.</p>\
+                    Dacă notăm f<sup>(n)</sup>(x<sub>0</sub>) derivata de ordin n în x<sub>0</sub>, reținem că <img src ="/images/nderiv.png" class ="img-content smaller" />.</p>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Funcția f este <i>indefinit derivabilă</i> în x dacă este derivabilă de n ori oricare ar fi n ∈ ℕ.</p>',
             '<h2>Teoreme</h2>\
                 <ul class="list-group">\
@@ -580,14 +581,19 @@ var lectii = [
                 <i>f((1 - t)x<sub>1</sub> + tx<sub>2</sub>) ≥ (1 - t)f(x<sub>1</sub>) + tf(x<sub>2</sub>)</i>.</p>\
             <p><span class ="glyphicon glyphicon-pencil"></span> Dacă <i>f\'\'(x) ≥ 0</i> ∀ x ∈ I, atunci f este convexă. Dacă <i>f\'\'(x) ≤ 0</i> ∀ x ∈ I, atunci f este concavă.</p>\
             <p><span class ="glyphicon glyphicon-pencil"></span> Un punct x se numește <i>punct de inflexiune</i> dacă funcția este continuă și are derivată în x și dacă funcția este convexă de o parte a lui x și concavă de cealaltă parte.</p>\
-            <table class ="table table-striped">\
+            <div class = "row">\
+                <div class = "col-md-4"> Funcție convexă <br /> <img src="/images/convex.png" class="img-content" /> </div>\
+                <div class = "col-md-4"> Funcție concavă <br /> <img src="/images/concav.png" class="img-content" /> </div>\
+                <div class = "col-md-4"> Punct de inflexiune <br /> <img src="/images/inflexiune.png" class="img-content" /> </div>\
+            </div>\
+            <!--<table class ="table table-striped">\
                 <thead><tr><th>Funcție convexă</th><th>Funcție concavă</th><th>Punct de inflexiune</th></tr></thead>\
                 <tbody><tr>\
                     <td><img src="/images/convex.png" class="img-content" /></td>\
                     <td><img src="/images/concav.png" class="img-content" /></td>\
                     <td><img src="/images/inflexiune.png" class="img-content" /></td>\
                 </tr></tbody>\
-            </table>'
+            </table>-->'
     ],
     [
         '<h2>Asimptote</h2>\

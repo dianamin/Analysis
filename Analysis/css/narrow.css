@@ -1,7 +1,7 @@
 ﻿body {
     overflow-y: scroll;
+    overflow-x: hidden;
 }
-
 
 #citat {
     display: none;
@@ -46,4 +46,28 @@ h2 {
 
 #glasses {
     margin-top: 0px;
+}
+
+.limita-img {
+    height: 60px;
+    transition: all 1s;
+}
+    .limita-img:hover {
+        height: 75px;
+    }
+
+#menu {
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    overflow: auto;
+    background: linear-gradient(#c6e3fb, #83b1d8);
+}
+
+#vecinatati {
+    width: 200px;
+    margin-bottom: 30px;
+}
+.smaller {
+    width: 200px;
 }

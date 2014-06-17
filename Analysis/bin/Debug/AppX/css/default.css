@@ -77,7 +77,9 @@ header {
 }
 #menu {
     padding: 30px;
-    width: 300px;
+    width: auto;
+    height: 300px;
+    overflow: auto;
     background: linear-gradient(#c6e3fb, #83b1d8);
 }
 
@@ -319,4 +321,7 @@ i, h5 {
 
 #glasses {
     margin-top: -200px; margin-right: 20px; display: inline-block;
+}
+#vecinatati {
+    margin-bottom: 50px;
 }
