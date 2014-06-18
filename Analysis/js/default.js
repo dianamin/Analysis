@@ -71,7 +71,7 @@ var lectii = [
                 </tbody>\
             </table>',
             '<h2>Submulțimi mărginite ale lui <b>R</b> </h2>\
-            <p> <span class ="glyphicon glyphicon-pencil"></span> a ∈ <b>R</b> se numește <i>majorant</i> pentru mulțimea A dacă ∀ x ∈ A avem x ≤ a.<img src = "/images/max.png" class = "img-content"/> < </p>\
+            <p> <span class ="glyphicon glyphicon-pencil"></span> a ∈ <b>R</b> se numește <i>majorant</i> pentru mulțimea A dacă ∀ x ∈ A avem x ≤ a.<img src = "/images/max.png" class = "img-content"/> </p>\
             <p> <span class ="glyphicon glyphicon-pencil"></span> O mulțime A care are cel puțin un majorant se numește <i> mărginită superior</i>. <img src = "/images/min.png" class = "img-content"/></p>\
             <p> <span class ="glyphicon glyphicon-pencil"></span> a ∈ <b>R</b> se numește <i>minorant</i> pentru mulțimea A dacă ∀ x ∈ A avem x ≥ a. </p>\
             <p> <span class ="glyphicon glyphicon-pencil"></span> O mulțime A care are cel puțin un minorant se numește <i> mărginită inferior</i>. </p>\

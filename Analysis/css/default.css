@@ -25,14 +25,15 @@
 }
 
 #start {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     background: linear-gradient(#eeeeee, #cccccc);
     box-shadow: 0 0 20px #dddddd;
     border-radius: 10px;
     animation: rotatie;
     animation-duration: 0.8s;
-    width: 400px;
-    height: 300px;
+    width: 90%;
+    max-width: 400px;
+    min-height: 300px;
     padding: 30px;
     overflow: hidden;
     position: absolute;
