@@ -36,14 +36,20 @@
 
 })();
 
-var nrc = 7;
+var nrc = 12;
 var citate = ["Când legile matematicii se referă la realitate, atunci ele nu sunt sigure. Dacă sunt sigure, nu se referă la realitate. - Albert Einstein",
                 "Matematica va fi limba latină a viitorului, obligatorie pentru toți oamenii de știință. Tocmai pentru că matematica permite accelerarea maximă a circulației ideilor științifice. - Grigore Moisil",
                 "Invățând matematica, înveți să gândești. - Grigore Moisil",
-                "Matematica este regina știintelor - Carl Friedrich Gauss",
+                "Matematica este regina știintelor. - Carl Friedrich Gauss",
                 "Esența matematicii nu este aceea de a face lucrurile mai complicate, dar de a face lucrurile complicate mai simple. - S. Gudder",
                 "Matematica este o limbă şi o ştiinţă. - Lucian Blaga",
-                "Matematica, ştiinţă zisă exactă!? - Grigore Moisil"];
+                "Matematica, ştiinţă zisă exactă!? - Grigore Moisil",
+                "Inﬁnitul este locul unde se produce ceea ce nu se poate întâmpla. - Un elev",
+                "Ușurința matematicii se bazează pe posibilitatea construcției sale logice, însă diﬁcultatea, de care se sperie mulți, în imposibilitatea expunerii în alt mod. - Hugo Steinhaus",
+                "Egalitatea nu există decât în matematică. - Mihai Eminescu",
+                "Matematica este muzica raţiunii. - James J. Sylvester",
+                "Matematica este limba cu care Dumnezeu a scris universul. - Galileo Galilei"
+];
 var leftpanel = [
     ['Numere reale', 'Submulțimi mărginite ale lui <b> R </b>', 'Vecinătate a unui punct'],
     ['Ce este un șir?', 'Limita unui șir', 'Subșiruri', 'Convergența', 'Trecere la limită în inegalități și egalități', 'Nedeterminări', 'Numărul e', 'Limite remarcabile'],
@@ -115,6 +121,7 @@ var lectii = [
                 <p><span class ="glyphicon glyphicon-pencil"></span>Atunci, șirul este definit printr-o <i>recurența de ordinul k.</i></p>',
                 '<h2>Limite de șiruri</h2> \
                 <p><span class ="glyphicon glyphicon-pencil"></span> Șirul (x<sub>n</sub>)<sub>n</sub> <i>are limită</i> l dacă orice vecinătate a lui l conține toți termenii șirului începând de la un anumit rang. </p>  \
+                <img class = "img-content" src = "/images/limsir3.png" />\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Un șir se numește <i>convergent</i> dacă are limita finită. Altfel, se numește <i>divergent</i>. </p> \
                  <img src ="/images/limsir.png" id = "glasses"  class = "img-med" /> \
                 <table class ="table" style ="width: 150px; display: inline-block;"> \
@@ -137,7 +144,8 @@ var lectii = [
                   <li class="list-group-item">Dacă un șir are un subșir divergent sau are două subșiruri cu limite diferite, atunci șirul este divergent, în ultimul caz <i>neavând limită</i>.</li>\
                 </ul>',
                 '<h2> Criterii de convergență </h2> \
-                <p> Dacă un șir este <i>convergent</i>, atunci este <i>mărginit</i>.</p> \
+                <p class = "alert alert-success"> Dacă un șir este <i>convergent</i>, atunci este <i>mărginit</i>.</p> \
+                <p class = "alert alert-danger"> Reciproca nu este întotdeauna adevarată! </p> \
                 <ul class="list-group"> \
                     Fie șirul (a<sub>n</sub>)<sub>n</sub>. \
                     <li class="list-group-item"> \
