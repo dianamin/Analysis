@@ -298,11 +298,15 @@ i, h5 {
 
 .personaj-joc {
     width: 120px;
+    position: absolute;
+    bottom: 0px;
     transition: all 1s;
 }
 
 #scene {
     position: relative;
+    height: 250px;
+    width: 443px;
 }
 
 #scor {

@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-19T11:03:27.897</Modified>
+      <Modified>2014-06-20T17:41:47.067</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -42,7 +42,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-06-18T20:48:38.284</Modified>
+      <Modified>2014-06-20T19:14:32.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\default.html">
       <PackagePath>default.html</PackagePath>
@@ -50,7 +50,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-06-18T18:56:27.551</Modified>
+      <Modified>2014-06-20T19:22:38.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\a.png">
       <PackagePath>images\a.png</PackagePath>
@@ -79,6 +79,14 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\adversari\4.png">
       <PackagePath>images\adversari\4.png</PackagePath>
       <Modified>2014-05-02T16:18:37.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\adversari\5.png">
+      <PackagePath>images\adversari\5.png</PackagePath>
+      <Modified>2014-06-20T17:30:56.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\adversari\6.png">
+      <PackagePath>images\adversari\6.png</PackagePath>
+      <Modified>2014-06-20T17:31:40.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\ag.png">
       <PackagePath>images\ag.png</PackagePath>
@@ -693,7 +701,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-06-19T17:31:50.311</Modified>
+      <Modified>2014-06-20T19:13:17.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
@@ -701,7 +709,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-19T11:03:26.620</Modified>
+      <Modified>2014-06-20T17:41:45.612</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

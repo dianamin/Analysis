@@ -871,6 +871,7 @@ check = function () {
     }
 }
 next = function () {
+    //pentru hinturi
     var n = Math.floor(Math.random() * nr);
     document.getElementById("capitol").innerHTML = capitol[n];
     document.getElementById("enunt").innerHTML = enunt[n];
@@ -885,6 +886,8 @@ next = function () {
     document.getElementById("h3").setAttribute("style", "display: none;");
 }
 
+
+//pentru joc
 
 var query = ["Cât este (2x<sup>2</sup>)'?", "Cât este (ln x)'?", "Cât este (cos(2x))'?", "Cât este (e<sup>x</sup>)'", "Cât este (e<sup>sinx</sup>)'?"]
 var ans = [
@@ -915,12 +918,16 @@ choice = function (x) {
     }
 }
 
+var nrq = 7, nra = 6;
+
 newScene = function () {
-    var b = Math.floor(Math.random() * 7);
+    //background nou
+    var b = Math.floor(Math.random() * nrq);
     var bg = "'" + '/images/bg/' + String(b + 1) + '.png' + "'";
     document.getElementById("combat").setAttribute("style", "background-image: url(" + bg + "); display: block;");
-    var a = Math.floor(Math.random() * 4) + 1;
-    document.getElementById("adv").innerHTML = '<img src = "/images/adversari/' + String(a) + '.png" class = "personaj-joc"/>';
+    //adversar nou
+    var a = Math.floor(Math.random() * nra) + 1;
+    document.getElementById("adv").innerHTML = '<img src = "/images/adversari/' + String(a) + '.png" class = "personaj-joc" style = "margin-right: 150px;"/>';
    
 }
 startJoc = function () {
