@@ -889,15 +889,23 @@ next = function () {
 
 //pentru joc
 
-var query = ["Cât este (2x<sup>2</sup>)'?", "Cât este (ln x)'?", "Cât este (cos(2x))'?", "Cât este (e<sup>x</sup>)'", "Cât este (e<sup>sinx</sup>)'?"]
+var query = ["Cât este (2x<sup>2</sup>)'?", "Cât este (ln x)'?", "Cât este (cos(2x))'?", "Cât este (e<sup>x</sup>)'", "Cât este (e<sup>sinx</sup>)'?",
+            "Ce funcție are ca derivată e<sup>x</sup>?", "Cât este x<sup>-1</sup> derivat?", ""
+]
+
+// 1->5 - intrebari simple (nivelul 1)
 var ans = [
     ["4x", "2x"],
     ["e<sup>x</sup>", "1/x"],
     ["-2sin(2x)", "-sin(x)"],
     ["ex", "e<sup>x</sup>"],
     ["e<sup>sin(x)</sup>", "cos(x)e<sup>sin(x)</sup>"],
+    ["e<sup>x</sup> + x", "e<sup>x</sup> + c"],
+    ["-x<sup>-2</sup>","1"],
+    [],
+    []
 ];
-var correct = [1, 2, 1, 2, 2];
+var correct = [1, 2, 1, 2, 2, 2];
 
 var scor = 0, nivel = 0;
 choice = function (x) {

@@ -7,6 +7,12 @@
     <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
+    <MachineName>Phone</MachineName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <MachineName>Phone</MachineName>
+    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
+    <RequireAuthentication>false</RequireAuthentication>
   </PropertyGroup>
 </Project>

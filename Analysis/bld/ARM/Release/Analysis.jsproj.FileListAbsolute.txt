@@ -1,0 +1,13 @@
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\ARM\Release\resources.pri
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\ARM\Release\AppxManifest.xml
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\ARM\Release\Analysis.build.appxrecipe
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\priconfig.xml.intermediate
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\layout.resfiles.intermediate
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\resources.resfiles.intermediate
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\pri.resfiles.intermediate
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\priconfig.xml
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\layout.resfiles
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\resources.resfiles
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\pri.resfiles
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\LanguageQualifiers.txt
+C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bld\ARM\Release\ProjectArchitectures.txt
