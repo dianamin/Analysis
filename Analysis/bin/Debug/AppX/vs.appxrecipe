@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-20T17:41:47.067</Modified>
+      <Modified>2014-06-25T10:16:03.503</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -42,7 +42,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-06-22T07:51:50.710</Modified>
+      <Modified>2014-06-25T11:00:17.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\default.html">
       <PackagePath>default.html</PackagePath>
@@ -332,6 +332,10 @@
       <PackagePath>images\fnecont.png</PackagePath>
       <Modified>2014-06-01T16:29:28.126</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\g.png">
+      <PackagePath>images\g.png</PackagePath>
+      <Modified>2014-06-25T09:47:21.820</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\hospital.png">
       <PackagePath>images\hospital.png</PackagePath>
       <Modified>2014-06-02T13:37:07.161</Modified>
@@ -497,6 +501,10 @@
       <PackagePath>images\m.png</PackagePath>
       <Modified>2014-06-02T14:55:19.286</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\majorant.png">
+      <PackagePath>images\majorant.png</PackagePath>
+      <Modified>2014-06-25T10:09:55.291</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\marginit.png">
       <PackagePath>images\marginit.png</PackagePath>
       <Modified>2014-05-30T13:12:44.125</Modified>
@@ -508,6 +516,10 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\min.png">
       <PackagePath>images\min.png</PackagePath>
       <Modified>2014-05-30T13:07:00.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\minorant.png">
+      <PackagePath>images\minorant.png</PackagePath>
+      <Modified>2014-06-25T10:13:44.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\n.png">
       <PackagePath>images\n.png</PackagePath>
@@ -691,6 +703,14 @@
       <PackagePath>images\vertical.png</PackagePath>
       <Modified>2014-06-02T14:49:34.463</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\g2.jpg">
+      <PackagePath>images\g2.jpg</PackagePath>
+      <Modified>2014-06-25T09:47:32.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\g3.jpg">
+      <PackagePath>images\g3.jpg</PackagePath>
+      <Modified>2014-06-25T09:51:39.045</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\bootstrap.js">
       <PackagePath>js\bootstrap.js</PackagePath>
       <Modified>2014-05-29T11:44:02.000</Modified>
@@ -701,7 +721,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-06-22T08:26:52.189</Modified>
+      <Modified>2014-06-25T11:10:53.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
@@ -709,7 +729,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-20T17:41:45.612</Modified>
+      <Modified>2014-06-25T10:16:03.175</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

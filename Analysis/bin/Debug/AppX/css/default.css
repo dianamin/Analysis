@@ -330,3 +330,21 @@ i, h5 {
 #vecinatati {
     margin-bottom: 50px;
 }
+
+.img-med2 {
+    height: 90px;
+    transition: all 1s;
+}
+    .img-med2:hover {
+        height: 110px;
+    }
+
+.exp {
+    height: 50px;
+    box-shadow: 0 0 0;
+    transition: all 1s;
+}
+    .exp:hover {
+        height: 52px;
+        box-shadow: 0 0 10px blue;
+    }

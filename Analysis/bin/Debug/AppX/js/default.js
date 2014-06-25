@@ -51,7 +51,7 @@ var citate = ["Când legile matematicii se referă la realitate, atunci ele nu s
                 "Matematica este limba cu care Dumnezeu a scris universul. - Galileo Galilei"
 ];
 var leftpanel = [
-    ['Numere reale', 'Submulțimi mărginite ale lui <b> R </b>', 'Vecinătate a unui punct'],
+    ['Numere reale', 'Submulțimi mărginite ale lui ℝ', 'Vecinătate a unui punct'],
     ['Ce este un șir?', 'Limita unui șir', 'Subșiruri', 'Convergența', 'Trecere la limită în inegalități și egalități', 'Nedeterminări', 'Numărul e', 'Limite remarcabile'],
     ['Limite de funcții', 'Limita unei funcții într-un punct', 'Limite laterale', 'Criterii de existență', 'Limite remarcabile'],
     ['Aspect intuitiv', 'Continuitate laterală', 'Proprietăți'],
@@ -75,10 +75,15 @@ var lectii = [
                     <tr> <td> (-∞, a) </td> <td> {x e <b>R</b> | x < a } </td> </tr>\
                     <tr> <td> (a, ∞) </td> <td> {x e <b>R</b> | a < x } </td> </tr>\
                 </tbody>\
-            </table>',
-            '<h2>Submulțimi mărginite ale lui <b>R</b> </h2>\
-            <p> <span class ="glyphicon glyphicon-pencil"></span> a ∈ <b>R</b> se numește <i>majorant</i> pentru mulțimea A dacă ∀ x ∈ A avem x ≤ a.<img src = "/images/max.png" class = "img-content"/> </p>\
-            <p> <span class ="glyphicon glyphicon-pencil"></span> O mulțime A care are cel puțin un majorant se numește <i> mărginită superior</i>. <img src = "/images/min.png" class = "img-content"/></p>\
+            </table>\
+             <span class ="glyphicon glyphicon-pencil"></span> Simbolul ∞, denumit <i>infinit</i>, se referă la o valoare nelimitată - „mai mare decât cel mai mare lucru la care te poți gândi”. \
+                <br /> <center> <img src = "/images/g2.jpg" style = "height: 150px; box-shadow: 0 0 10px black; margin: 10px;" />  <img src = "/images/g3.jpg" style = "height: 150px; box-shadow: 0 0 10px black; margin: 10px;" />\
+                <br /> Universul este <i>infinit</i>.</center> ',
+            '<h2>Submulțimi mărginite ale lui ℝ </h2>\
+            <p> <span class ="glyphicon glyphicon-pencil"></span> a ∈ <b>R</b> se numește <i>majorant</i> pentru mulțimea A dacă ∀ x ∈ A avem x ≤ a. <!-- <img src = "/images/max.png" class = "img-content"/> --> </p>\
+                <center> <img src = "/images/majorant.png" class = "img-med2" /> </center> \
+            <p> <span class ="glyphicon glyphicon-pencil"></span> O mulțime A care are cel puțin un majorant se numește <i> mărginită superior</i>. <!-- <img src = "/images/min.png" class = "img-content"/> --> </p>\
+                <center> <img src = "/images/majorant.png" class = "img-med2" /> </center> \
             <p> <span class ="glyphicon glyphicon-pencil"></span> a ∈ <b>R</b> se numește <i>minorant</i> pentru mulțimea A dacă ∀ x ∈ A avem x ≥ a. </p>\
             <p> <span class ="glyphicon glyphicon-pencil"></span> O mulțime A care are cel puțin un minorant se numește <i> mărginită inferior</i>. </p>\
             <p> <span class ="glyphicon glyphicon-pencil"></span> O mulțime <i> mărginită </i> este mărginită atât superior, cât și inferior. <img src = "/images/marginit.png" class = "img-content"/></p>\
@@ -121,9 +126,9 @@ var lectii = [
                 <p><span class ="glyphicon glyphicon-pencil"></span>Atunci, șirul este definit printr-o <i>recurența de ordinul k.</i></p>',
                 '<h2>Limite de șiruri</h2> \
                 <p><span class ="glyphicon glyphicon-pencil"></span> Șirul (x<sub>n</sub>)<sub>n</sub> <i>are limită</i> l dacă orice vecinătate a lui l conține toți termenii șirului începând de la un anumit rang. </p>  \
-                <img class = "img-content" src = "/images/limsir3.png" />\
+                <img class = "img-med2" src = "/images/limsir3.png" />\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Un șir se numește <i>convergent</i> dacă are limita finită. Altfel, se numește <i>divergent</i>. </p> \
-                 <img src ="/images/limsir.png" id = "glasses"  class = "img-med" /> \
+                <img src ="/images/limsir.png" id = "glasses"  class = "img-med" /> \
                 <table class ="table" style ="width: 150px; display: inline-block;"> \
                     <thead> \
                         <th> <h2> Notații </h2> \
@@ -253,7 +258,7 @@ var lectii = [
                 <p> Fie <i>f : D ⊂ ℝ → ℝ.</i> \
                     Analizăm pentru x suficient de apropiat de x<sub>0</sub> valoriele funcției, care se apropie, oricât de mult de un anumit punct l. \
                     Atunci l este <i>limita funcției în punctul x</i>.</p>\
-                <img src ="/images/limf.png" class ="img-med"/>\
+                <img src ="/images/limf.png" class ="img-med2"/>\
                 <p>Putem calcula limite doar în <i>puncte de acumulare</i>. Un punct x<sub>0</sub> se numește punct de acumulare din mulțimea D dacă oricare ar fi vecinătatea V a lui x<sub>0</sub> avem\
                     (V\\{x0}) ∩ ≠ ∅. Nu este neapărat un element al mulțimii. Un punct ce aparține mulțimii D care nu este punct de acumulare se numește <i>punct izolat</i>.\
                 Mulțimea punctelor de acumulare se va nota cu D\'.</p>\
@@ -374,9 +379,9 @@ var lectii = [
     [
         ' <h2>Derivata într-un punct</h2> \
                 <p><span class ="glyphicon glyphicon-pencil"></span> Fie f : D ⊂ ℝ → ℝ și x<sub>0</sub> punct de acumulare al mulțimii D.</p>\
-                <p>Funcția f este <i>derivabilă</i> în x<sub>0</sub> dacă raportul <img src ="/images/raport.png" class ="img-content" /> are limită finită în punctul x<sub>0</sub>.</p>\
+                <p>Funcția f este <i>derivabilă</i> în x<sub>0</sub> dacă raportul <img src ="/images/raport.png" class ="exp" /> are limită finită în punctul x<sub>0</sub>.</p>\
                 <p>În acest caz, limita raportului se numește derivata funcției în x<sub>0</sub> și se notează cu f\'(x<sub>0</sub>).</p>\
-                <img src="/images/deriv.png" class ="img-content smaller"/>\
+                <img src="/images/deriv.png" class ="exp smaller"/>\
                 <p>Derivatele au doua aspecte:\
                     <ul>\
                         <li>Unul <i>calitativ</i>: dacă funcția este sau nu derivabilă într-un punct.</li>\
@@ -390,9 +395,9 @@ var lectii = [
            '<h2>Derivate laterale</h2>\
                 <p>Fie f : D ⊂ ℝ → ℝ și x<sub>0</sub> un punct de acumulare al domeniului D.</p>\
                 <p><span class ="glyphicon glyphicon-pencil"></span>Funcția are <i>derivată la stânga</i> în punctul x<sub>0</sub> dacă există \
-                    <img src ="/images/ds.png" class ="img-content smaller" /> în <img src ="/images/R.png" class ="img-content" />.</p>\
+                    <img src ="/images/ds.png" class ="exp smaller" /> în <img src ="/images/R.png" class ="img-content" />.</p>\
                 <p><span class ="glyphicon glyphicon-pencil"></span>Funcția are <i>derivată la dreapta</i> în punctul x<sub>0</sub> dacă există \
-                    <img src ="/images/dd.png" class ="img-content smaller" /> în <img src ="/images/R.png" class ="img-content" />. </p>  \
+                    <img src ="/images/dd.png" class ="exp smaller" /> în <img src ="/images/R.png" class ="img-content" />. </p>  \
                 <p>Derivata la stânga se notează <i>f\'<sub>s</sub>(x)</i>, iar derivata la dreapta <i>f\'<sub>d</sub>(x)</i>.</p>\
                 <ul class="list-group">\
                     <li class="list-group-item">Dacă derivatele laterale ale lui x<sub>0</sub> sunt egale și finite, atunci funcția este derivabilă în x<sub>0</sub> și graficul are tangentă în punctul respectiv. <img src ="/images/caz1.png" class ="img-content" /></li>\
@@ -562,7 +567,7 @@ var lectii = [
                    </li>\
                     <li class="list-group-item">\
                         <h4><i>Teorema lui Lagrange</i></h4>\
-                        <p>Dacă f : [a, b] → ℝ funcție Rolle, atunci există cel puțin un c ∈ (a, b) astfel încât <img src ="/images/lagrange.png" class ="img-content" /></p>\
+                        <p>Dacă f : [a, b] → ℝ funcție Rolle, atunci există cel puțin un c ∈ (a, b) astfel încât <img src ="/images/lagrange.png" class ="exp" /></p>\
                         <ol>\
                             Consecințe\
                             <li>Dacă o funcție definită pe un interfal are derivata nulă, atunci este constantă.</li>\

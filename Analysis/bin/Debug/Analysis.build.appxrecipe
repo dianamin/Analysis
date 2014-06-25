@@ -247,6 +247,9 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\fnecont.png">
       <PackagePath>images\fnecont.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\g.png">
+      <PackagePath>images\g.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\hospital.png">
       <PackagePath>images\hospital.png</PackagePath>
     </AppxPackagedFile>
@@ -371,6 +374,9 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\m.png">
       <PackagePath>images\m.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\majorant.png">
+      <PackagePath>images\majorant.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\marginit.png">
       <PackagePath>images\marginit.png</PackagePath>
     </AppxPackagedFile>
@@ -379,6 +385,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\min.png">
       <PackagePath>images\min.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\minorant.png">
+      <PackagePath>images\minorant.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\n.png">
       <PackagePath>images\n.png</PackagePath>
@@ -517,6 +526,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\vertical.png">
       <PackagePath>images\vertical.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\g2.jpg">
+      <PackagePath>images\g2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\g3.jpg">
+      <PackagePath>images\g3.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\bootstrap.js">
       <PackagePath>js\bootstrap.js</PackagePath>

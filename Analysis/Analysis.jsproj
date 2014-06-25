@@ -130,6 +130,9 @@
     <Content Include="images\fermat.png" />
     <Content Include="images\fibo.png" />
     <Content Include="images\fnecont.png" />
+    <Content Include="images\g.png" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
     <Content Include="images\hospital.png" />
     <Content Include="images\impartire.png" />
     <Content Include="images\inflexiune.png" />
@@ -171,9 +174,11 @@
     <Content Include="images\ls.png" />
     <Content Include="images\lsld.png" />
     <Content Include="images\m.png" />
+    <Content Include="images\majorant.png" />
     <Content Include="images\marginit.png" />
     <Content Include="images\max.png" />
     <Content Include="images\min.png" />
+    <Content Include="images\minorant.png" />
     <Content Include="images\n.png" />
     <Content Include="images\nderiv.png" />
     <Content Include="images\next.png" />
