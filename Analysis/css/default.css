@@ -78,6 +78,7 @@ header {
 }
 #menu {
     padding: 30px;
+    transition: all 1s;
     width: auto;
     height: 300px;
     overflow: auto;
@@ -118,6 +119,7 @@ header {
 
 .c {
     padding: 40px;
+    padding-bottom: 50px;
     background: white;
     height: 300px;
     margin-left: 20px;
@@ -347,4 +349,16 @@ i, h5 {
     .exp:hover {
         height: 52px;
         box-shadow: 0 0 10px blue;
+    }
+
+.disappear {
+    margin: 10px;
+    height: 100px;
+    box-shadow: 0 0 0px;
+    transition: all 1s;
+    border-radius: 5px;
+}
+    .disappear:hover {
+        height: 0px;
+        box-shadow: 0 0 300px red/*#428bca*/;
     }

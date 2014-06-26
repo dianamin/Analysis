@@ -8,6 +8,18 @@
     var app = WinJS.Application;
     var activation = Windows.ApplicationModel.Activation;
 
+    app.onsettings = function (e) {
+        e.detail.applicationcommands = {
+            // Add an About command
+            "about": {
+                href: "/pages/about.html",
+                title: "Despre"
+            }
+        }
+
+        WinJS.UI.SettingsFlyout.populateSettings(e);
+    };
+
     app.onactivated = function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
@@ -76,9 +88,9 @@ var lectii = [
                     <tr> <td> (a, ∞) </td> <td> {x e <b>R</b> | a < x } </td> </tr>\
                 </tbody>\
             </table>\
-             <span class ="glyphicon glyphicon-pencil"></span> Simbolul ∞, denumit <i>infinit</i>, se referă la o valoare nelimitată - „mai mare decât cel mai mare lucru la care te poți gândi”. \
-                <br /> <center> <img src = "/images/g2.jpg" style = "height: 150px; box-shadow: 0 0 10px black; margin: 10px;" />  <img src = "/images/g3.jpg" style = "height: 150px; box-shadow: 0 0 10px black; margin: 10px;" />\
-                <br /> Universul este <i>infinit</i>.</center> ',
+                <br /> <center> <img src = "/images/g2.jpg" class = "disappear" />  <img src = "/images/g3.jpg" class = "disappear" />\
+                <br /> Universul este <i>infinit</i>.</center> <br /> \
+             <span class ="glyphicon glyphicon-pencil"></span> Simbolul ∞, denumit <i>infinit</i>, se referă la o valoare nelimitată - „mai mare decât cel mai mare lucru la care te poți gândi”. <br /> <br />',
             '<h2>Submulțimi mărginite ale lui ℝ </h2>\
             <p> <span class ="glyphicon glyphicon-pencil"></span> a ∈ <b>R</b> se numește <i>majorant</i> pentru mulțimea A dacă ∀ x ∈ A avem x ≤ a. <!-- <img src = "/images/max.png" class = "img-content"/> --> </p>\
                 <center> <img src = "/images/majorant.png" class = "img-med2" /> </center> \
@@ -782,9 +794,8 @@ curent = 1;
 var activegame = 0;
 var divs = ["content", "content", "content", "content", "content", "content", "probleme", "joc"];
 nav = function (x) {
-
-        
     if (x != curent) {
+        //in meniul de sus
         document.getElementById(divs[curent - 1]).setAttribute("style", "display: none;");
         document.getElementById(divs[x - 1]).setAttribute("style", "display: block;");
         document.getElementById("m" + String(x)).setAttribute("class", "active");

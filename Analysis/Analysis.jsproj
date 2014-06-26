@@ -229,6 +229,7 @@
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
     <Content Include="js\script.js" />
+    <Content Include="pages\about.html" />
     <None Include="Analysis_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
