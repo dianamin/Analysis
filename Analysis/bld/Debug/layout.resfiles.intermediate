@@ -23,6 +23,8 @@ images\bg\4.png
 images\bg\5.png
 images\bg\6.png
 images\bg\7.png
+images\bg\8.png
+images\bg\9.png
 images\caiet.png
 images\case.png
 images\caz1.png
@@ -174,3 +176,4 @@ js\bootstrap.min.js
 js\default.js
 js\script.js
 pages\about.html
+txt\test.txt

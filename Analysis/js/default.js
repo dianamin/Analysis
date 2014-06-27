@@ -10,7 +10,6 @@
 
     app.onsettings = function (e) {
         e.detail.applicationcommands = {
-            // Add an About command
             "about": {
                 href: "/pages/about.html",
                 title: "Despre"
@@ -922,29 +921,54 @@ var ans = [
     []
 ];
 var correct = [1, 2, 1, 2, 2, 2];
-
-var scor = 0, nivel = 0;
+var taken = [0, 0, 0, 0, 0, 0, 0];
+var scor = 0, nivel = 0, q = 0;
+var lifec = 100, lifee = 100;
+var a, b; //range pentru intrebari
 choice = function (x) {
-    if (String(x) == correct[nivel]) scor = scor + 20;
-    document.getElementById("scor").innerHTML = "Scor <br />" + String(scor);
-    if (nivel != 4) {
-        nivel++;
-        newScene();
-        document.getElementById("query").innerHTML = query[nivel];
-        document.getElementById("a1").innerHTML = ans[nivel][0];
-        document.getElementById("a2").innerHTML = ans[nivel][1];
+    if (String(x) == correct[q]) {
+        scor = scor + 20;
+        lifee -= 20;
+        document.getElementById("enemy").setAttribute("value", lifee);
     }
     else {
-        document.getElementById("combat").setAttribute("style", "display: none;");
-        document.getElementById("stopjoc").setAttribute("style", "display: block;");
-        if (scor >= 50) document.getElementById("rez").innerHTML = "Bravo :D";
-        else document.getElementById("rez").innerHTML = "Poți mai bine! :)";
+        lifec -= 10;
+        document.getElementById("character").setAttribute("value", lifec);
+    }
+    document.getElementById("scor").innerHTML = "Scor <br />" + String(scor);
+    if (q != 4) {
+        while (taken[q] == 1) q = Math.floor(Math.random() * b) + a;
+        taken[q] = 1;
+        document.getElementById("query").innerHTML = query[q];
+        document.getElementById("a1").innerHTML = ans[q][0];
+        document.getElementById("a2").innerHTML = ans[q][1];
+    }
+    else {
+        if (nivel != 4) {
+            nivel++;
+            newScene();
+            while (taken[q] == 1) q = Math.floor(Math.random() * b) + a;
+            taken[q] = 1;
+            document.getElementById("query").innerHTML = query[q];
+            document.getElementById("a1").innerHTML = ans[q][0];
+            document.getElementById("a2").innerHTML = ans[q][1];
+          //  a = b + 1;
+          //  b = b + 5;
+           }
+        else {
+            document.getElementById("combat").setAttribute("style", "display: none;");
+            document.getElementById("stopjoc").setAttribute("style", "display: block;");
+            if (scor >= 50) document.getElementById("rez").innerHTML = "Bravo :D";
+            else document.getElementById("rez").innerHTML = "Poți mai bine! :)";
+        }
     }
 }
 
-var nrq = 7, nra = 6;
+var nrq = 9, nra = 6;
 
 newScene = function () {
+    document.getElementById("enemy").setAttribute("value", "100");
+    lifee = 100;
     //background nou
     var b = Math.floor(Math.random() * nrq);
     var bg = "'" + '/images/bg/' + String(b + 1) + '.png' + "'";
@@ -954,16 +978,56 @@ newScene = function () {
     document.getElementById("adv").innerHTML = '<img src = "/images/adversari/' + String(a) + '.png" class = "personaj-joc" style = "margin-right: 150px;"/>';
    
 }
+
+function readTextFile(file) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                var allText = rawFile.responseText;
+                console.log(allText);
+            }
+        }
+    }
+    rawFile.send(null);
+}
+
+/*
+function writeToFile(text) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("PUT", file, false);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                var allText = rawFile.responseText;
+                console.log(allText);
+            }
+        }
+    }
+    rawFile.send(null);
+}*/
+
 startJoc = function () {
+    readTextFile("/txt/test.txt");
+   // writeToFile("swag");
+   // readTextFile("/txt/test.txt");
+    a = 0; b = 5;
     scor = 0;
     nivel = 0;
+    lifec = 100;
+    lifee = 100;
+    document.getElementById("character").setAttribute("value", lifec);
+    document.getElementById("enemy").setAttribute("value", lifee);
     document.getElementById("scor").setAttribute("style", "display: block;");
     document.getElementById("stopjoc").setAttribute("style", "display: none;");
     document.getElementById("scor").innerHTML = "Scor <br />" + String(scor);
     document.getElementById("startjoc").setAttribute("style", "display: none;");
     document.getElementById("query").innerHTML = query[0];
+    taken[0] = 1;
     document.getElementById("a1").innerHTML = ans[0][0];
     document.getElementById("a2").innerHTML = ans[0][1];
     activegame = 1;
     newScene();
 }
+

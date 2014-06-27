@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-26T15:28:40.019</Modified>
+      <Modified>2014-06-27T10:20:47.294</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -50,7 +50,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-06-22T07:45:30.972</Modified>
+      <Modified>2014-06-27T09:26:13.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
@@ -127,6 +127,14 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\7.png">
       <PackagePath>images\bg\7.png</PackagePath>
       <Modified>2014-04-20T19:00:17.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\8.png">
+      <PackagePath>images\bg\8.png</PackagePath>
+      <Modified>2014-06-27T09:45:37.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\9.png">
+      <PackagePath>images\bg\9.png</PackagePath>
+      <Modified>2014-06-27T09:46:44.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\caiet.png">
       <PackagePath>images\caiet.png</PackagePath>
@@ -725,15 +733,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-06-26T15:29:20.508</Modified>
+      <Modified>2014-06-27T11:00:58.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
       <Modified>2014-05-29T13:52:30.780</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\txt\test.txt">
+      <PackagePath>txt\test.txt</PackagePath>
+      <Modified>2014-06-27T10:20:31.279</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-26T15:28:38.753</Modified>
+      <Modified>2014-06-27T10:20:47.066</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
