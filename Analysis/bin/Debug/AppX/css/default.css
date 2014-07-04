@@ -326,9 +326,6 @@ i, h5 {
     display: none;
 }
 
-#glasses {
-    margin-top: -200px; margin-right: 20px; display: inline-block;
-}
 #vecinatati {
     margin-bottom: 50px;
 }
@@ -362,3 +359,26 @@ i, h5 {
         height: 0px;
         box-shadow: 0 0 300px red/*#428bca*/;
     }
+
+#adv {
+    position: absolute;
+    right: 150px;
+    bottom: 60px;
+    opacity: 1;
+    transition: all 1s;
+}
+
+@keyframes lost
+{
+    0%   {
+       box-shadow: 0 0 0;
+       opacity: 1;
+    }
+    50% {
+        box-shadow: 0 0 100px white;
+    }
+    100% {
+        box-shadow: 0 0 0;
+        opacity: 0;
+    }
+}

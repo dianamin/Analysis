@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Preferințe</title>
+        <style>
+        .SettingsPane {
+            margin-top:36px;
+            margin-left:48px;
+        }
+
+        .SettingsTitle {
+            margin-left: 36px;
+        }
+
+        .SettingsContent {
+            margin-top: 24px;
+        }
+
+        #preferences {
+            background-color: gray; 
+        }
+
+        </style>
+    </head>
+    <body>
+        <div id="preferences" data-win-control="WinJS.UI.SettingsFlyout" data-win-options="{width: 'narrow'}">
+        <div class="SettingsPane">
+            <div class="win-label">
+                <button onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton">
+                </button>
+                <span class="SettingsTitle">Preferences</span>
+            </div>
+            <article class="SettingsContent">
+                <div id="remember" data-win-control="WinJS.UI.ToggleSwitch" data-win-options="{ title: 'Remember where I was' }" />
+            </article>
+        </div>
+        </div>
+    </body>
+</html>

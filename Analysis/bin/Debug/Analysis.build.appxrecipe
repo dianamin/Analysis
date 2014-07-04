@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\preferences.html">
+      <PackagePath>pages\preferences.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\a.png">
       <PackagePath>images\a.png</PackagePath>
     </AppxPackagedFile>
@@ -75,6 +78,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\1.png">
       <PackagePath>images\bg\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\10.png">
+      <PackagePath>images\bg\10.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\2.png">
       <PackagePath>images\bg\2.png</PackagePath>
@@ -256,11 +262,17 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\fnecont.png">
       <PackagePath>images\fnecont.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\g.png">
-      <PackagePath>images\g.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\gf1.png">
+      <PackagePath>images\gf1.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\hospital.png">
       <PackagePath>images\hospital.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\i1.png">
+      <PackagePath>images\i1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\i2.png">
+      <PackagePath>images\i2.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\impartire.png">
       <PackagePath>images\impartire.png</PackagePath>
@@ -413,6 +425,9 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\oblic.png">
       <PackagePath>images\oblic.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\orizont.png">
+      <PackagePath>images\orizont.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\orizontal.png">
       <PackagePath>images\orizontal.png</PackagePath>
     </AppxPackagedFile>
@@ -553,6 +568,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\sounds\beep.mp3">
+      <PackagePath>sounds\beep.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\sounds\beep2.mp3">
+      <PackagePath>sounds\beep2.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\txt\test.txt">
       <PackagePath>txt\test.txt</PackagePath>

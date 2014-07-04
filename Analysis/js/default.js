@@ -13,7 +13,12 @@
             "about": {
                 href: "/pages/about.html",
                 title: "Despre"
-            }
+            },
+            "preferences": {
+            href: "/pages/preferences.html",
+            title: "Preferințe"
+        }
+
         }
 
         WinJS.UI.SettingsFlyout.populateSettings(e);
@@ -137,19 +142,14 @@ var lectii = [
                 <p><span class ="glyphicon glyphicon-pencil"></span>Atunci, șirul este definit printr-o <i>recurența de ordinul k.</i></p>',
                 '<h2>Limite de șiruri</h2> \
                 <p><span class ="glyphicon glyphicon-pencil"></span> Șirul (x<sub>n</sub>)<sub>n</sub> <i>are limită</i> l dacă orice vecinătate a lui l conține toți termenii șirului începând de la un anumit rang. </p>  \
-                <img class = "img-med2" src = "/images/limsir3.png" />\
-                <p><span class ="glyphicon glyphicon-pencil"></span> Un șir se numește <i>convergent</i> dacă are limita finită. Altfel, se numește <i>divergent</i>. </p> \
-                <img src ="/images/limsir.png" id = "glasses"  class = "img-med" /> \
-                <table class ="table" style ="width: 150px; display: inline-block;"> \
-                    <thead> \
-                        <th> <h2> Notații </h2> \
-                        <img src = "/images/caiet.png" class = "img-content"/> </th> \
-                    </thead> \
-                    <tbody> \
-                        <tr> <td>lim x<sub>n</sub> = l</td></tr> \
-                        <tr> <td>x → l</td></tr> \
-                    </tbody> \
-                </table>',
+                <center> <img class = "img-med2" src = "/images/limsir3.png" /> </center> <br /> \
+                <div class = "alert alert-success"> <p> <span class ="glyphicon glyphicon-pencil"></span> Ideea de limită poate fi asemanată cu linia orizontului: pământul și cerul tind sa se atingă:</p> <center> <img class = "img-med" src = "/images/orizont.png" /> </center> </div> <br /> \
+                <p><span class ="glyphicon glyphicon-pencil"></span> Un șir se numește <i>convergent</i> dacă are limita finită. Altfel, se numește <i>divergent</i>. </p>\
+                <div class="alert alert-info"> într-un restaurant, intră o infinitate de matematicieni. Primul cere un pahar de suc. Al doilea, cere o jumătate. Al treilea, un sfert și tot așa. Chelnerul le spune sa lase glumele și le aduce două pahare. \
+                <br /> <center> <img src ="/images/limsir.png" id = "glasses"  class = "img-med2" /> </center> </div>\
+                <h2> Notații <img src = "/images/caiet.png" class = "img-content" style = "display: inline-block;"/> </h2> \
+                 <center> <img src = "/images/i1.png" class = "img-content" /> <img src = "/images/i2.png" class = "img-content" />  </center>  \
+                <div class="alert alert-info" role="alert">Prima notație se citește „Limita când n tinde la infinit din a<sub>n</sub> este egală cu l.”, iar a doua „Șirul a<sub>n</sub> tinde la l, când n tinde la infinit”. Sunt echivalente.</div>',
                 '<h2>Subșir al unui șir dat</h2>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Fie (a<sub>n</sub>)<sub>n≥p</sub> un șir dat și (k<sub>n</sub>)<sub>n≥0</sub> un șir strict crescător de numere naturale. Șirul (a<sub>k<sub>n</sub></sub>)<sub>n≥0</sub> se numește <i>subșir</i> al șirului (a<sub>n</sub>)<sub>n≥p</sub>.</p>\
                 <img src ="images/subsequence.png" class ="img-content smaller" />\
@@ -629,24 +629,35 @@ var lectii = [
              <li><i>Asimptota verticală</i> este dreapta de ecuație x = a, unde a este un punct în care cel puțin una dintre limitele la dreapta și la stânga este infinită.</li>\
         </ol>',
         '<h2>Grafice de funcții</h2>\
+                <p>Vom realiza graficul funcției <i> f(x) = ln(sin(x)) </i>.</p>\
                 <ul class="list-group">\
                     <li class="list-group-item">\
                         <h4><i>Domeniul de definiție</i></h4> Dacă domeniul de definiție nu este precizat trebuie să găsim mulțimea formată din toate punctele pentru care f(x) are sens.\
+                        <p> <span class ="glyphicon glyphicon-pencil"></span> Pentru funcția dată, domeniul de definiție este reuniunea intervalelor de forma (2kπ, (2k + 1)π), k ∈ ℤ. </p>\
+                        <div class="alert alert-danger"><b>De ce?</b> Pentru că domeniul de definiție al logaritmului este (0, ∞). Funcția sinus este definită pe ℝ și are valori în [-1, 1].\
+                        Ne uităm pe cercul trigonometric și observăm că valorile funcției sinus sunt pozitive pentru valori din intervalul (2kπ, (2k + 1)π), k ∈ ℤ.</div>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Particularități ale funcției</i></h4> Verificăm dacă funcția este pară, impară sau periodică pentru a limita studiul proprietăților.\
+                        <p> <span class ="glyphicon glyphicon-pencil"></span> Funcția ln(sin(x)) este periodică. Perioada este <i>π</i>.</p>\
+                        <div class="alert alert-danger"><b>De ce?</b> Funcția sin este periodică, iar perioada este π. Putem analiza funcția doar pe intervalul (0, π), după care îl vom extinde.</div>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Intersecția cu axele de coordonate</i></h4>Punctul (0, f(0)) pentru intersecția cu Oy și punctele (x, f(x)) unde f(x) = 0 pentru intersecțiile cu Ox.\
+                        <p><span class ="glyphicon glyphicon-pencil"></span> Funcția dată se intersectează cu Ox când sin(x) = 1, deci x = kπ/2, k ∈ ℤ. </p>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Asimptote</i></h4> Verificăm dacă graficul admite asimptote verticale, orizontale sau oblice.\
+                        <p><span class ="glyphicon glyphicon-pencil"></span> Pentru intervalul (0, π), funcția are asimptotă verticală la dreapta lui 0 și la stânga lui π. </p> \
+                        <div class="alert alert-danger"><b>De ce?</b> Pentru că limita când x tinde la 0 este ∞, iar limita când x tinde la π este -∞. </div>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Derivata întâi</i></h4> Rezolvăm ecuația f\'(x) = 0 pentru a determina punctele critice. Precizăm semnele derivatei de unde decurg intervalele de monotonie, punctele de extrem, unghiulare, de întoarcere.\
+                        <p><span class ="glyphicon glyphicon-pencil">Derivata funcției este ctg(x).</span> </p>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Derivata a doua</i></h4> Precizăm semnul derivatei a II-a, de unde se deduc intervalele de convexitate, concavitate și eventualele puncte de inflexiune.\
+                        <p><span class ="glyphicon glyphicon-pencil"></span> Derivata a doua a funcției este 1/sin(x)<sup>2</sup> </p>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Tabelul de variație</i></h4>\
@@ -661,7 +672,7 @@ var lectii = [
                         </table>\
                     </li>\
                     <li class="list-group-item">\
-                        <h4><i>Trasarea graficului</i></h4> Se trasează asimptotele, se marcgează punctele remarcabile, care se unesc. Completăm graficul prin simetrie, repetare dacă funcția este para, impară, periodică etc.\
+                        <h4><i>Trasarea graficului</i></h4> Se trasează asimptotele, se marchează punctele remarcabile, care se unesc. Completăm graficul prin simetrie, repetare dacă funcția este para, impară, periodică etc.\
                     </li>\
                 </ul>'
     ]
@@ -922,39 +933,53 @@ var ans = [
 ];
 var correct = [1, 2, 1, 2, 2, 2];
 var taken = [0, 0, 0, 0, 0, 0, 0];
-var scor = 0, nivel = 0, q = 0;
+var scor = 0, nivel = 0, q = 0, nq = 0;;
 var lifec = 100, lifee = 100;
 var a, b; //range pentru intrebari
 choice = function (x) {
     if (String(x) == correct[q]) {
+        document.getElementById('ok').play();
         scor = scor + 20;
         lifee -= 20;
         document.getElementById("enemy").setAttribute("value", lifee);
     }
     else {
+        document.getElementById('notOk').play();
         lifec -= 10;
         document.getElementById("character").setAttribute("value", lifec);
     }
     document.getElementById("scor").innerHTML = "Scor <br />" + String(scor);
-    if (q != 4) {
-        while (taken[q] == 1) q = Math.floor(Math.random() * b) + a;
-        taken[q] = 1;
-        document.getElementById("query").innerHTML = query[q];
-        document.getElementById("a1").innerHTML = ans[q][0];
-        document.getElementById("a2").innerHTML = ans[q][1];
-    }
-    else {
-        if (nivel != 4) {
-            nivel++;
-            newScene();
-            while (taken[q] == 1) q = Math.floor(Math.random() * b) + a;
-            taken[q] = 1;
+    if (lifee && lifec) {
+        if (nq < 4) {
+            if (nivel > 0) q = 1;
+            else {
+                q = Math.floor(Math.random() * b) + a;
+                while (taken[q] == 1) q = Math.floor(Math.random() * b) + a;
+                taken[q] = 1;
+            }
+            nq++;
+        
             document.getElementById("query").innerHTML = query[q];
             document.getElementById("a1").innerHTML = ans[q][0];
             document.getElementById("a2").innerHTML = ans[q][1];
-          //  a = b + 1;
-          //  b = b + 5;
-           }
+        }
+    }
+    else {
+        document.getElementById("adv").setAttribute("style", "animation: lost; animation-duration: 4s;");
+        if (nivel != 5) {
+            nivel++;
+            newScene();
+            document.getElementById("adv").setAttribute("style", "animation: opacitate; animation-duration: 2s;");
+            q = 1;
+            nq = 0;
+            //while (taken[q] == 1) q = Math.floor(Math.random() * b) + a;
+            //taken[q] = 1;
+            document.getElementById("query").innerHTML = query[q];
+            document.getElementById("a1").innerHTML = ans[q][0];
+            document.getElementById("a2").innerHTML = ans[q][1];
+            //  a = b + 1;
+            //  b = b + 5;
+        }
         else {
             document.getElementById("combat").setAttribute("style", "display: none;");
             document.getElementById("stopjoc").setAttribute("style", "display: block;");
@@ -964,7 +989,7 @@ choice = function (x) {
     }
 }
 
-var nrq = 9, nra = 6;
+var nrq = 10, nra = 6;
 
 newScene = function () {
     document.getElementById("enemy").setAttribute("value", "100");
@@ -974,8 +999,8 @@ newScene = function () {
     var bg = "'" + '/images/bg/' + String(b + 1) + '.png' + "'";
     document.getElementById("combat").setAttribute("style", "background-image: url(" + bg + "); display: block;");
     //adversar nou
-    var a = Math.floor(Math.random() * nra) + 1;
-    document.getElementById("adv").innerHTML = '<img src = "/images/adversari/' + String(a) + '.png" class = "personaj-joc" style = "margin-right: 150px;"/>';
+    //var a = Math.floor(Math.random() * nra) + 1;
+    document.getElementById("adv").innerHTML = '<img src = "/images/adversari/' + String(nivel + 1) + '.png" class = "personaj-joc" style = "margin-right: 150px;"/>';
    
 }
 
@@ -991,6 +1016,13 @@ function readTextFile(file) {
         }
     }
     rawFile.send(null);
+}
+
+function writeTextFile(file, text) {
+    var _Folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+    _Folder =  _Folder.GetFolderAsync("txt");
+    var _File =  _Folder.getFileAsync("test");
+    Windows.Storage.FileIO.writeTextAsync(_File, "yay");
 }
 
 /*
@@ -1009,14 +1041,16 @@ function writeToFile(text) {
 }*/
 
 startJoc = function () {
-    readTextFile("/txt/test.txt");
-   // writeToFile("swag");
-   // readTextFile("/txt/test.txt");
+    //readTextFile("/txt/test.txt");
+    //writeTextFile("/txt/test", "swag");
+    // readTextFile("/txt/test.txt");
+    for (var i = 0; i < nrq; i++) taken[i] = 0;
     a = 0; b = 5;
     scor = 0;
     nivel = 0;
     lifec = 100;
     lifee = 100;
+    nq = 0;
     document.getElementById("character").setAttribute("value", lifec);
     document.getElementById("enemy").setAttribute("value", lifee);
     document.getElementById("scor").setAttribute("style", "display: block;");

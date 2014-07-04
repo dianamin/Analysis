@@ -17,6 +17,7 @@ images\adversari\6.png
 images\ag.png
 images\axa.png
 images\bg\1.png
+images\bg\10.png
 images\bg\2.png
 images\bg\3.png
 images\bg\4.png
@@ -77,10 +78,12 @@ images\fcont.png
 images\fermat.png
 images\fibo.png
 images\fnecont.png
-images\g.png
 images\g2.jpg
 images\g3.jpg
+images\gf1.png
 images\hospital.png
+images\i1.png
+images\i2.png
 images\impartire.png
 images\inflexiune.png
 images\inmultire.png
@@ -131,6 +134,7 @@ images\nderiv.png
 images\next.png
 images\nolimit.png
 images\oblic.png
+images\orizont.png
 images\orizontal.png
 images\probleme\e1.png
 images\probleme\e2.png
@@ -176,4 +180,7 @@ js\bootstrap.min.js
 js\default.js
 js\script.js
 pages\about.html
+pages\preferences.html
+sounds\beep.mp3
+sounds\beep2.mp3
 txt\test.txt

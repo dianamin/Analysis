@@ -87,7 +87,12 @@
                 <div class ="btn btn-primary" onclick ="check()">Verifică</div>
             </div>
             <div id ="joc" class ="c" style ="display:none;">
-                
+                <audio id ="ok" controls style ="display: none;">
+                    <source src="sounds/beep.mp3" type="audio/mpeg">
+                </audio>
+                <audio id ="notOk" controls style ="display: none;">
+                    <source src="sounds/beep2.mp3" type="audio/mpeg">
+                </audio>
                 <div id ="startjoc">
                     <img src ="/images/robot2.png" class ="robot2"/> <div class ="msgleft" style ="margin-top: -30px;">Nu știu răspunsurile! Ajută-ma!</div> <br />
                     <center> <div class ="btn btn-primary" onclick ="startJoc()">Începe!</div> </center>
@@ -102,7 +107,7 @@
                                 <div id ="query" class ="msgright"></div>
                             </div><img src ="/images/robot2.png" class ="personaj-joc" style =" position: absolute; top: 80px; left: 10px;" />
                             
-                            <div id ="adv" style ="position: absolute; right: 150px; bottom: 60px;"></div>
+                            <div id ="adv"></div>
 
                             <progress id = "character" value = "100" max ="100" style ="position: absolute; bottom: 50px; left: 20px; width: 100px;"></progress>
                             <progress id = "enemy" value = "100" max ="100" style ="position: absolute; bottom: 50px; right: 20px; width: 100px;"></progress>
