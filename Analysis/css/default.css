@@ -68,6 +68,20 @@ header {
     height: 60px;
     width: 60px; 
     margin-left: 10px;
+    animation: logo-rotatie;
+    animation-duration: 2s;
+}
+@keyframes logo-rotatie
+{
+    0%   {
+       transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 #wrapper {
