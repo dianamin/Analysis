@@ -234,6 +234,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
+    <Content Include="js\lectii.js" />
     <Content Include="js\script.js" />
     <Content Include="pages\about.html" />
     <Content Include="pages\preferences.html" />

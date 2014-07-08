@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-04T18:26:06.858</Modified>
+      <Modified>2014-07-08T15:51:49.399</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -50,7 +50,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-06-29T13:11:09.699</Modified>
+      <Modified>2014-07-08T15:51:45.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
@@ -753,7 +753,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-07-04T11:59:31.814</Modified>
+      <Modified>2014-07-08T15:51:45.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
+      <PackagePath>js\lectii.js</PackagePath>
+      <Modified>2014-07-08T15:51:12.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
@@ -773,7 +777,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-04T18:26:05.988</Modified>
+      <Modified>2014-07-08T15:51:48.160</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
