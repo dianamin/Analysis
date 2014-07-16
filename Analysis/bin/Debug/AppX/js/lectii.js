@@ -1,4 +1,6 @@
-﻿var lectii = [
+﻿//continutul de la lectii si exemplele corespunzatoare
+
+var lectii = [
     ['<!-- Numere reale -->   <h2> Numere reale </h2> <img src = "/images/axa.png" class = "img-content" style = "width: 200px;"/> <br /> \
             <span class ="glyphicon glyphicon-pencil"></span> Mulțimea numerelor reale are ca reprezentare geometrică axa numerelor reale. <br /> \
             \
@@ -47,8 +49,23 @@
                 <img src = "/images/case.png" class = "img-content" id = "vecinatati"/>',
     ],
     ['<h2>Ce este un șir? </h2>\
+                <script>\
+ MSApp.execUnsafeLocalFunction(function() {\
+document.getElementById("test").innerHTML = "lol";\
+});\
+\
+</script>\
+                <div class="alert alert-info">\
+                    <p id = "test" onclick = "MSApp.execUnsafeLocalFunction(function() {\
+document.getElementById("test").innerHTML = "lol";\
+});\">Considerăm mulțimea numerelor naturale așezate în ordine crescătoare</p>\
+                    <center> <i>1, 2, 3, ..., n, ..., m, ...</i> (*) </center>\
+                    <p>Dacă înlocuim în (*) fiecare număr natural n printr-un număr real, după o anumită lege, obținem un șir de numere:</p>\
+                    <center> <i>a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>n</sub>, ..., a<sub>m</sub>, ... </i></center>\
+                    <p>ai cărui <i>termeni</i> sau <i>elemente</i> sunt numerotate și aranjate în ordinea crescătoare a indicilor.</p>\
+                </div>\
                <p> <span class ="glyphicon glyphicon-pencil"></span> Fie k un număr natural fixat și A ⊂ ℝ, N<sub>k</sub> = {n ∈ ℕ | k ≤ n}. <i>Șirul</i> cu elemente din A se referă la o funcție f:N<sub>k</sub>→A.</p>\
-                <img src ="/images/sir.png" class ="img-content" />\
+                <center> <img src ="/images/sir.png" class ="img-content" /> </center>\
                 <table class ="table">\
                     <thead>\
                         <th> <h2> Notații </h2> </th>\

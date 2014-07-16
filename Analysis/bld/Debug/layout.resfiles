@@ -18,6 +18,7 @@ images\ag.png
 images\axa.png
 images\bg\1.png
 images\bg\10.png
+images\bg\11.png
 images\bg\2.png
 images\bg\3.png
 images\bg\4.png
@@ -175,10 +176,12 @@ images\storelogo.png
 images\subsequence.png
 images\vertical.png
 index.html
+js\all.js
 js\bootstrap.js
 js\bootstrap.min.js
 js\default.js
 js\lectii.js
+js\probleme.js
 js\script.js
 pages\about.html
 pages\preferences.html

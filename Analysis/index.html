@@ -9,9 +9,11 @@
     <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
     <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
     
+     <script src ="/js/all.js"></script>
      <script src ="/js/lectii.js"></script>
+     <script src ="/js/probleme.js"></script>
      <script src="/js/default.js"></script>
-     <script src ="probleme.js"></script>
+
 
     <!-- Analysis references -->
     <link href="/css/bootstrap.css" rel="stylesheet" />
@@ -49,6 +51,9 @@
         </div>
           
     </header>
+    
+    <input type ="text" id ="read" style ="display: none;" />
+
     <div class ="container-fluid row" id ="wrapper">
         <div class ="col-md-4" id="menu" style ="width: 25%; min-width: 250px;">
             <h3 id ="tl">Lecții</h3>
@@ -67,6 +72,7 @@
                 <li class ="stg" onclick = "lectie(12)" id ="l12" style ="display: none;"><a href ="#"></a></li>
             </ul>
             <div id ="scor">Scor <br /> 0</div>
+            <div id ="scorMaxim"></div>
         </div>
         <div class ="col-md-8">
             
@@ -74,6 +80,7 @@
                 <h2>Alege lecția!</h2>
             </div>
             <div id ="probleme" class ="c" style ="display:none;">
+                <div id = "meniu-probleme">lol</div>
                 <h2 id ="capitol">Șiruri</h2>
                 <img src ="/images/next.png" id ="next" onclick ="next()"/>
                 <div id ="enunt"> Calculați limita <img src ='/images/probleme/e1.png' class ='img-content' />.</div>
@@ -107,7 +114,7 @@
                                     <div id ="a2" class="btn btn-default" onclick ="choice(2)"></div>
                                 </div>
                                 <div id ="query" class ="msgright"></div>
-                            </div><img src ="/images/robot2.png" class ="personaj-joc" style =" position: absolute; top: 80px; left: 10px;" />
+                            </div><img src ="/images/robot2.png" class ="personaj-joc" id="robot-joc" />
                             
                             <div id ="adv"></div>
 

@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-08T15:51:49.399</Modified>
+      <Modified>2014-07-13T10:59:57.700</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -42,7 +42,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-07-05T10:20:04.371</Modified>
+      <Modified>2014-07-16T07:27:58.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\default.html">
       <PackagePath>default.html</PackagePath>
@@ -50,7 +50,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-07-08T15:51:45.396</Modified>
+      <Modified>2014-07-16T07:27:58.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
@@ -111,6 +111,10 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\10.png">
       <PackagePath>images\bg\10.png</PackagePath>
       <Modified>2014-07-01T10:29:26.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\11.png">
+      <PackagePath>images\bg\11.png</PackagePath>
+      <Modified>2014-07-12T09:42:25.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\2.png">
       <PackagePath>images\bg\2.png</PackagePath>
@@ -743,6 +747,10 @@
       <PackagePath>images\g3.jpg</PackagePath>
       <Modified>2014-06-25T09:51:39.045</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\all.js">
+      <PackagePath>js\all.js</PackagePath>
+      <Modified>2014-07-13T10:59:13.660</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\bootstrap.js">
       <PackagePath>js\bootstrap.js</PackagePath>
       <Modified>2014-05-29T11:44:02.000</Modified>
@@ -753,11 +761,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-07-08T15:51:45.338</Modified>
+      <Modified>2014-07-16T07:51:26.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
       <PackagePath>js\lectii.js</PackagePath>
-      <Modified>2014-07-08T15:51:12.262</Modified>
+      <Modified>2014-07-12T11:19:18.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\probleme.js">
+      <PackagePath>js\probleme.js</PackagePath>
+      <Modified>2014-07-10T15:55:53.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
@@ -777,7 +789,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-08T15:51:48.160</Modified>
+      <Modified>2014-07-13T10:59:56.240</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

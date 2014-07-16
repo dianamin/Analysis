@@ -8,6 +8,8 @@
     var app = WinJS.Application;
     var activation = Windows.ApplicationModel.Activation;
 
+
+
     app.onsettings = function (e) {
         e.detail.applicationcommands = {
             "about": {
@@ -73,7 +75,8 @@ var leftpanel = [
     ['Aspect intuitiv', 'Continuitate laterală', 'Proprietăți'],
     ['Derivata într-un punct', 'Derivabilitate și continuitate', 'Derivate laterale', 'Funcții elementare', 'Operații cu derivate', 'Derivata funcției inverse', 'Derivate de ordin superior', 'Teoreme', 'L\'Hospital', 'Derivata a doua'],
     ['Asimptote', 'Reprezentări grafice'],
-    ['Lol']
+    ['Lol'],
+    ['C1', 'C2', 'C3', 'C4', 'C5']
 ];
 
 
@@ -98,7 +101,8 @@ nav = function (x) {
         document.getElementById("m" + String(curent)).removeAttribute("class");
     }
     curent = x;
-    if (x <= 7) {
+    
+    if (x <= 8) {
         //primele 7 capitole au lecții
         var l = leftpanel[x - 1].length;
         for (var i = 0; i < lmax; i++) document.getElementById("l" + String(i + 1)).setAttribute("style", "display: none");
@@ -108,8 +112,10 @@ nav = function (x) {
         }
         document.getElementById("content").innerHTML = "<h2>Alege lecția!</h2>";
         document.getElementById("e1").innerHTML = " ";
-        document.getElementById("tl").innerHTML = "Lecții";
+        if (x == 8) document.getElementById("tl").innerHTML = "Capitole cu probleme";
+        else document.getElementById("tl").innerHTML = "Lecții";
         document.getElementById("e1").setAttribute("style", "display: block;");
+        document.getElementById("scorMaxim").setAttribute("style", "display: none;");
     }
     else {
         //problemele și jocul sunt puse altfel - conțin apeluri la funcții din script
@@ -118,13 +124,16 @@ nav = function (x) {
         document.getElementById("e1").setAttribute("style", "display: none;");
     }
     document.getElementById("scor").setAttribute("style", "display: none");
-    if (x == 9 && activegame == 1) document.getElementById("scor").setAttribute("style", "display: block;");
+    if (x == 9 && activegame == 1) {
+        document.getElementById("scor").setAttribute("style", "display: block;");
+        document.getElementById("scorMaxim").setAttribute("style", "display: block");
+    }
     citatRandom();
 
 };
 lectie = function (y) {
     //intru în altă lecție
-    document.getElementById("content").innerHTML = lectii[curent - 1][y - 1];
+    document.getElementById("content").innerHTML = toStaticHTML(lectii[curent - 1][y - 1]);
     document.getElementById("e1").innerHTML = exemple[curent - 1][y - 1];
 }
 
@@ -142,72 +151,42 @@ hideExemplu = function (x) {
 }
 
 
-//Probleme
-var nr = 8;
-var capitol = ["Șiruri", "Șiruri", "Funcții", "Funcții", "Derivate", "Grafice", "Derivate", "Derivate"];
-var enunt = [
-    "Calculați limita <img src ='/images/probleme/e1.png' class ='img-content' />.",
-    "Calculați limita <img src ='/images/probleme/e2.png' class ='img-content' />.",
-    "Calculați limita <img src ='/images/probleme/e3.png' class ='img-content' />.",
-    'Fie funcția <img src ="/images/probleme/e4a.png" class ="img-content" />. <br /> Să se calculeze <img src ="/images/probleme/e4b.png" class ="img-content" />.',
-    "Fie <img src = '/images/probleme/e5.png' class ='img-content' />. Ecuația tangentei la graficul lui f în punctul de abscisă x = 0 este <i>y = a x</i>. Cât este a?",
-    "Fie <img src = '/images/probleme/e6.png' class ='img-content' />. Asimptota orizontală a graficului funcției are ecuația y = a. a = ?",
-    "Fie funcția <img src = '/images/probleme/e7.png' class = 'img-content' /> pentru numărul natural n > 1. Scrieți 1 dacă funcția este convexă sau 2 dacă este concavă.",
-    "Fie funcția f : ℝ → ℝ, f(x) = x<sup>3</sup> + t<sup>2</sup>x. Care este coeficientul lui x<sup>2</sup> în derivata întâi?"
-];
-var raspuns = ["0", "1", "sqrt(e)", "1/3", "3", "1", "1", "3"];
-var indiciu = [
-    ["Utilizăm criteriul majorării", "<img src ='/images/probleme/h12.png' class ='img-content' />", "<img src ='/images/probleme/h13.png' class ='img-content' />"],
-    ["Fie <img src ='/images/probleme/h21.png' class ='img-content' />.", "Folosim criteriul cleștelui <img src ='/images/probleme/h22.png' class ='img-content' />.", "<img src ='/images/probleme/h23a.png' class ='img-content' />, deci <img src ='/images/probleme/h23b.png' class ='img-content' />"],
-    ["Observăm că este o limită de tipul 1<sup>∞</sup>. Încercăm să formăm <i>limita lui euler</i>: <img src ='/images/probleme/h31.png' class ='img-content' />", "<img src ='/images/probleme/h32.png' class ='img-content' />", "<img src ='/images/probleme/h33.png' class ='img-content' />"],
-    ["Înlocuim x cu f(y).", "<img src ='/images/probleme/h42.png' class ='img-content' />", "<img src ='/images/probleme/h43.png' class ='img-content' />"],
-    ["Calculăm derivata funcției: <img src ='/images/probleme/h51.png' class ='img-content' />", "Ecuația tangentei: y - f(x<sub>0</sub>) = f\'(x<sub>0</sub>)(x - x<sub>0</sub>)", "f(0) = 0, f'(0) = 3. Deci, ecuația tangentei este y = 3x, a = 3."],
-    ["Asimptota orizontala este dreapta de care se apropie graficul funcției când x tinde la infinit.", "Calculăm limita funcției când x tinde la infinit.", "a = 1."],
-    ["Calculăm prima derivată: f'(x) = nx<sup>n−1</sup> + n.", "Calculăm a doua derivată: f''(x) = n(n - 1)x<sup>n-2</sup>.", "Observăm că derivata a doua este pozitivă, deci funcția este convexă."],
-    ["(x<sup>n</sup>)' = nx<sup>n - 1</sup>", "(tf(x))' = tf'(x), unde t este o constantă", "Derivata funcției f este f'(x) = 3x<sup>2</sup> + t<sup>2</sup>"]
-];
-var crt = 0;
-var hint = -1;
+//Fisiere
+var applicationData = Windows.Storage.ApplicationData.current;
+var localFolder = applicationData.localFolder;
 
-check = function () {
-    var r = document.getElementById("rezultat");
-    if (r.value != raspuns[crt]) {
-        //dacă răspunsul nu este corect, utilizatorul este informat și afișez un indiciu
-        document.getElementById("divrezultat").setAttribute("class", "form-group has-error");
-        document.getElementById("wrong").setAttribute("style", "display: block;");
-        document.getElementById("right").setAttribute("style", "display: none;");
-        if (hint < 2) {
-            //sunt doar 3 indicii la fiecare problemă
-            hint++;
-            document.getElementById("h" + String(hint + 1)).setAttribute("style", "display: block;");
-            document.getElementById("h" + String(hint + 1)).innerHTML = indiciu[crt][hint];
-        }
-    }
-    else {
-        //în cazul în care răspunsul este corect, utilizatorul este informat
-        document.getElementById("divrezultat").setAttribute("class", "form-group has-success");
-        document.getElementById("wrong").setAttribute("style", "display: none;");
-        document.getElementById("right").setAttribute("style", "display: block;");
-    }
+function write(file, text) {
+    localFolder.createFileAsync(file, Windows.Storage.CreationCollisionOption.openIfExists)
+    .then(function(sampleFile) {
+        return Windows.Storage.FileIO.writeTextAsync(sampleFile, text);
+    })
+    .done(function() {
+    });
 }
-next = function () {
-    //următoarea întrebare
 
-    //aleg o întrebare
-    var n = Math.floor(Math.random() * nr);
-    document.getElementById("capitol").innerHTML = capitol[n];
-    document.getElementById("enunt").innerHTML = enunt[n];
-    document.getElementById("divrezultat").setAttribute("class", "form-group");
-    document.getElementById("wrong").setAttribute("style", "display: none;");
-    document.getElementById("right").setAttribute("style", "display: none;");
-    document.getElementById("rezultat").value = "";
+function read(file) {
+    localFolder.getFileAsync(file)
+    .then(function (sampleFile) {
+        return Windows.Storage.FileIO.readTextAsync(sampleFile);
+    }).done(function (x) {
+        //console.log(x);
+        document.getElementById("scorMaxim").innerText = "Scor maxim: " + x;
+        text = x;
+    }, function () {
+        console.log("No score yet!");
+    });
+}
 
-    //ascund indiciile (probabil afișate la întrebarea precedentă)
-    hint = -1;
-    crt = n;
-    document.getElementById("h1").setAttribute("style", "display: none;");
-    document.getElementById("h2").setAttribute("style", "display: none;");
-    document.getElementById("h3").setAttribute("style", "display: none;");
+
+function readTimestamp() {
+    localFolder.getFileAsync("dataFile.txt")
+       .then(function (sampleFile) {
+           return Windows.Storage.FileIO.readTextAsync(sampleFile);
+       }).done(function (timestamp) {
+           // Data is contained in timestamp
+       }, function () {
+           // Timestamp not found
+       });
 }
 
 
@@ -240,6 +219,30 @@ var taken = [0, 0, 0, 0, 0, 0, 0];
 var scor = 0, nivel = 0, q = 0, nq = 0;;
 var lifec = 100, lifee = 100;
 var a, b; //range pentru intrebari
+var scorMaxim;
+
+
+var end = function () {
+
+    if (lifec > 0) document.getElementById("rez").innerHTML = "Bravo :D";
+    else {
+        document.getElementById("robot-joc").setAttribute("style", "animation: lost; animation-duration: 2s;");
+        document.getElementById("rez").innerHTML = "Poți mai bine! :)";
+    }
+
+    setTimeout(function () {
+        document.getElementById("combat").setAttribute("style", "display: none;");
+        document.getElementById("stopjoc").setAttribute("style", "display: block;");
+        document.getElementById("robot-joc").setAttribute("style", "");
+    }, 2000);
+    if (scor > scorMaxim) {
+        scorMaxim = scor;
+        write("scor.txt", String(scor));
+    }
+    //read("scor.txt");
+   
+}
+
 choice = function (x) {
     if (String(x) == correct[q]) {
         //dacă răspunsul este corect
@@ -251,6 +254,8 @@ choice = function (x) {
     else {
         document.getElementById('notOk').play(); //dau play la sunetul corespunzător răspunsului corect
         lifec -= 10; //robotul este lovit
+        if (lifec <= 0) end();
+        console.log(lifec);
         document.getElementById("character").setAttribute("value", lifec);
     }
     document.getElementById("scor").innerHTML = "Scor <br />" + String(scor); //update la scor
@@ -270,8 +275,9 @@ choice = function (x) {
             document.getElementById("a2").innerHTML = ans[q][1];
         }
     }
-    else {
-        document.getElementById("adv").setAttribute("style", "animation: lost; animation-duration: 4s;"); //adversarul a pierdut
+    if (!lifee) {
+        console.log(nivel);
+        document.getElementById("adv").setAttribute("style", "animation: lost; animation-duration: 2s;"); //adversarul a pierdut
         if (nivel != 5) {
             //dacă nu am ajuns la ultimul nivel, resetez unele variabile și creez o scenă nouă
             nivel++;
@@ -287,17 +293,15 @@ choice = function (x) {
             //  a = b + 1;
             //  b = b + 5;
         }
-        else {
-            //utilizatorul a terminat jocul
-            document.getElementById("combat").setAttribute("style", "display: none;");
-            document.getElementById("stopjoc").setAttribute("style", "display: block;");
-            if (scor >= 50) document.getElementById("rez").innerHTML = "Bravo :D";
-            else document.getElementById("rez").innerHTML = "Poți mai bine! :)";
-        }
+        else end(); //utilizatorul a câștigat jocul
     }
+    if (!lifec) end(); //utilizatorul a pierdut jocul
 }
 
-var nrb = 10, nra = 6;
+
+
+
+var nrb = 11, nra = 6;
 
 newScene = function () {
     document.getElementById("enemy").setAttribute("value", "100");
@@ -311,26 +315,6 @@ newScene = function () {
     document.getElementById("adv").innerHTML = '<img src = "/images/adversari/' + String(nivel + 1) + '.png" class = "personaj-joc" style = "margin-right: 150px;"/>';
 }
 
-function readTextFile(file) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, false);
-    rawFile.onreadystatechange = function () {
-        if (rawFile.readyState === 4) {
-            if (rawFile.status === 200 || rawFile.status == 0) {
-                var allText = rawFile.responseText;
-                console.log(allText);
-            }
-        }
-    }
-    rawFile.send(null);
-}
-
-function writeTextFile(file, text) {
-    var _Folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
-    _Folder =  _Folder.GetFolderAsync("txt");
-    var _File =  _Folder.getFileAsync("test");
-    Windows.Storage.FileIO.writeTextAsync(_File, "yay");
-}
 
 
 startJoc = function () {
@@ -338,6 +322,7 @@ startJoc = function () {
     for (var i = 0; i < nrq; i++) taken[i] = 0;
     a = 0; b = 5; //aleg range-ul pentru primele întrebări (ușoare)
     scor = 0; //setez scorul
+    read("scor.txt");
     nivel = 0; //setez nivelul
     lifec = 100; //setez viața robotului
     lifee = 100; //setez viața adversarului

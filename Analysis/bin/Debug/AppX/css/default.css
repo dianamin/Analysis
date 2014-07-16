@@ -382,6 +382,12 @@ i, h5 {
     transition: all 1s;
 }
 
+#robot-joc {
+    position: absolute; 
+    top: 80px; 
+    left: 10px;
+}
+
 @keyframes lost
 {
     0%   {
@@ -395,4 +401,17 @@ i, h5 {
         box-shadow: 0 0 0;
         opacity: 0;
     }
+}
+
+#meniu-probleme {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
