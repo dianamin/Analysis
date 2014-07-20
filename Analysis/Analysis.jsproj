@@ -59,6 +59,8 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\narrow.css" />
+    <Content Include="data\probleme.json" />
+    <Content Include="data\probleme.txt" />
     <Content Include="default.html" />
     <Content Include="images\a.png" />
     <Content Include="images\ab.png" />
@@ -250,6 +252,9 @@
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="data\probleme.resjson" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment

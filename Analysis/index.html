@@ -13,7 +13,6 @@
      <script src ="/js/fb.js"></script>
      <script src ="/js/all.js"></script>
      <script src ="/js/lectii.js"></script>
-     <script src ="/js/probleme.js"></script>
      <script src ="/js/register.js"></script>
      <script src="/js/default.js"></script>
 
@@ -55,19 +54,6 @@
                 <li onclick = "nav(8)" id ="m8"><a href="#">Probleme</a></li>
                 <li onclick = "nav(9)" id ="m9"><a href="#">Joc</a></li>
             </ul>
-            <!--
-            <ul class ="nav nav-pills" ng-controller ="NavController as nav">
-                <li><a href="#" ng-click ="nav.setTab(1)">Noțiuni introductive</a></li>
-                <li><a href="#">Limite de șiruri</a></li>
-                <li><a href="#">Limite de funcții</a></li>
-                <li><a href="#">Continuitate</a></li>
-                <li><a href="#">Derivabilitate</a></li>
-                <li><a href="#">Grafice de funcții</a></li>
-                <li><a href ="#">Greșeli</a></li>
-                <li><a href="#">Probleme</a></li>
-                <li><a href="#">Joc</a></li>
-            </ul>
-            -->
         </div>
           
     </header>
@@ -99,11 +85,15 @@
             <div id ="content" class ="c">
                 <h2>Alege lecția!</h2>
             </div>
-            <div id ="probleme" class ="c" style ="display:none;">
-                <div id = "meniu-probleme">test</div>
+            <div id ="probleme" class ="c" style ="display:none;" ng-controller ="Probleme">
+                <div id = "meniu-probleme">
+                    <a href = "#" onclick = "prev()"> &#9664; </a>
+                    <a href = "#" onclick = "shuffle()"> ξ </a>
+                    <a href = "#" onclick = "next()"> &#9654; </a>
+                </div>
                 <h2 id ="capitol">Șiruri</h2>
                 <img src ="/images/next.png" id ="next" onclick ="next()"/>
-                <div id ="enunt"> Calculați limita <img src ='/images/probleme/e1.png' class ='img-content' />.</div>
+                <div id ="enunt"> </div>
                 <div class="form-group" id ="divrezultat">
                     <table><tr>
                     <td><label class="control-label" for="inputSuccess2" style ="transition: all 0.5s;">Răspuns = </label></td>
@@ -156,6 +146,7 @@
 
 
      <script src ="/js/image.js"></script>
+     <script src ="/js/probleme.js"></script>
        
 </body>
 

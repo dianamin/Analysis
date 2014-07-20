@@ -1,0 +1,31 @@
+﻿[{
+    "enunt" : "Calculați limita <img src ='/images/probleme/e1.png' class ='img-content' />.",
+    "capitol" : "Șiruri",
+    "rezultat" : "0",
+	"indiciu" : [
+		"Utilizăm criteriul majorării",
+		"<img src ='/images/probleme/h12.png' class ='img-content' />",
+		"<img src ='/images/probleme/h13.png' class ='img-content' />"
+	]
+},
+{
+    "enunt" : "Calculați limita <img src ='/images/probleme/e2.png' class ='img-content' />.",
+    "capitol" : "Șiruri",
+    "rezultat" : "1",
+	"indiciu" : [
+		"Utilizăm criteriul majorării",
+		"<img src ='/images/probleme/h12.png' class ='img-content' />",
+		"<img src ='/images/probleme/h13.png' class ='img-content' />"
+	]
+},
+{
+    "enunt" : "Calculați limita <img src ='/images/probleme/e1.png' class ='img-content' />.",
+    "capitol" : "Șiruri",
+    "rezultat" : "0",
+	"indiciu" : [
+		"Utilizăm criteriul majorării",
+		"<img src ='/images/probleme/h12.png' class ='img-content' />",
+		"<img src ='/images/probleme/h13.png' class ='img-content' />"
+	]
+}
+]  

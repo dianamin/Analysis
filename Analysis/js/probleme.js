@@ -37,10 +37,11 @@ var iDerivate = [
 ];
 var crt = 0, capitol = "Siruri";
 var hint = -1;
+var probleme = new Array();
 
 check = function () {
     var r = document.getElementById("rezultat");
-    if (r.value != rSiruri[crt]) {
+    if (r.value != probleme[crt].rezultat) {
         //dacă răspunsul nu este corect, utilizatorul este informat și afișez un indiciu
         document.getElementById("divrezultat").setAttribute("class", "form-group has-error");
         document.getElementById("wrong").setAttribute("style", "display: block;");
@@ -49,7 +50,6 @@ check = function () {
             //sunt doar 3 indicii la fiecare problemă
             hint++;
             document.getElementById("h" + String(hint + 1)).setAttribute("style", "display: block;");
-            document.getElementById("h" + String(hint + 1)).innerHTML = iSiruri[crt][hint];
         }
     }
     else {
@@ -59,22 +59,54 @@ check = function () {
         document.getElementById("right").setAttribute("style", "display: block;");
     }
 }
-next = function () {
-    //următoarea întrebare
 
-    //aleg o întrebare
-    var n = Math.floor(Math.random() * nr);
-    document.getElementById("capitol").innerHTML = capitol[n];
-    document.getElementById("enunt").innerHTML = enunt[n];
+
+
+var puneProblema = function (x) {
+    var p = probleme[x];
+    document.getElementById("capitol").innerHTML = p.capitol;
+    document.getElementById("enunt").innerHTML = p.enunt;
     document.getElementById("divrezultat").setAttribute("class", "form-group");
     document.getElementById("wrong").setAttribute("style", "display: none;");
     document.getElementById("right").setAttribute("style", "display: none;");
     document.getElementById("rezultat").value = "";
-
-    //ascund indiciile (probabil afișate la întrebarea precedentă)
     hint = -1;
-    crt = n;
+    crt = x;
     document.getElementById("h1").setAttribute("style", "display: none;");
     document.getElementById("h2").setAttribute("style", "display: none;");
     document.getElementById("h3").setAttribute("style", "display: none;");
+    document.getElementById("h1").innerHTML = p.indiciu[0];
+    document.getElementById("h2").innerHTML = p.indiciu[1];
+    document.getElementById("h3").innerHTML = p.indiciu[2];
 }
+
+var next = function () {
+    crt++;
+    if (crt == probleme.length) crt = 0;
+    puneProblema(crt);
+}
+
+var prev = function () {
+    crt--;
+    if (crt < 0) crt = probleme.length - 1;
+    puneProblema(crt);
+}
+
+var shuffle = function () {
+    var crt = Math.floor(Math.random() * probleme.length);
+    puneProblema(crt);
+}
+
+
+WinJS.xhr({url: "data/probleme.txt"}).then(function (xhr) {
+    var items = JSON.parse(xhr.responseText);
+
+    // Add the items to the WinJS.Binding.List
+    items.forEach(function (item) {
+        probleme.push(item);
+    });
+    puneProblema(0);
+});
+
+
+
