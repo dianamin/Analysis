@@ -1,31 +1,91 @@
 ﻿[{
-    "enunt" : "Calculați limita <img src ='/images/probleme/e1.png' class ='img-content' />.",
+    "enunt" : "Calculați limita <img src ='/images/siruri/e1.png' />.",
     "capitol" : "Șiruri",
     "rezultat" : "0",
 	"indiciu" : [
 		"Utilizăm criteriul majorării",
-		"<img src ='/images/probleme/h12.png' class ='img-content' />",
-		"<img src ='/images/probleme/h13.png' class ='img-content' />"
+		"<img src ='/images/siruri/h12.png'  />",
+		"<img src ='/images/siruri/h13.png'  />"
 	]
 },
 {
-    "enunt" : "Calculați limita <img src ='/images/probleme/e2.png' class ='img-content' />.",
+    "enunt" : "Calculați limita <img src ='/images/siruri/e2.png'  />.",
     "capitol" : "Șiruri",
     "rezultat" : "1",
 	"indiciu" : [
-		"Utilizăm criteriul majorării",
-		"<img src ='/images/probleme/h12.png' class ='img-content' />",
-		"<img src ='/images/probleme/h13.png' class ='img-content' />"
+		"Fie <img src ='/images/siruri/h21.png'  />.", 
+		"Folosim criteriul cleștelui <img src ='/images/siruri/h22.png'  />.", 
+		"<img src ='/images/siruri/h23a.png'  />, deci <img src ='/images/probleme/h23b.png'  />"
 	]
 },
 {
-    "enunt" : "Calculați limita <img src ='/images/probleme/e1.png' class ='img-content' />.",
+    "enunt" : "Este monoton crescător șirul <img src = '/images/siruri/e3.png' />?",
+    "capitol" : "Șiruri",
+    "rezultat" : "Da",
+	"indiciu" : [
+		"Presupunem a<sub>n</sub> ≤ a<sub>n+1</sub>, utilizând definiția șirului crescător.", 
+		"<img src ='/images/probleme/h32.png'  />.", 
+		"<img src ='/images/probleme/h33.png'  />."
+	]
+},
+{
+    "enunt" : "Ce limită are șirul următor? <br /> <img src = '/images/siruri/e4.png' />",
+    "capitol" : "Șiruri",
+    "rezultat" : "1",
+	"indiciu" : [
+		"Se aplică criteriul cleștelui.", 
+		"<img src ='/images/probleme/h42.png'  />.", 
+		"<img src ='/images/probleme/h43.png'  />."
+	]
+},
+{
+    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e5.png' />?",
     "capitol" : "Șiruri",
     "rezultat" : "0",
 	"indiciu" : [
-		"Utilizăm criteriul majorării",
-		"<img src ='/images/probleme/h12.png' class ='img-content' />",
-		"<img src ='/images/probleme/h13.png' class ='img-content' />"
+		"Utilizăm criteriul raportului.", 
+		"<img src ='/images/probleme/h52.png'  />.", 
+		"<img src ='/images/probleme/h53.png'  />."
+	]
+},
+{
+    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e6.png' />?",
+    "capitol" : "Șiruri",
+    "rezultat" : "0",
+	"indiciu" : [
+		"Se aplică criteriul radicalului (D’Alembert).", 
+		"<img src ='/images/probleme/h62.png'  />.", 
+		"<img src ='/images/probleme/h63.png'  />."
+	]
+},
+{
+    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e7.png' />?",
+    "capitol" : "Șiruri",
+    "rezultat" : "1",
+	"indiciu" : [
+		"Se aplică criteriul Cesaro-Stolz.", 
+		"<img src ='/images/probleme/h72.png'  />.", 
+		"<img src ='/images/probleme/h73.png'  />."
+	]
+},
+{
+    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e8.png' />?",
+    "capitol" : "Șiruri",
+    "rezultat" : "1",
+	"indiciu" : [
+		"Observăm că șirul este constant.", 
+		"Calculăm a<sub>1</sub>.", 
+		"a<sub>1</sub> = a<sub>n</sub> = 1, deci limita șirului este 1."
+	]
+},
+{
+    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e9.png' />?",
+    "capitol" : "Șiruri",
+    "rezultat" : "0",
+	"indiciu" : [
+		"Se aplică criteriul majorării.", 
+		"<img src ='/images/probleme/h92.png'  />.", 
+		"<img src ='/images/probleme/h93.png'  />."
 	]
 }
 ]  
