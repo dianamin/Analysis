@@ -237,15 +237,7 @@ i, h5 {
     display: none;
     transition: all 0.5s;
 }
-#next {
-    float: right;
-    cursor: pointer;
-    height: 50px;
-    transition: height 1s;
-}
-    #next:hover {
-        height: 60px;
-    }
+
 
 .mij {
     border: solid crimson 2px;

@@ -80,7 +80,7 @@ var leftpanel = [
     ['Derivata într-un punct', 'Derivabilitate și continuitate', 'Derivate laterale', 'Funcții elementare', 'Operații cu derivate', 'Derivata funcției inverse', 'Derivate de ordin superior', 'Teoreme', 'L\'Hospital', 'Derivata a doua'],
     ['Asimptote', 'Reprezentări grafice'],
     ['Lol'],
-    ['C1', 'C2', 'C3', 'C4', 'C5']
+    ['Șiruri', 'Funcții', 'C3', 'C4', 'C5']
 ];
 
 
@@ -97,6 +97,7 @@ citatRandom = function () {
 curent = 1;
 var activegame = 0;
 var divs = ["content", "content", "content", "content", "content", "content", "content", "probleme", "joc"];
+var capitolProbleme = "Șiruri";
 nav = function (x) {
     //comut între capitle
     if (x != curent) {
@@ -139,6 +140,11 @@ nav = function (x) {
 };
 lectie = function (y) {
     //intru în altă lecție
+    if (curent == 8) {
+        capitolProbleme = leftpanel[curent - 1][y - 1];
+        initializeaza();
+    }
+    else
     MSApp.execUnsafeLocalFunction(function () {
         document.getElementById("content").innerHTML = toStaticHTML(lectii[curent - 1][y - 1]);
         document.getElementById("e1").innerHTML = exemple[curent - 1][y - 1];

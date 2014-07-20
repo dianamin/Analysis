@@ -1,15 +1,6 @@
 ﻿var nr = 8;
 var capitol = ["Șiruri", "Șiruri", "Funcții", "Funcții", "Derivate", "Grafice", "Derivate", "Derivate"];
 
-var pSiruri = [
-    "Calculați limita <img src ='/images/probleme/e1.png' class ='img-content' />.",
-    "Calculați limita <img src ='/images/probleme/e2.png' class ='img-content' />.",
-];
-var iSiruri = [
-    ["Utilizăm criteriul majorării", "<img src ='/images/probleme/h12.png' class ='img-content' />", "<img src ='/images/probleme/h13.png' class ='img-content' />"],
-    ["Fie <img src ='/images/probleme/h21.png' class ='img-content' />.", "Folosim criteriul cleștelui <img src ='/images/probleme/h22.png' class ='img-content' />.", "<img src ='/images/probleme/h23a.png' class ='img-content' />, deci <img src ='/images/probleme/h23b.png' class ='img-content' />"]
-]
-var rSiruri = ["0", "1"];
 
 var pLimite = [
      "Calculați limita <img src ='/images/probleme/e3.png' class ='img-content' />.",
@@ -97,16 +88,17 @@ var shuffle = function () {
     puneProblema(crt);
 }
 
-
-WinJS.xhr({url: "data/probleme.txt"}).then(function (xhr) {
-    var items = JSON.parse(xhr.responseText);
-
-    // Add the items to the WinJS.Binding.List
-    items.forEach(function (item) {
-        probleme.push(item);
+var initializeaza = function () {
+    probleme = [];
+    WinJS.xhr({ url: "data/" + capitolProbleme + ".txt" }).then(function (xhr) {
+        var items = JSON.parse(xhr.responseText);
+        items.forEach(function (item) {
+            probleme.push(item);
+        });
+        puneProblema(0);
     });
-    puneProblema(0);
-});
+}
 
+initializeaza(0);
 
 

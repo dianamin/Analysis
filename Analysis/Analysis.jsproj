@@ -59,8 +59,8 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\narrow.css" />
-    <Content Include="data\probleme.json" />
-    <Content Include="data\probleme.txt" />
+    <Content Include="data\Funcții.txt" />
+    <Content Include="data\Șiruri.txt" />
     <Content Include="default.html" />
     <Content Include="images\a.png" />
     <Content Include="images\ab.png" />
@@ -136,6 +136,10 @@
     <Content Include="images\fermat.png" />
     <Content Include="images\fibo.png" />
     <Content Include="images\fnecont.png" />
+    <Content Include="images\Funcții\e1.png" />
+    <Content Include="images\Funcții\h11.png" />
+    <Content Include="images\Funcții\h12.png" />
+    <Content Include="images\Funcții\h13.png" />
     <Content Include="images\g2.jpg" />
     <Content Include="images\g3.jpg" />
     <Content Include="images\gf1.png" />
@@ -194,8 +198,6 @@
     <Content Include="images\oblic.png" />
     <Content Include="images\orizont.png" />
     <Content Include="images\orizontal.png" />
-    <Content Include="images\probleme\e1.png" />
-    <Content Include="images\probleme\e2.png" />
     <Content Include="images\probleme\e3.png" />
     <Content Include="images\probleme\e4a.png" />
     <Content Include="images\probleme\e4b.png" />
@@ -224,34 +226,34 @@
     <Content Include="images\sc.png" />
     <Content Include="images\sir.png" />
     <Content Include="images\sirrolle.png" />
-    <Content Include="images\siruri\e1.png" />
-    <Content Include="images\siruri\e2.png" />
-    <Content Include="images\siruri\e3.png" />
-    <Content Include="images\siruri\e4.png" />
-    <Content Include="images\siruri\e5.png" />
-    <Content Include="images\siruri\e6.png" />
-    <Content Include="images\siruri\e7.png" />
-    <Content Include="images\siruri\e8.png" />
-    <Content Include="images\siruri\e9.png" />
-    <Content Include="images\siruri\h12.png" />
-    <Content Include="images\siruri\h13.png" />
-    <Content Include="images\siruri\h21.png" />
-    <Content Include="images\siruri\h22.png" />
-    <Content Include="images\siruri\h23a.png" />
-    <Content Include="images\siruri\h23b.png" />
-    <Content Include="images\siruri\h32.png" />
-    <Content Include="images\siruri\h33.png" />
-    <Content Include="images\siruri\h42.png" />
-    <Content Include="images\siruri\h43.png" />
-    <Content Include="images\siruri\h51.png" />
-    <Content Include="images\siruri\h52.png" />
-    <Content Include="images\siruri\h53.png" />
-    <Content Include="images\siruri\h62.png" />
-    <Content Include="images\siruri\h63.png" />
-    <Content Include="images\siruri\h72.png" />
-    <Content Include="images\siruri\h73.png" />
-    <Content Include="images\siruri\h92.png" />
-    <Content Include="images\siruri\h93.png" />
+    <Content Include="images\Șiruri\e1.png" />
+    <Content Include="images\Șiruri\e2.png" />
+    <Content Include="images\Șiruri\e3.png" />
+    <Content Include="images\Șiruri\e4.png" />
+    <Content Include="images\Șiruri\e5.png" />
+    <Content Include="images\Șiruri\e6.png" />
+    <Content Include="images\Șiruri\e7.png" />
+    <Content Include="images\Șiruri\e8.png" />
+    <Content Include="images\Șiruri\e9.png" />
+    <Content Include="images\Șiruri\h12.png" />
+    <Content Include="images\Șiruri\h13.png" />
+    <Content Include="images\Șiruri\h21.png" />
+    <Content Include="images\Șiruri\h22.png" />
+    <Content Include="images\Șiruri\h23a.png" />
+    <Content Include="images\Șiruri\h23b.png" />
+    <Content Include="images\Șiruri\h32.png" />
+    <Content Include="images\Șiruri\h33.png" />
+    <Content Include="images\Șiruri\h42.png" />
+    <Content Include="images\Șiruri\h43.png" />
+    <Content Include="images\Șiruri\h51.png" />
+    <Content Include="images\Șiruri\h52.png" />
+    <Content Include="images\Șiruri\h53.png" />
+    <Content Include="images\Șiruri\h62.png" />
+    <Content Include="images\Șiruri\h63.png" />
+    <Content Include="images\Șiruri\h72.png" />
+    <Content Include="images\Șiruri\h73.png" />
+    <Content Include="images\Șiruri\h92.png" />
+    <Content Include="images\Șiruri\h93.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\SplashScreen.scale-100.png" />
@@ -280,9 +282,6 @@
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <PRIResource Include="data\probleme.resjson" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment

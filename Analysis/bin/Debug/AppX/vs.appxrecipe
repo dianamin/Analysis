@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-20T18:11:12.518</Modified>
+      <Modified>2014-07-20T19:35:58.168</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -42,15 +42,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-07-20T18:15:31.905</Modified>
+      <Modified>2014-07-20T18:50:47.898</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\probleme.json">
-      <PackagePath>data\probleme.json</PackagePath>
-      <Modified>2014-07-20T14:03:26.987</Modified>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Funcții.txt">
+      <PackagePath>data\Funcții.txt</PackagePath>
+      <Modified>2014-07-20T19:43:05.170</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\probleme.txt">
-      <PackagePath>data\probleme.txt</PackagePath>
-      <Modified>2014-07-20T18:14:10.749</Modified>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Șiruri.txt">
+      <PackagePath>data\Șiruri.txt</PackagePath>
+      <Modified>2014-07-20T18:45:16.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\default.html">
       <PackagePath>default.html</PackagePath>
@@ -58,7 +58,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-07-20T17:09:03.110</Modified>
+      <Modified>2014-07-20T18:49:53.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
@@ -364,6 +364,22 @@
       <PackagePath>images\fnecont.png</PackagePath>
       <Modified>2014-06-01T16:29:28.126</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e1.png">
+      <PackagePath>images\Funcții\e1.png</PackagePath>
+      <Modified>2014-06-03T11:57:54.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h11.png">
+      <PackagePath>images\Funcții\h11.png</PackagePath>
+      <Modified>2014-06-03T12:00:53.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h12.png">
+      <PackagePath>images\Funcții\h12.png</PackagePath>
+      <Modified>2014-06-03T11:59:54.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h13.png">
+      <PackagePath>images\Funcții\h13.png</PackagePath>
+      <Modified>2014-06-03T12:00:11.549</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\gf1.png">
       <PackagePath>images\gf1.png</PackagePath>
       <Modified>2014-07-04T08:57:23.182</Modified>
@@ -589,14 +605,6 @@
       <PackagePath>images\orizontal.png</PackagePath>
       <Modified>2014-06-02T14:48:40.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\probleme\e1.png">
-      <PackagePath>images\probleme\e1.png</PackagePath>
-      <Modified>2014-06-03T11:38:07.520</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\probleme\e2.png">
-      <PackagePath>images\probleme\e2.png</PackagePath>
-      <Modified>2014-06-03T11:47:12.252</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\probleme\e3.png">
       <PackagePath>images\probleme\e3.png</PackagePath>
       <Modified>2014-06-03T11:57:54.925</Modified>
@@ -709,116 +717,116 @@
       <PackagePath>images\sirrolle.png</PackagePath>
       <Modified>2014-06-02T12:37:11.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\e1.png">
-      <PackagePath>images\siruri\e1.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e1.png">
+      <PackagePath>images\Șiruri\e1.png</PackagePath>
       <Modified>2014-06-03T11:38:07.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\e2.png">
-      <PackagePath>images\siruri\e2.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e2.png">
+      <PackagePath>images\Șiruri\e2.png</PackagePath>
       <Modified>2014-06-03T11:47:12.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\e3.png">
-      <PackagePath>images\siruri\e3.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e3.png">
+      <PackagePath>images\Șiruri\e3.png</PackagePath>
       <Modified>2014-07-20T18:01:38.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\e4.png">
-      <PackagePath>images\siruri\e4.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e4.png">
+      <PackagePath>images\Șiruri\e4.png</PackagePath>
       <Modified>2014-07-20T18:13:50.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\e5.png">
-      <PackagePath>images\siruri\e5.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e5.png">
+      <PackagePath>images\Șiruri\e5.png</PackagePath>
       <Modified>2014-07-20T18:06:43.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\e6.png">
-      <PackagePath>images\siruri\e6.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e6.png">
+      <PackagePath>images\Șiruri\e6.png</PackagePath>
       <Modified>2014-07-20T18:07:25.611</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\e7.png">
-      <PackagePath>images\siruri\e7.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e7.png">
+      <PackagePath>images\Șiruri\e7.png</PackagePath>
       <Modified>2014-07-20T18:09:20.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\e8.png">
-      <PackagePath>images\siruri\e8.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e8.png">
+      <PackagePath>images\Șiruri\e8.png</PackagePath>
       <Modified>2014-07-20T18:10:27.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\e9.png">
-      <PackagePath>images\siruri\e9.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e9.png">
+      <PackagePath>images\Șiruri\e9.png</PackagePath>
       <Modified>2014-07-20T17:54:38.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h12.png">
-      <PackagePath>images\siruri\h12.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h12.png">
+      <PackagePath>images\Șiruri\h12.png</PackagePath>
       <Modified>2014-06-03T11:41:34.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h13.png">
-      <PackagePath>images\siruri\h13.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h13.png">
+      <PackagePath>images\Șiruri\h13.png</PackagePath>
       <Modified>2014-06-03T11:42:35.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h21.png">
-      <PackagePath>images\siruri\h21.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h21.png">
+      <PackagePath>images\Șiruri\h21.png</PackagePath>
       <Modified>2014-06-03T11:48:41.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h22.png">
-      <PackagePath>images\siruri\h22.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h22.png">
+      <PackagePath>images\Șiruri\h22.png</PackagePath>
       <Modified>2014-06-03T11:52:05.627</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h23a.png">
-      <PackagePath>images\siruri\h23a.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h23a.png">
+      <PackagePath>images\Șiruri\h23a.png</PackagePath>
       <Modified>2014-06-03T11:53:19.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h23b.png">
-      <PackagePath>images\siruri\h23b.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h23b.png">
+      <PackagePath>images\Șiruri\h23b.png</PackagePath>
       <Modified>2014-06-03T11:53:37.648</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h32.png">
-      <PackagePath>images\siruri\h32.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h32.png">
+      <PackagePath>images\Șiruri\h32.png</PackagePath>
       <Modified>2014-07-20T18:03:39.675</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h33.png">
-      <PackagePath>images\siruri\h33.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h33.png">
+      <PackagePath>images\Șiruri\h33.png</PackagePath>
       <Modified>2014-07-20T18:03:53.883</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h42.png">
-      <PackagePath>images\siruri\h42.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h42.png">
+      <PackagePath>images\Șiruri\h42.png</PackagePath>
       <Modified>2014-07-20T18:04:56.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h43.png">
-      <PackagePath>images\siruri\h43.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h43.png">
+      <PackagePath>images\Șiruri\h43.png</PackagePath>
       <Modified>2014-07-20T18:05:44.689</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h51.png">
-      <PackagePath>images\siruri\h51.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h51.png">
+      <PackagePath>images\Șiruri\h51.png</PackagePath>
       <Modified>2014-06-03T13:13:15.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h52.png">
-      <PackagePath>images\siruri\h52.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h52.png">
+      <PackagePath>images\Șiruri\h52.png</PackagePath>
       <Modified>2014-07-20T17:37:50.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h53.png">
-      <PackagePath>images\siruri\h53.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h53.png">
+      <PackagePath>images\Șiruri\h53.png</PackagePath>
       <Modified>2014-07-20T17:38:01.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h62.png">
-      <PackagePath>images\siruri\h62.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h62.png">
+      <PackagePath>images\Șiruri\h62.png</PackagePath>
       <Modified>2014-07-20T17:47:17.659</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h63.png">
-      <PackagePath>images\siruri\h63.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h63.png">
+      <PackagePath>images\Șiruri\h63.png</PackagePath>
       <Modified>2014-07-20T17:47:30.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h72.png">
-      <PackagePath>images\siruri\h72.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h72.png">
+      <PackagePath>images\Șiruri\h72.png</PackagePath>
       <Modified>2014-07-20T18:09:35.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h73.png">
-      <PackagePath>images\siruri\h73.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h73.png">
+      <PackagePath>images\Șiruri\h73.png</PackagePath>
       <Modified>2014-07-20T18:09:57.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h92.png">
-      <PackagePath>images\siruri\h92.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h92.png">
+      <PackagePath>images\Șiruri\h92.png</PackagePath>
       <Modified>2014-07-20T17:55:51.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\siruri\h93.png">
-      <PackagePath>images\siruri\h93.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\h93.png">
+      <PackagePath>images\Șiruri\h93.png</PackagePath>
       <Modified>2014-07-20T17:56:14.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\smalllogo.png">
@@ -885,7 +893,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-07-18T16:19:32.539</Modified>
+      <Modified>2014-07-20T19:30:25.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\image.js">
       <PackagePath>js\image.js</PackagePath>
@@ -893,15 +901,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
       <PackagePath>js\lectii.js</PackagePath>
-      <Modified>2014-07-19T09:10:06.957</Modified>
+      <Modified>2014-07-20T18:50:57.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\probleme.js">
       <PackagePath>js\probleme.js</PackagePath>
-      <Modified>2014-07-20T17:07:40.450</Modified>
+      <Modified>2014-07-20T19:43:12.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\register.js">
       <PackagePath>js\register.js</PackagePath>
-      <Modified>2014-07-20T16:11:51.577</Modified>
+      <Modified>2014-07-20T18:46:19.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
@@ -917,7 +925,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-20T18:11:12.283</Modified>
+      <Modified>2014-07-20T19:35:57.869</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

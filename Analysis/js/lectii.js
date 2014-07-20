@@ -754,24 +754,4 @@ var exemple = [
 ];
 
 
-//var nav = {
-//    crt: 1,
-//    isSet: function (x) {
-//        return crt === x;
-//    },
-//    setTab: function (x) {
-//        crt = x;
-//    }
-//};
-
-//analysis.controller('NavController', [function () {
-//    this.crt = 1;
-//    this.isSet = function (x) {
-//        console.log(crt);
-//        return crt === x;
-//    };
-//    this.setTab = function (x) {
-//        crt = x;
-//    };
-//}]);
 

@@ -15,7 +15,6 @@ Windows.System.UserProfile.UserInformation.getDisplayNameAsync().done(function (
 console.log(x);
 
 var imgURL;
-
 var image = Windows.System.UserProfile.UserInformation.getAccountPicture(Windows.System.UserProfile.AccountPictureKind.smallImage);
 if (image) {
     imgURL = URL.createObjectURL(image, { oneTimeOnly: true });

@@ -1,25 +1,25 @@
 ﻿[{
-    "enunt" : "Calculați limita <img src ='/images/siruri/e1.png' />.",
-    "capitol" : "Șiruri",
-    "rezultat" : "0",
+    "enunt" : "Calculați limita <img src ='/images/Funcții/e1.png'>.",
+    "capitol" : "Funcții",
+    "rezultat" : "sqrt(e)",
 	"indiciu" : [
-		"Utilizăm criteriul majorării",
-		"<img src ='/images/siruri/h12.png'  />",
-		"<img src ='/images/siruri/h13.png'  />"
+		"<img src ='/images/Funcții/h11.png'  />",
+		"<img src ='/images/Funcții/h12.png'  />",
+		"<img src ='/images/Funcții/h13.png'  />"
 	]
 },
 {
-    "enunt" : "Calculați limita <img src ='/images/siruri/e2.png'  />.",
+    "enunt" : "Calculați limita <img src ='/images/Șiruri/e2.png'  />.",
     "capitol" : "Șiruri",
     "rezultat" : "1",
 	"indiciu" : [
-		"Fie <img src ='/images/siruri/h21.png'  />.", 
-		"Folosim criteriul cleștelui <img src ='/images/siruri/h22.png'  />.", 
-		"<img src ='/images/siruri/h23a.png'  />, deci <img src ='/images/probleme/h23b.png'  />"
+		"Fie <img src ='/images/Șiruri/h21.png'  />.", 
+		"Folosim criteriul cleștelui <img src ='/images/Șiruri/h22.png'  />.", 
+		"<img src ='/images/Șiruri/h23a.png'  />, deci <img src ='/images/probleme/h23b.png'  />"
 	]
 },
 {
-    "enunt" : "Este monoton crescător șirul <img src = '/images/siruri/e3.png' />?",
+    "enunt" : "Este monoton crescător șirul <img src = '/images/Șiruri/e3.png' />?",
     "capitol" : "Șiruri",
     "rezultat" : "Da",
 	"indiciu" : [
@@ -29,7 +29,7 @@
 	]
 },
 {
-    "enunt" : "Ce limită are șirul următor? <br /> <img src = '/images/siruri/e4.png' />",
+    "enunt" : "Ce limită are șirul următor? <br /> <img src = '/images/Șiruri/e4.png' />",
     "capitol" : "Șiruri",
     "rezultat" : "1",
 	"indiciu" : [
@@ -39,7 +39,7 @@
 	]
 },
 {
-    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e5.png' />?",
+    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e5.png' />?",
     "capitol" : "Șiruri",
     "rezultat" : "0",
 	"indiciu" : [
@@ -49,7 +49,7 @@
 	]
 },
 {
-    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e6.png' />?",
+    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e6.png' />?",
     "capitol" : "Șiruri",
     "rezultat" : "0",
 	"indiciu" : [
@@ -59,7 +59,7 @@
 	]
 },
 {
-    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e7.png' />?",
+    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e7.png' />?",
     "capitol" : "Șiruri",
     "rezultat" : "1",
 	"indiciu" : [
@@ -69,7 +69,7 @@
 	]
 },
 {
-    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e8.png' />?",
+    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e8.png' />?",
     "capitol" : "Șiruri",
     "rezultat" : "1",
 	"indiciu" : [
@@ -79,7 +79,7 @@
 	]
 },
 {
-    "enunt" : "Ce limită are șirul <img src = '/images/siruri/e9.png' />?",
+    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e9.png' />?",
     "capitol" : "Șiruri",
     "rezultat" : "0",
 	"indiciu" : [
