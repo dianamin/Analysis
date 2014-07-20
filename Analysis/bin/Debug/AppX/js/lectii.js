@@ -1,9 +1,8 @@
 ﻿//continutul de la lectii si exemplele corespunzatoare
 
 var lectii = [
-    ['<!-- Numere reale -->   <h2> Numere reale </h2> <img src = "/images/axa.png" class = "img-content" style = "width: 200px;"/> <br /> \
+    ['<h2> Numere reale </h2> <img src = "/images/axa.png" class = "img-content" style = "width: 200px;"/> <br /> \
             <span class ="glyphicon glyphicon-pencil"></span> Mulțimea numerelor reale are ca reprezentare geometrică axa numerelor reale. <br /> \
-            \
             <span class ="glyphicon glyphicon-pencil"></span> Să ne amintim!\
             <table class ="table">\
                 <thead>\
@@ -753,3 +752,26 @@ var exemple = [
         'exemplu', 'exemplu'
     ]
 ];
+
+
+//var nav = {
+//    crt: 1,
+//    isSet: function (x) {
+//        return crt === x;
+//    },
+//    setTab: function (x) {
+//        crt = x;
+//    }
+//};
+
+//analysis.controller('NavController', [function () {
+//    this.crt = 1;
+//    this.isSet = function (x) {
+//        console.log(crt);
+//        return crt === x;
+//    };
+//    this.setTab = function (x) {
+//        crt = x;
+//    };
+//}]);
+

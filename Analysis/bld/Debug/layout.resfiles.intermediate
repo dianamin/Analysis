@@ -177,14 +177,15 @@ images\subsequence.png
 images\vertical.png
 index.html
 js\all.js
+js\angular.js
 js\bootstrap.js
 js\bootstrap.min.js
 js\default.js
 js\lectii.js
 js\probleme.js
+js\register.js
 js\script.js
 pages\about.html
 pages\preferences.html
 sounds\beep.mp3
 sounds\beep2.mp3
-txt\test.txt

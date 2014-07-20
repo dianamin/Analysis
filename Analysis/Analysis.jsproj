@@ -232,18 +232,19 @@
     <Content Include="images\vertical.png" />
     <Content Include="index.html" />
     <Content Include="js\all.js" />
+    <Content Include="js\angular.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
     <Content Include="js\lectii.js" />
     <Content Include="js\probleme.js" />
+    <Content Include="js\register.js" />
     <Content Include="js\script.js" />
     <Content Include="pages\about.html" />
     <Content Include="pages\preferences.html" />
     <Content Include="sounds\beep.mp3" />
     <Content Include="sounds\beep2.mp3" />
-    <Content Include="txt\test.txt" />
     <None Include="Analysis_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

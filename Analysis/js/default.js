@@ -54,6 +54,10 @@
 
 })();
 
+
+
+
+
 var nrc = 12;
 var citate = ["Când legile matematicii se referă la realitate, atunci ele nu sunt sigure. Dacă sunt sigure, nu se referă la realitate. - Albert Einstein",
                 "Matematica va fi limba latină a viitorului, obligatorie pentru toți oamenii de știință. Tocmai pentru că matematica permite accelerarea maximă a circulației ideilor științifice. - Grigore Moisil",
@@ -88,6 +92,8 @@ citatRandom = function () {
     document.getElementById("c").innerHTML = citate[x] + "<br />";
     return x;
 }
+
+
 curent = 1;
 var activegame = 0;
 var divs = ["content", "content", "content", "content", "content", "content", "content", "probleme", "joc"];
@@ -133,8 +139,10 @@ nav = function (x) {
 };
 lectie = function (y) {
     //intru în altă lecție
-    document.getElementById("content").innerHTML = toStaticHTML(lectii[curent - 1][y - 1]);
-    document.getElementById("e1").innerHTML = exemple[curent - 1][y - 1];
+    MSApp.execUnsafeLocalFunction(function () {
+        document.getElementById("content").innerHTML = toStaticHTML(lectii[curent - 1][y - 1]);
+        document.getElementById("e1").innerHTML = exemple[curent - 1][y - 1];
+    });
 }
 
 var height = [130, 100]; 
@@ -339,6 +347,5 @@ startJoc = function () {
     document.getElementById("a2").innerHTML = ans[0][1];
     activegame = 1;
     newScene();
-    //#mlc
 }
 
