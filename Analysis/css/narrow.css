@@ -71,3 +71,7 @@ h2 {
 .smaller {
     width: 200px;
 }
+
+.user {
+    display: none;
+}

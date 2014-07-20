@@ -575,6 +575,9 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\image.js">
+      <PackagePath>js\image.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
       <PackagePath>js\lectii.js</PackagePath>
     </AppxPackagedFile>
