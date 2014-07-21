@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-21T19:26:05.955</Modified>
+      <Modified>2014-07-21T20:09:24.248</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -54,7 +54,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Funcții.txt">
       <PackagePath>data\Funcții.txt</PackagePath>
-      <Modified>2014-07-21T14:34:47.546</Modified>
+      <Modified>2014-07-21T20:10:24.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Grafice.txt">
+      <PackagePath>data\Grafice.txt</PackagePath>
+      <Modified>2014-07-21T20:01:08.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Șiruri.txt">
       <PackagePath>data\Șiruri.txt</PackagePath>
@@ -267,10 +271,6 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\e4.png">
       <PackagePath>images\Derivabilitate\e4.png</PackagePath>
       <Modified>2014-06-03T13:10:00.581</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\e5.png">
-      <PackagePath>images\Derivabilitate\e5.png</PackagePath>
-      <Modified>2014-06-03T13:26:57.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\h12.png">
       <PackagePath>images\Derivabilitate\h12.png</PackagePath>
@@ -607,6 +607,18 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\gf1.png">
       <PackagePath>images\gf1.png</PackagePath>
       <Modified>2014-07-04T08:57:23.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Grafice\e1.png">
+      <PackagePath>images\Grafice\e1.png</PackagePath>
+      <Modified>2014-07-21T19:51:56.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Grafice\e2.png">
+      <PackagePath>images\Grafice\e2.png</PackagePath>
+      <Modified>2014-07-21T19:54:36.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Grafice\e3.png">
+      <PackagePath>images\Grafice\e3.png</PackagePath>
+      <Modified>2014-07-21T19:58:50.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\hospital.png">
       <PackagePath>images\hospital.png</PackagePath>
@@ -1117,7 +1129,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-07-21T18:18:56.300</Modified>
+      <Modified>2014-07-21T19:40:24.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\image.js">
       <PackagePath>js\image.js</PackagePath>
@@ -1129,7 +1141,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\probleme.js">
       <PackagePath>js\probleme.js</PackagePath>
-      <Modified>2014-07-21T19:14:55.062</Modified>
+      <Modified>2014-07-21T20:01:16.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\register.js">
       <PackagePath>js\register.js</PackagePath>
@@ -1149,7 +1161,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-21T19:26:05.490</Modified>
+      <Modified>2014-07-21T20:09:24.026</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

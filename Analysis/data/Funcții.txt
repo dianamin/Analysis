@@ -99,6 +99,26 @@
 	]
 },
 {
+    "enunt" : "<img src = '/images/Funcții/e11.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "3/5",
+	"indiciu" : [
+		"Pentru a > 0, <img src = '/images/Funcții/h111.png' />", 
+		"<img src ='/images/Funcții/h112.png' />.", 
+		"<img src ='/images/Funcții/h113.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e10.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "3/5",
+	"indiciu" : [
+		"Pentru a > 0, <img src = '/images/Funcții/h111.png' />", 
+		"<img src ='/images/Funcții/h112.png' />.", 
+		"<img src ='/images/Funcții/h113.png' />."
+	]
+},
+{
     "enunt" : "<img src = '/images/Funcții/e10.png' /> = ?",
     "capitol" : "Funcții",
     "rezultat" : "3/5",

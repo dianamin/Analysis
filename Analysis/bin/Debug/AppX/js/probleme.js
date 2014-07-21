@@ -13,19 +13,6 @@ var iLimite = [
 ];
 var rLimite =  ["sqrt(e)", "1/3",];
 
-var pDerivate = [
-   "",
-    "",
-    "",
-    ""
-];
-var rDerivate = ["3", "1", "1", "3"];
-var iDerivate = [
-    ["", "", ""],
-    ["", "", ""],
-    ["", "", ""],
-    ["", "", ""]
-];
 var crt = 0, capitol = "Siruri";
 var hint = -1;
 var probleme = new Array();

@@ -7,6 +7,7 @@ css\narrow.css
 data\Continuitate.txt
 data\Derivabilitate.txt
 data\Funcții.txt
+data\Grafice.txt
 data\Șiruri.txt
 default.html
 images\a.png
@@ -57,7 +58,6 @@ images\Derivabilitate\e2.png
 images\Derivabilitate\e2b.png
 images\Derivabilitate\e3.png
 images\Derivabilitate\e4.png
-images\Derivabilitate\e5.png
 images\Derivabilitate\h12.png
 images\Derivabilitate\h21.png
 images\Derivabilitate\h22.png
@@ -144,6 +144,9 @@ images\Funcții\h93.png
 images\g2.jpg
 images\g3.jpg
 images\gf1.png
+images\Grafice\e1.png
+images\Grafice\e2.png
+images\Grafice\e3.png
 images\hospital.png
 images\i1.png
 images\i2.png

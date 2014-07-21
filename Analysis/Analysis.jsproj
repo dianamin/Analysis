@@ -62,6 +62,7 @@
     <Content Include="data\Continuitate.txt" />
     <Content Include="data\Derivabilitate.txt" />
     <Content Include="data\Funcții.txt" />
+    <Content Include="data\Grafice.txt" />
     <Content Include="data\Șiruri.txt" />
     <Content Include="default.html" />
     <Content Include="images\a.png" />
@@ -112,7 +113,6 @@
     <Content Include="images\Derivabilitate\e2b.png" />
     <Content Include="images\Derivabilitate\e3.png" />
     <Content Include="images\Derivabilitate\e4.png" />
-    <Content Include="images\Derivabilitate\e5.png" />
     <Content Include="images\Derivabilitate\h12.png" />
     <Content Include="images\Derivabilitate\h21.png" />
     <Content Include="images\Derivabilitate\h22.png" />
@@ -199,6 +199,9 @@
     <Content Include="images\g2.jpg" />
     <Content Include="images\g3.jpg" />
     <Content Include="images\gf1.png" />
+    <Content Include="images\Grafice\e1.png" />
+    <Content Include="images\Grafice\e2.png" />
+    <Content Include="images\Grafice\e3.png" />
     <Content Include="images\hospital.png" />
     <Content Include="images\i1.png" />
     <Content Include="images\i2.png" />

@@ -1,0 +1,51 @@
+﻿[{
+    "enunt" : "Care dintre următoarele functii are graficul trasat cu culoarea roșie în desenul de mai jos? <br /> <img src = 'images/Grafice/e1.png' /> <ol type = 'a'> <li>f(x) = x<sup>3</sup></li> <li> f(x) = x </li> <li> f(x) = x<sup>2</sup> </li> <li>f(x) = 2x + 6</li> </ol>",
+    "capitol" : "Grafice",
+    "rezultat" : "c",
+	"indiciu" : [
+		"Mai încearcă!",
+		"Mai încearcă!",
+		"Mai încearcă!"
+	]
+},
+{
+    "enunt" : "Determinați asimptota verticală a funcției <img src = '/images/Grafice/e2.png' />. x = ?",
+    "capitol" : "Grafice",
+    "rezultat" : "1/2",
+	"indiciu" : [
+		"Calculăm limitele laterale în 1/2.",
+		"Limitele laterale sunt infinite și diferite.",
+		"Deoarece limitele laterale nu sunt egale, avem asimptotă verticală x = 1/2."
+	]
+},
+{
+    "enunt" : "Fie <img src = '/images/Grafice/e3.png' />. Punctul de coordonate (1, 0) este pentru f: <ol type = 'a'> <li>Punct de întoarcere</li> <li>Punct unghiular</li> <li>Rădăcină a ecuației f(x) = 0</li> <li>Extrem al derivatei</li> </ol>",
+    "capitol" : "Grafice",
+    "rezultat" : "3",
+	"indiciu" : [
+		"Mai încearcă!",
+		"Mai încearcă!",
+		"Mai încearcă!"
+	]
+},
+{
+    "enunt" : "Fie funcția: <br /> <img src = '/images/Grafice/e4.png'/>. <br /> Asimptota orizontală a graficului funcției are ecuația y = a. a = ?",
+    "capitol" : "Grafice",
+    "rezultat" : "1",
+	"indiciu" : [
+		"Mai încearcă!",
+		"Mai încearcă!",
+		"Mai încearcă!"
+	]
+},
+{
+    "enunt" : "Fie funcția f : ℝ → ℝ, f(x) = x<sup>3</sup> + t<sup>2</sup>x. Care este coeficientul lui x<sup>2</sup> în derivata întâi?",
+    "capitol" : "Grafice",
+    "rezultat" : "3",
+	"indiciu" : [
+		"(x<sup>n</sup>)' = nx<sup>n - 1</sup>", 
+		"(tf(x))' = tf'(x), unde t este o constantă", 
+		"Derivata funcției f este f'(x) = 3x<sup>2</sup> + t<sup>2</sup>"
+	]
+}
+]  
