@@ -5,6 +5,7 @@ css\bootstrap-theme.min.css
 css\default.css
 css\narrow.css
 data\Continuitate.txt
+data\Derivabilitate.txt
 data\Funcții.txt
 data\Șiruri.txt
 default.html
@@ -52,6 +53,16 @@ images\Continuitate\e8.png
 images\convex.png
 images\dd.png
 images\deriv.png
+images\Derivabilitate\e2.png
+images\Derivabilitate\e2b.png
+images\Derivabilitate\e3.png
+images\Derivabilitate\e4.png
+images\Derivabilitate\e5.png
+images\Derivabilitate\h12.png
+images\Derivabilitate\h21.png
+images\Derivabilitate\h22.png
+images\Derivabilitate\h23.png
+images\Derivabilitate\h31.png
 images\derivate\d1.png
 images\derivate\d10.png
 images\derivate\d11.png

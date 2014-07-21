@@ -80,7 +80,7 @@ var leftpanel = [
     ['Derivata într-un punct', 'Derivabilitate și continuitate', 'Derivate laterale', 'Funcții elementare', 'Operații cu derivate', 'Derivata funcției inverse', 'Derivate de ordin superior', 'Teoreme', 'L\'Hospital', 'Derivata a doua'],
     ['Asimptote', 'Reprezentări grafice'],
     ['Lol'],
-    ['Șiruri', 'Funcții', 'Continuitate', 'C4', 'C5']
+    ['Șiruri', 'Funcții', 'Continuitate', 'Derivabilitate', 'C5']
 ];
 
 

@@ -14,17 +14,17 @@ var iLimite = [
 var rLimite =  ["sqrt(e)", "1/3",];
 
 var pDerivate = [
-   "Fie <img src = '/images/probleme/e5.png' class ='img-content' />. Ecuația tangentei la graficul lui f în punctul de abscisă x = 0 este <i>y = a x</i>. Cât este a?",
-    "Fie <img src = '/images/probleme/e6.png' class ='img-content' />. Asimptota orizontală a graficului funcției are ecuația y = a. a = ?",
-    "Fie funcția <img src = '/images/probleme/e7.png' class = 'img-content' /> pentru numărul natural n > 1. Scrieți 1 dacă funcția este convexă sau 2 dacă este concavă.",
-    "Fie funcția f : ℝ → ℝ, f(x) = x<sup>3</sup> + t<sup>2</sup>x. Care este coeficientul lui x<sup>2</sup> în derivata întâi?"
+   "",
+    "",
+    "",
+    ""
 ];
 var rDerivate = ["3", "1", "1", "3"];
 var iDerivate = [
-    ["Calculăm derivata funcției: <img src ='/images/probleme/h51.png' class ='img-content' />", "Ecuația tangentei: y - f(x<sub>0</sub>) = f\'(x<sub>0</sub>)(x - x<sub>0</sub>)", "f(0) = 0, f'(0) = 3. Deci, ecuația tangentei este y = 3x, a = 3."],
-    ["Asimptota orizontala este dreapta de care se apropie graficul funcției când x tinde la infinit.", "Calculăm limita funcției când x tinde la infinit.", "a = 1."],
-    ["Calculăm prima derivată: f'(x) = nx<sup>n−1</sup> + n.", "Calculăm a doua derivată: f''(x) = n(n - 1)x<sup>n-2</sup>.", "Observăm că derivata a doua este pozitivă, deci funcția este convexă."],
-    ["(x<sup>n</sup>)' = nx<sup>n - 1</sup>", "(tf(x))' = tf'(x), unde t este o constantă", "Derivata funcției f este f'(x) = 3x<sup>2</sup> + t<sup>2</sup>"]
+    ["", "", ""],
+    ["", "", ""],
+    ["", "", ""],
+    ["", "", ""]
 ];
 var crt = 0, capitol = "Siruri";
 var hint = -1;

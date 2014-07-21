@@ -1,0 +1,51 @@
+﻿[{
+    "enunt" : "Fie f : ℝ → ℝ, f(x) = e<sup>x</sup> + x<sup>2</sup>. Cât este f'(1)?",
+    "capitol" : "Derivabilitate",
+    "rezultat" : "e+2",
+	"indiciu" : [
+		"<img src = '/images/Derivabilitate/h12.png' />",
+		"f'(x) = e<sup>x</sup> + 2x",
+		"f'(1) = e + 2"
+	]
+},
+{
+    "enunt" : "Fie <img src = '/images/Derivabilitate/e2.png' />. Calculați <img src = '/images/Derivabilitate/e2.png' />",
+    "capitol" : "Derivabilitate",
+    "rezultat" : "-1/2",
+	"indiciu" : [
+		"<img src = '/images/Derivabilitate/h21.png' />",
+		"<img src = '/images/Derivabilitate/h22.png' />",
+		"<img src = '/images/Derivabilitate/h23.png' />"
+	]
+},
+{
+    "enunt" : "Fie <img src = '/images/Derivabilitate/e3.png' />. Ecuația tangentei la graficul lui f în punctul de abscisă x = 0 este <i>y = a x</i>. Cât este a?",
+    "capitol" : "Derivabilitate",
+    "rezultat" : "3",
+	"indiciu" : [
+		"Calculăm derivata funcției: <img src ='/images/Derivabilitate/h31.png'/>.",
+		"Ecuația tangentei: y - f(x<sub>0</sub>) = f'(x<sub>0</sub>)(x - x<sub>0</sub>).",
+		"f(0) = 0, f'(0) = 3. Deci, ecuația tangentei este y = 3x, a = 3."
+	]
+},
+{
+    "enunt" : "Fie funcția: <br /> <img src = '/images/Derivabilitate/e4.png'/>. <br /> Asimptota orizontală a graficului funcției are ecuația y = a. a = ?",
+    "capitol" : "Derivabilitate",
+    "rezultat" : "1",
+	"indiciu" : [
+		"Asimptota orizontala este dreapta de care se apropie graficul funcției când x tinde la infinit.", 
+		"Calculăm limita funcției când x tinde la infinit.", 
+		"a = 1."
+	]
+},
+{
+    "enunt" : "Fie funcția f : ℝ → ℝ, f(x) = x<sup>3</sup> + t<sup>2</sup>x. Care este coeficientul lui x<sup>2</sup> în derivata întâi?",
+    "capitol" : "Derivabilitate",
+    "rezultat" : "3",
+	"indiciu" : [
+		"(x<sup>n</sup>)' = nx<sup>n - 1</sup>", 
+		"(tf(x))' = tf'(x), unde t este o constantă", 
+		"Derivata funcției f este f'(x) = 3x<sup>2</sup> + t<sup>2</sup>"
+	]
+}
+]  

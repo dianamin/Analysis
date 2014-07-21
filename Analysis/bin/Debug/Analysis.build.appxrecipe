@@ -34,6 +34,9 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Continuitate.txt">
       <PackagePath>data\Continuitate.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Derivabilitate.txt">
+      <PackagePath>data\Derivabilitate.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Funcții.txt">
       <PackagePath>data\Funcții.txt</PackagePath>
     </AppxPackagedFile>
@@ -183,6 +186,36 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\deriv.png">
       <PackagePath>images\deriv.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\e2.png">
+      <PackagePath>images\Derivabilitate\e2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\e2b.png">
+      <PackagePath>images\Derivabilitate\e2b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\e3.png">
+      <PackagePath>images\Derivabilitate\e3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\e4.png">
+      <PackagePath>images\Derivabilitate\e4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\e5.png">
+      <PackagePath>images\Derivabilitate\e5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\h12.png">
+      <PackagePath>images\Derivabilitate\h12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\h21.png">
+      <PackagePath>images\Derivabilitate\h21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\h22.png">
+      <PackagePath>images\Derivabilitate\h22.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\h23.png">
+      <PackagePath>images\Derivabilitate\h23.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Derivabilitate\h31.png">
+      <PackagePath>images\Derivabilitate\h31.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\derivate\d1.png">
       <PackagePath>images\derivate\d1.png</PackagePath>
