@@ -4,6 +4,7 @@ css\bootstrap-theme.css
 css\bootstrap-theme.min.css
 css\default.css
 css\narrow.css
+data\Continuitate.txt
 data\Funcții.txt
 data\Șiruri.txt
 default.html
@@ -40,6 +41,14 @@ images\cleste2.png
 images\clestef.png
 images\compunere.png
 images\concav.png
+images\Continuitate\e1.png
+images\Continuitate\e2.png
+images\Continuitate\e3.png
+images\Continuitate\e4.png
+images\Continuitate\e5.png
+images\Continuitate\e6.png
+images\Continuitate\e7.png
+images\Continuitate\e8.png
 images\convex.png
 images\dd.png
 images\deriv.png

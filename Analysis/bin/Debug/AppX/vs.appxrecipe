@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-21T14:35:09.124</Modified>
+      <Modified>2014-07-21T17:28:00.846</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +43,10 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
       <Modified>2014-07-20T18:50:47.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Continuitate.txt">
+      <PackagePath>data\Continuitate.txt</PackagePath>
+      <Modified>2014-07-21T17:42:32.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Funcții.txt">
       <PackagePath>data\Funcții.txt</PackagePath>
@@ -199,6 +203,38 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\concav.png">
       <PackagePath>images\concav.png</PackagePath>
       <Modified>2014-06-02T14:20:52.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e1.png">
+      <PackagePath>images\Continuitate\e1.png</PackagePath>
+      <Modified>2014-07-21T15:17:13.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e2.png">
+      <PackagePath>images\Continuitate\e2.png</PackagePath>
+      <Modified>2014-07-21T15:23:19.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e3.png">
+      <PackagePath>images\Continuitate\e3.png</PackagePath>
+      <Modified>2014-07-21T16:38:40.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e4.png">
+      <PackagePath>images\Continuitate\e4.png</PackagePath>
+      <Modified>2014-07-21T16:39:04.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e5.png">
+      <PackagePath>images\Continuitate\e5.png</PackagePath>
+      <Modified>2014-07-21T16:50:21.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e6.png">
+      <PackagePath>images\Continuitate\e6.png</PackagePath>
+      <Modified>2014-07-21T16:58:42.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e7.png">
+      <PackagePath>images\Continuitate\e7.png</PackagePath>
+      <Modified>2014-07-21T17:04:28.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e8.png">
+      <PackagePath>images\Continuitate\e8.png</PackagePath>
+      <Modified>2014-07-21T17:24:29.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\convex.png">
       <PackagePath>images\convex.png</PackagePath>
@@ -1037,7 +1073,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-07-20T19:30:25.364</Modified>
+      <Modified>2014-07-21T15:08:14.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\image.js">
       <PackagePath>js\image.js</PackagePath>
@@ -1069,7 +1105,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-21T14:35:08.414</Modified>
+      <Modified>2014-07-21T17:27:58.907</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

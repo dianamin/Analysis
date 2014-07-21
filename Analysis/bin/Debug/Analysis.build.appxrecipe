@@ -31,6 +31,9 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Continuitate.txt">
+      <PackagePath>data\Continuitate.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Funcții.txt">
       <PackagePath>data\Funcții.txt</PackagePath>
     </AppxPackagedFile>
@@ -147,6 +150,30 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\concav.png">
       <PackagePath>images\concav.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e1.png">
+      <PackagePath>images\Continuitate\e1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e2.png">
+      <PackagePath>images\Continuitate\e2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e3.png">
+      <PackagePath>images\Continuitate\e3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e4.png">
+      <PackagePath>images\Continuitate\e4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e5.png">
+      <PackagePath>images\Continuitate\e5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e6.png">
+      <PackagePath>images\Continuitate\e6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e7.png">
+      <PackagePath>images\Continuitate\e7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Continuitate\e8.png">
+      <PackagePath>images\Continuitate\e8.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\convex.png">
       <PackagePath>images\convex.png</PackagePath>
