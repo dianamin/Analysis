@@ -274,14 +274,122 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e1.png">
       <PackagePath>images\Funcții\e1.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e10.png">
+      <PackagePath>images\Funcții\e10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e11.png">
+      <PackagePath>images\Funcții\e11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e2a.png">
+      <PackagePath>images\Funcții\e2a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e2b.png">
+      <PackagePath>images\Funcții\e2b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e3.png">
+      <PackagePath>images\Funcții\e3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e4.png">
+      <PackagePath>images\Funcții\e4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e5.png">
+      <PackagePath>images\Funcții\e5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e6.png">
+      <PackagePath>images\Funcții\e6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e7.png">
+      <PackagePath>images\Funcții\e7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e8.png">
+      <PackagePath>images\Funcții\e8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\e9.png">
+      <PackagePath>images\Funcții\e9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h101.png">
+      <PackagePath>images\Funcții\h101.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h102.png">
+      <PackagePath>images\Funcții\h102.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h103.png">
+      <PackagePath>images\Funcții\h103.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h11.png">
       <PackagePath>images\Funcții\h11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h111.png">
+      <PackagePath>images\Funcții\h111.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h112.png">
+      <PackagePath>images\Funcții\h112.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h113.png">
+      <PackagePath>images\Funcții\h113.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h12.png">
       <PackagePath>images\Funcții\h12.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h13.png">
       <PackagePath>images\Funcții\h13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h22.png">
+      <PackagePath>images\Funcții\h22.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h23.png">
+      <PackagePath>images\Funcții\h23.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h33.png">
+      <PackagePath>images\Funcții\h33.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h42.png">
+      <PackagePath>images\Funcții\h42.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h43.png">
+      <PackagePath>images\Funcții\h43.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h51.png">
+      <PackagePath>images\Funcții\h51.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h52.png">
+      <PackagePath>images\Funcții\h52.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h53.png">
+      <PackagePath>images\Funcții\h53.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h61.png">
+      <PackagePath>images\Funcții\h61.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h62.png">
+      <PackagePath>images\Funcții\h62.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h63.png">
+      <PackagePath>images\Funcții\h63.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h72.png">
+      <PackagePath>images\Funcții\h72.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h73.png">
+      <PackagePath>images\Funcții\h73.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h81.png">
+      <PackagePath>images\Funcții\h81.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h82.png">
+      <PackagePath>images\Funcții\h82.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h83.png">
+      <PackagePath>images\Funcții\h83.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h91.png">
+      <PackagePath>images\Funcții\h91.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h92.png">
+      <PackagePath>images\Funcții\h92.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Funcții\h93.png">
+      <PackagePath>images\Funcții\h93.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\gf1.png">
       <PackagePath>images\gf1.png</PackagePath>

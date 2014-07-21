@@ -15,7 +15,7 @@
 	"indiciu" : [
 		"Fie <img src ='/images/Șiruri/h21.png'  />.", 
 		"Folosim criteriul cleștelui <img src ='/images/Șiruri/h22.png'  />.", 
-		"<img src ='/images/Șiruri/h23a.png'  />, deci <img src ='/images/probleme/h23b.png'  />"
+		"<img src ='/images/Șiruri/h23a.png'  />, deci <img src ='/images/Șiruri/h23b.png'  />"
 	]
 },
 {
@@ -24,8 +24,8 @@
     "rezultat" : "Da",
 	"indiciu" : [
 		"Presupunem a<sub>n</sub> ≤ a<sub>n+1</sub>, utilizând definiția șirului crescător.", 
-		"<img src ='/images/probleme/h32.png'  />.", 
-		"<img src ='/images/probleme/h33.png'  />."
+		"<img src ='/images/Șiruri/h32.png'  />.", 
+		"<img src ='/images/Șiruri/h33.png'  />."
 	]
 },
 {
@@ -34,8 +34,8 @@
     "rezultat" : "1",
 	"indiciu" : [
 		"Se aplică criteriul cleștelui.", 
-		"<img src ='/images/probleme/h42.png'  />.", 
-		"<img src ='/images/probleme/h43.png'  />."
+		"<img src ='/images/Șiruri/h42.png'  />.", 
+		"<img src ='/images/Șiruri/h43.png'  />."
 	]
 },
 {
@@ -44,8 +44,8 @@
     "rezultat" : "0",
 	"indiciu" : [
 		"Utilizăm criteriul raportului.", 
-		"<img src ='/images/probleme/h52.png'  />.", 
-		"<img src ='/images/probleme/h53.png'  />."
+		"<img src ='/images/Șiruri/h52.png'  />.", 
+		"<img src ='/images/Șiruri/h53.png'  />."
 	]
 },
 {
@@ -54,8 +54,8 @@
     "rezultat" : "0",
 	"indiciu" : [
 		"Se aplică criteriul radicalului (D’Alembert).", 
-		"<img src ='/images/probleme/h62.png'  />.", 
-		"<img src ='/images/probleme/h63.png'  />."
+		"<img src ='/images/Șiruri/h62.png'  />.", 
+		"<img src ='/images/Șiruri/h63.png'  />."
 	]
 },
 {
@@ -64,8 +64,8 @@
     "rezultat" : "1",
 	"indiciu" : [
 		"Se aplică criteriul Cesaro-Stolz.", 
-		"<img src ='/images/probleme/h72.png'  />.", 
-		"<img src ='/images/probleme/h73.png'  />."
+		"<img src ='/images/Șiruri/h72.png'  />.", 
+		"<img src ='/images/Șiruri/h73.png'  />."
 	]
 },
 {
@@ -84,8 +84,8 @@
     "rezultat" : "0",
 	"indiciu" : [
 		"Se aplică criteriul majorării.", 
-		"<img src ='/images/probleme/h92.png'  />.", 
-		"<img src ='/images/probleme/h93.png'  />."
+		"<img src ='/images/Șiruri/h92.png'  />.", 
+		"<img src ='/images/Șiruri/h93.png'  />."
 	]
 }
 ]  

@@ -1,0 +1,111 @@
+﻿[{
+    "enunt" : "Fie f : ℝ ⊂ ℝ. Funcția este continuă în punctul a = 3? <img src = '/images/Continuitate/e1.png' />",
+    "capitol" : "Continuitate",
+    "rezultat" : "Da",
+	"indiciu" : [
+		"Calculăm limita la stânga și limita la dreapta lui a = 3.",
+		"Calculăm f(a).",
+		"Deoarece f(a), l<sub>s</sub>(a) și l<sub>d</sub>(a) sunt egale cu 27, funcția este continuă în a."
+	]
+},
+{
+    "enunt" : "Fie f : ℝ ⊂ ℝ. Funcția este continuă în punctul a = 4? <img src = '/images/Continuitate/e2.png' />",
+    "capitol" : "Continuitate",
+    "rezultat" : "Da",
+	"indiciu" : [
+		"Calculăm limita la stânga și limita la dreapta lui a = 4.",
+		"Calculăm f(a).",
+		"Deoarece f(a), l<sub>s</sub>(a) și l<sub>d</sub>(a) sunt egale cu 8, funcția este continuă în a."
+	]
+},
+{
+    "enunt" : "Fie f : ℝ ⊂ ℝ. Funcția este continuă în punctul a = 0? <img src = '/images/Continuitate/e3.png' />",
+    "capitol" : "Continuitate",
+    "rezultat" : "Nu",
+	"indiciu" : [
+		"Calculăm limita la stânga și limita la dreapta lui a = 0.",
+		"Observăm că limita la stânga este -1, iar limita la dreapta 1.",
+		"Deoarece limitele laterale sunt diferite, funcția nu este continuă în a."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Continuitate/e4.png' /> = ?",
+    "capitol" : "Continuitate",
+    "rezultat" : "-4/5",
+	"indiciu" : [
+		"Este o funcție polinomială", 
+		"<img src ='/images/Continuitate/h42.png'/>.", 
+		"<img src ='/images/Continuitate/h43.png'/>."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Continuitate/e5.png' /> = ?",
+    "capitol" : "Continuitate",
+    "rezultat" : "1",
+	"indiciu" : [
+		"Raționalizăm: <img src = '/images/Continuitate/h51.png' />", 
+		"<img src ='/images/Continuitate/h52.png' />.", 
+		"<img src ='/images/Continuitate/h53.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Continuitate/e6.png' /> = ?",
+    "capitol" : "Continuitate",
+    "rezultat" : "1/2",
+	"indiciu" : [
+		"Știm că <img src ='/images/Continuitate/h61.png' />", 
+		"<img src ='/images/Continuitate/h62.png' />.", 
+		"<img src ='/images/Continuitate/h63.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Continuitate/e7.png' /> = ?",
+    "capitol" : "Continuitate",
+    "rezultat" : "-2",
+	"indiciu" : [
+		"Este cazul de nedeterminare ∞/∞.", 
+		"<img src ='/images/Continuitate/h72.png' />.", 
+		"<img src ='/images/Continuitate/h73.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Continuitate/e8.png' /> = ?",
+    "capitol" : "Continuitate",
+    "rezultat" : "1/5",
+	"indiciu" : [
+		"Pentru a, unde 0 < a < 1, avem <img src ='/images/Continuitate/h81.png' />", 
+		"<img src ='/images/Continuitate/h82.png' />", 
+		"<img src ='/images/Continuitate/h83.png' />"
+	]
+},
+{
+    "enunt" : "<img src = '/images/Continuitate/e9.png' /> = ?",
+    "capitol" : "Continuitate",
+    "rezultat" : "15",
+	"indiciu" : [
+		"Folosim limita remarcabilă <img src = '/images/Continuitate/h91.png' />", 
+		"<img src ='/images/Continuitate/h92.png' />.", 
+		"<img src ='/images/Continuitate/h93.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Continuitate/e10.png' /> = ?",
+    "capitol" : "Continuitate",
+    "rezultat" : "3",
+	"indiciu" : [
+		"Folosim limita remarcabilă <img src = '/images/Continuitate/h101.png' />", 
+		"<img src ='/images/Continuitate/h102.png' />.", 
+		"<img src ='/images/Continuitate/h103.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Continuitate/e10.png' /> = ?",
+    "capitol" : "Continuitate",
+    "rezultat" : "3/5",
+	"indiciu" : [
+		"Pentru a > 0, <img src = '/images/Continuitate/h111.png' />", 
+		"<img src ='/images/Continuitate/h112.png' />.", 
+		"<img src ='/images/Continuitate/h113.png' />."
+	]
+}
+]  

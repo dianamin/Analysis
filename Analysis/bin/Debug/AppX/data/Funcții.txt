@@ -3,89 +3,109 @@
     "capitol" : "Funcții",
     "rezultat" : "sqrt(e)",
 	"indiciu" : [
-		"<img src ='/images/Funcții/h11.png'  />",
-		"<img src ='/images/Funcții/h12.png'  />",
-		"<img src ='/images/Funcții/h13.png'  />"
+		"<img src ='/images/Funcții/h11.png'/>",
+		"<img src ='/images/Funcții/h12.png'/>",
+		"<img src ='/images/Funcții/h13.png'/>"
 	]
 },
 {
-    "enunt" : "Calculați limita <img src ='/images/Șiruri/e2.png'  />.",
-    "capitol" : "Șiruri",
+    "enunt" : "Fie funcția <img src ='/images/Funcții/e2a.png' />. <br /> Să se calculeze <img src ='/images/Funcții/e2b.png' class = 'img-content' />.",
+    "capitol" : "Funcții",
+    "rezultat" : "1/3",
+	"indiciu" : [
+		"Înlocuim x cu f(y).", 
+		"<img src ='/images/Funcții/h42.png' />",
+		"<img src ='/images/Funcții/h43.png' />"
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e3.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "-2",
+	"indiciu" : [
+		"Observăm că este o funcție polinomială.", 
+		"Verificăm dacă putem înlocui x cu 0.", 
+		"<img src ='/images/Funcții/h33.png'  />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e4.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "-4/5",
+	"indiciu" : [
+		"Este o funcție polinomială", 
+		"<img src ='/images/Funcții/h42.png'/>.", 
+		"<img src ='/images/Funcții/h43.png'/>."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e5.png' /> = ?",
+    "capitol" : "Funcții",
     "rezultat" : "1",
 	"indiciu" : [
-		"Fie <img src ='/images/Șiruri/h21.png'  />.", 
-		"Folosim criteriul cleștelui <img src ='/images/Șiruri/h22.png'  />.", 
-		"<img src ='/images/Șiruri/h23a.png'  />, deci <img src ='/images/probleme/h23b.png'  />"
+		"Raționalizăm: <img src = '/images/Funcții/h51.png' />", 
+		"<img src ='/images/Funcții/h52.png' />.", 
+		"<img src ='/images/Funcții/h53.png' />."
 	]
 },
 {
-    "enunt" : "Este monoton crescător șirul <img src = '/images/Șiruri/e3.png' />?",
-    "capitol" : "Șiruri",
-    "rezultat" : "Da",
+    "enunt" : "<img src = '/images/Funcții/e6.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "1/2",
 	"indiciu" : [
-		"Presupunem a<sub>n</sub> ≤ a<sub>n+1</sub>, utilizând definiția șirului crescător.", 
-		"<img src ='/images/probleme/h32.png'  />.", 
-		"<img src ='/images/probleme/h33.png'  />."
+		"Știm că <img src ='/images/Funcții/h61.png' />", 
+		"<img src ='/images/Funcții/h62.png' />.", 
+		"<img src ='/images/Funcții/h63.png' />."
 	]
 },
 {
-    "enunt" : "Ce limită are șirul următor? <br /> <img src = '/images/Șiruri/e4.png' />",
-    "capitol" : "Șiruri",
-    "rezultat" : "1",
+    "enunt" : "<img src = '/images/Funcții/e7.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "-2",
 	"indiciu" : [
-		"Se aplică criteriul cleștelui.", 
-		"<img src ='/images/probleme/h42.png'  />.", 
-		"<img src ='/images/probleme/h43.png'  />."
+		"Este cazul de nedeterminare ∞/∞.", 
+		"<img src ='/images/Funcții/h72.png' />.", 
+		"<img src ='/images/Funcții/h73.png' />."
 	]
 },
 {
-    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e5.png' />?",
-    "capitol" : "Șiruri",
-    "rezultat" : "0",
+    "enunt" : "<img src = '/images/Funcții/e8.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "1/5",
 	"indiciu" : [
-		"Utilizăm criteriul raportului.", 
-		"<img src ='/images/probleme/h52.png'  />.", 
-		"<img src ='/images/probleme/h53.png'  />."
+		"Pentru a, unde 0 < a < 1, avem <img src ='/images/Funcții/h81.png' />", 
+		"<img src ='/images/Funcții/h82.png' />", 
+		"<img src ='/images/Funcții/h83.png' />"
 	]
 },
 {
-    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e6.png' />?",
-    "capitol" : "Șiruri",
-    "rezultat" : "0",
+    "enunt" : "<img src = '/images/Funcții/e9.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "15",
 	"indiciu" : [
-		"Se aplică criteriul radicalului (D’Alembert).", 
-		"<img src ='/images/probleme/h62.png'  />.", 
-		"<img src ='/images/probleme/h63.png'  />."
+		"Folosim limita remarcabilă <img src = '/images/Funcții/h91.png' />", 
+		"<img src ='/images/Funcții/h92.png' />.", 
+		"<img src ='/images/Funcții/h93.png' />."
 	]
 },
 {
-    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e7.png' />?",
-    "capitol" : "Șiruri",
-    "rezultat" : "1",
+    "enunt" : "<img src = '/images/Funcții/e10.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "3",
 	"indiciu" : [
-		"Se aplică criteriul Cesaro-Stolz.", 
-		"<img src ='/images/probleme/h72.png'  />.", 
-		"<img src ='/images/probleme/h73.png'  />."
+		"Folosim limita remarcabilă <img src = '/images/Funcții/h101.png' />", 
+		"<img src ='/images/Funcții/h102.png' />.", 
+		"<img src ='/images/Funcții/h103.png' />."
 	]
 },
 {
-    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e8.png' />?",
-    "capitol" : "Șiruri",
-    "rezultat" : "1",
+    "enunt" : "<img src = '/images/Funcții/e10.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "3/5",
 	"indiciu" : [
-		"Observăm că șirul este constant.", 
-		"Calculăm a<sub>1</sub>.", 
-		"a<sub>1</sub> = a<sub>n</sub> = 1, deci limita șirului este 1."
-	]
-},
-{
-    "enunt" : "Ce limită are șirul <img src = '/images/Șiruri/e9.png' />?",
-    "capitol" : "Șiruri",
-    "rezultat" : "0",
-	"indiciu" : [
-		"Se aplică criteriul majorării.", 
-		"<img src ='/images/probleme/h92.png'  />.", 
-		"<img src ='/images/probleme/h93.png'  />."
+		"Pentru a > 0, <img src = '/images/Funcții/h111.png' />", 
+		"<img src ='/images/Funcții/h112.png' />.", 
+		"<img src ='/images/Funcții/h113.png' />."
 	]
 }
 ]  
