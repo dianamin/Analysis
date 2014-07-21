@@ -79,7 +79,6 @@ var leftpanel = [
     ['Aspect intuitiv', 'Continuitate laterală', 'Proprietăți'],
     ['Derivata într-un punct', 'Derivabilitate și continuitate', 'Derivate laterale', 'Funcții elementare', 'Operații cu derivate', 'Derivata funcției inverse', 'Derivate de ordin superior', 'Teoreme', 'L\'Hospital', 'Derivata a doua'],
     ['Asimptote', 'Reprezentări grafice'],
-    ['Lol'],
     ['Șiruri', 'Funcții', 'Continuitate', 'Derivabilitate', 'Grafice']
 ];
 
@@ -96,7 +95,7 @@ citatRandom = function () {
 
 curent = 1;
 var activegame = 0;
-var divs = ["content", "content", "content", "content", "content", "content", "content", "probleme", "joc"];
+var divs = ["content", "content", "content", "content", "content", "content", "probleme", "joc"];
 var capitolProbleme = "Șiruri";
 nav = function (x) {
     //comut între capitle
@@ -109,7 +108,7 @@ nav = function (x) {
     }
     curent = x;
     
-    if (x <= 8) {
+    if (x <= 7) {
         //primele 7 capitole au lecții
         var l = leftpanel[x - 1].length;
         for (var i = 0; i < lmax; i++) document.getElementById("l" + String(i + 1)).setAttribute("style", "display: none");
@@ -119,7 +118,7 @@ nav = function (x) {
         }
         document.getElementById("content").innerHTML = "<h2>Alege lecția!</h2>";
         document.getElementById("e1").innerHTML = " ";
-        if (x == 8) document.getElementById("tl").innerHTML = "Capitole cu probleme";
+        if (x == 7) document.getElementById("tl").innerHTML = "Capitole cu probleme";
         else document.getElementById("tl").innerHTML = "Lecții";
         document.getElementById("e1").setAttribute("style", "display: block;");
         document.getElementById("scorMaxim").setAttribute("style", "display: none;");
@@ -131,7 +130,7 @@ nav = function (x) {
         document.getElementById("e1").setAttribute("style", "display: none;");
     }
     document.getElementById("scor").setAttribute("style", "display: none");
-    if (x == 9 && activegame == 1) {
+    if (x == 8 && activegame == 1) {
         document.getElementById("scor").setAttribute("style", "display: block;");
         document.getElementById("scorMaxim").setAttribute("style", "display: block");
     }
@@ -140,7 +139,7 @@ nav = function (x) {
 };
 lectie = function (y) {
     //intru în altă lecție
-    if (curent == 8) {
+    if (curent == 7) {
         capitolProbleme = leftpanel[curent - 1][y - 1];
         initializeaza();
     }

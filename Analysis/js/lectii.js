@@ -616,23 +616,6 @@ document.getElementById("test").innerHTML = "lol";\
                     </li>\
                 </ul>'
     ],
-    [
-        ' <h2> Șiruri </h2>\
-            <div class="alert alert-warning"> Următoarele afirmații sunt greșite! </div> \
-            <ol>\
-            <li> <p class = "danger"> Orice șir mărginit este convergent. </p> </li>\
-            <li> Orice șir divergent este nemărginit. </li>\
-            <li> Orice șir  struct crescător este nemărginit. </li>\
-            <li> (1/a<sub>n</sub>) este mărginit, deci (a<sub>n</sub>) este convergent.</li>\
-            <li> Dacă (a<sub>n</sub>) și (b<sub>n</sub>) sunt mărginite, atunci (a<sub>n</sub> + b<sub>n</sub>) și (a<sub>n</sub> * b<sub>n</sub>) sunt mărginire, iar reciproca este adevărată întotdeauna.</li>\
-            <li> Orice șir monoton este convergent. </li>\
-            <li> Orice șir convergent este monoton. </li>\
-            <li> Șirul (a<sub>n</sub> + b<sub>n</sub>) este crescător, deci (a<sub>n</sub>) sau (b<sub>n</sub>) sunt crescătoare. </li>\
-            <li> Orice șir care conține un subșir convergent este mărginit. </li>\
-            <li> Orice șir care conține un subșir monoton este monoton. </li>\
-            </ol>\
-        '
-    ]
 ];
 
 var exemple = [
@@ -747,9 +730,6 @@ var exemple = [
                     <li>f : (2, ∞) → ℝ, f (x) = x / (x - 1) admite ca asimptotă orizontală dreapta y = 1 la +∞ și la -∞.</li>\
                 </ol>',
         '<h5>Ajutor</h5> Site-ul <a href ="https://www.wolframalpha.com/">Wolframalpha</a> este un bun ajutor pentru verificarea graficelor obținute! :)'
-    ],
-    [
-        'exemplu', 'exemplu'
     ]
 ];
 
