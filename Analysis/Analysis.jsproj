@@ -62,6 +62,10 @@
     <Content Include="data\Grafice.txt" />
     <Content Include="data\Joc1.txt" />
     <Content Include="data\Joc2.txt" />
+    <Content Include="data\Joc3.txt" />
+    <Content Include="data\Joc4.txt" />
+    <Content Include="data\Joc5.txt" />
+    <Content Include="data\Joc6.txt" />
     <Content Include="data\Șiruri.txt" />
     <Content Include="default.html" />
     <Content Include="images\a.png" />

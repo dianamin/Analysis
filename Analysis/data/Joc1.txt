@@ -38,6 +38,24 @@
 {
 	"intrebare" : "Cât este x<sup>-1</sup> derivat?",
 	"raspuns": ["-x<sup>-2</sup>", "1"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Ce funcție are derivata 1/x?",
+	"raspuns": ["ln a + c", "x<sup>-1</sup>"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "(f(x) + g(x))' = ?",
+	"raspuns": ["f(x)'g(x)'", "f(x)' + g(x)'"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Pot deriva sgn(x)?",
+	"raspuns": ["Da", "Nu"],
 	"raspunsCorect": 2,
 	"pusa" : false
 }

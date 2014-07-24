@@ -40,6 +40,18 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc2.txt">
       <PackagePath>data\Joc2.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc3.txt">
+      <PackagePath>data\Joc3.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc4.txt">
+      <PackagePath>data\Joc4.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc5.txt">
+      <PackagePath>data\Joc5.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc6.txt">
+      <PackagePath>data\Joc6.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Șiruri.txt">
       <PackagePath>data\Șiruri.txt</PackagePath>
     </AppxPackagedFile>

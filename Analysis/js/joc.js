@@ -43,7 +43,7 @@ choice = function (x) {
     }
     else {
         document.getElementById('notOk').play(); //dau play la sunetul corespunzător răspunsului corect
-        lifec -= 10; //robotul este lovit
+        lifec -= 20; //robotul este lovit
         if (lifec <= 0) end();
         console.log(lifec);
         document.getElementById("character").setAttribute("value", lifec);

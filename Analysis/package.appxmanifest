@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="424618ed-0c7e-4a5f-bf7c-b703f257445e" Version="1.0.0.12" Publisher="CN=DIDI" />
+  <Identity Name="424618ed-0c7e-4a5f-bf7c-b703f257445e" Version="1.0.0.13" Publisher="CN=DIDI" />
   <Properties>
     <DisplayName>Analysis</DisplayName>
     <PublisherDisplayName>DIDI</PublisherDisplayName>
