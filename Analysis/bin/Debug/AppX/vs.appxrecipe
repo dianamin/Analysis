@@ -5,18 +5,18 @@
     <WindowsUser>DIDI</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>D225366D196C0497995342932BDE47E14FBA961D34C1EE2E3723B82511392635</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.11_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>1624661EA87D940777619D90F1B576A34B2F9289D2593989703599AD74E7A3DA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.12_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>424618ed-0c7e-4a5f-bf7c-b703f257445e_2dvk2c9r5r43w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>424618ed-0c7e-4a5f-bf7c-b703f257445e</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=DIDI</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.11</RegisteredVersion>
+    <RegisteredVersion>1.0.0.12</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-21T20:29:22.807</Modified>
+      <Modified>2014-07-24T15:21:31.001</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +48,10 @@
       <PackagePath>data\Grafice.txt</PackagePath>
       <Modified>2014-07-21T20:01:08.113</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc1.txt">
+      <PackagePath>data\Joc1.txt</PackagePath>
+      <Modified>2014-07-24T15:47:44.833</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Șiruri.txt">
       <PackagePath>data\Șiruri.txt</PackagePath>
       <Modified>2014-07-21T14:09:25.732</Modified>
@@ -58,7 +62,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-07-24T13:52:22.716</Modified>
+      <Modified>2014-07-24T15:15:44.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
@@ -1105,11 +1109,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-07-24T14:30:45.002</Modified>
+      <Modified>2014-07-24T15:15:20.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\image.js">
       <PackagePath>js\image.js</PackagePath>
       <Modified>2014-07-20T11:07:45.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\joc.js">
+      <PackagePath>js\joc.js</PackagePath>
+      <Modified>2014-07-24T15:48:06.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
       <PackagePath>js\lectii.js</PackagePath>
@@ -1117,11 +1125,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\probleme.js">
       <PackagePath>js\probleme.js</PackagePath>
-      <Modified>2014-07-21T20:01:16.591</Modified>
+      <Modified>2014-07-24T15:11:29.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\register.js">
       <PackagePath>js\register.js</PackagePath>
-      <Modified>2014-07-24T13:49:44.961</Modified>
+      <Modified>2014-07-24T15:11:46.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\scor.js">
+      <PackagePath>js\scor.js</PackagePath>
+      <Modified>2014-07-24T14:35:54.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
@@ -1137,7 +1149,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-21T20:29:22.612</Modified>
+      <Modified>2014-07-24T15:21:30.825</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -5,6 +5,7 @@ data\Continuitate.txt
 data\Derivabilitate.txt
 data\Funcții.txt
 data\Grafice.txt
+data\Joc1.txt
 data\Șiruri.txt
 default.html
 images\a.png
@@ -267,9 +268,11 @@ index.html
 js\angular.js
 js\default.js
 js\image.js
+js\joc.js
 js\lectii.js
 js\probleme.js
 js\register.js
+js\scor.js
 js\script.js
 pages\about.html
 pages\preferences.html

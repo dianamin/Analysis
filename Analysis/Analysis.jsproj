@@ -60,6 +60,7 @@
     <Content Include="data\Derivabilitate.txt" />
     <Content Include="data\Funcții.txt" />
     <Content Include="data\Grafice.txt" />
+    <Content Include="data\Joc1.txt" />
     <Content Include="data\Șiruri.txt" />
     <Content Include="default.html" />
     <Content Include="images\a.png" />
@@ -323,9 +324,11 @@
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
     <Content Include="js\image.js" />
+    <Content Include="js\joc.js" />
     <Content Include="js\lectii.js" />
     <Content Include="js\probleme.js" />
     <Content Include="js\register.js" />
+    <Content Include="js\scor.js" />
     <Content Include="js\script.js" />
     <Content Include="pages\about.html" />
     <Content Include="pages\preferences.html" />

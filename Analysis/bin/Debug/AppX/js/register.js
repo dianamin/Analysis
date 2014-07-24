@@ -14,6 +14,4 @@ app.controller('User', ['$scope', function ($scope) {
     });
 }]);
 
-
-
 getScore();
