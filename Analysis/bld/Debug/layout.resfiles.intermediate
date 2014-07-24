@@ -1,7 +1,4 @@
 css\bootstrap.css
-css\bootstrap.min.css
-css\bootstrap-theme.css
-css\bootstrap-theme.min.css
 css\default.css
 css\narrow.css
 data\Continuitate.txt
@@ -267,10 +264,7 @@ images\Șiruri\h92.png
 images\Șiruri\h93.png
 images\vertical.png
 index.html
-js\all.js
 js\angular.js
-js\bootstrap.js
-js\bootstrap.min.js
 js\default.js
 js\image.js
 js\lectii.js

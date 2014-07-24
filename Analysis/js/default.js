@@ -54,6 +54,38 @@
 
 })();
 
+var getScore = function () {
+    localFolder.getFileAsync("scor.txt")
+    .then(function (sampleFile) {
+        return Windows.Storage.FileIO.readTextAsync(sampleFile);
+    }).done(function (x) {
+        document.getElementById("puncte").innerText = x + " Puncte";
+    }, function () {
+        document.getElementById("puncte").innerText = 0 + " Puncte";
+    });
+}
+/*
+var updateScor = function () {
+    function write(file, text) {
+        localFolder.createFileAsync(file, Windows.Storage.CreationCollisionOption.openIfExists)
+        .then(function(sampleFile) {
+            return Windows.Storage.FileIO.writeTextAsync(sampleFile, text);
+        })
+        .done(function() {
+        });
+    }
+
+    localFolder.getFileAsync(file)
+    .then(function (sampleFile) {
+        return Windows.Storage.FileIO.readTextAsync(sampleFile);
+    }).done(function (x) {
+        //console.log(x);
+        document.getElementById("scorMaxim").innerText = "Scor maxim: " + x;
+        text = x;
+    }, function () {
+        console.log("No score yet!");
+    });
+}*/
 
 
 
@@ -175,31 +207,6 @@ function write(file, text) {
     })
     .done(function() {
     });
-}
-
-function read(file) {
-    localFolder.getFileAsync(file)
-    .then(function (sampleFile) {
-        return Windows.Storage.FileIO.readTextAsync(sampleFile);
-    }).done(function (x) {
-        //console.log(x);
-        document.getElementById("scorMaxim").innerText = "Scor maxim: " + x;
-        text = x;
-    }, function () {
-        console.log("No score yet!");
-    });
-}
-
-
-function readTimestamp() {
-    localFolder.getFileAsync("dataFile.txt")
-       .then(function (sampleFile) {
-           return Windows.Storage.FileIO.readTextAsync(sampleFile);
-       }).done(function (timestamp) {
-           // Data is contained in timestamp
-       }, function () {
-           // Timestamp not found
-       });
 }
 
 
@@ -335,7 +342,6 @@ startJoc = function () {
     for (var i = 0; i < nrq; i++) taken[i] = 0;
     a = 0; b = 5; //aleg range-ul pentru primele întrebări (ușoare)
     scor = 0; //setez scorul
-    read("scor.txt");
     nivel = 0; //setez nivelul
     lifec = 100; //setez viața robotului
     lifee = 100; //setez viața adversarului

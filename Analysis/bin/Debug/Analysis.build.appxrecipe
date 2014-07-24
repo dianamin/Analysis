@@ -13,17 +13,8 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\bootstrap-theme.css">
-      <PackagePath>css\bootstrap-theme.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\bootstrap-theme.min.css">
-      <PackagePath>css\bootstrap-theme.min.css</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\bootstrap.css">
       <PackagePath>css\bootstrap.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\bootstrap.min.css">
-      <PackagePath>css\bootstrap.min.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\narrow.css">
       <PackagePath>css\narrow.css</PackagePath>
@@ -833,17 +824,8 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\g3.jpg">
       <PackagePath>images\g3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\all.js">
-      <PackagePath>js\all.js</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\angular.js">
       <PackagePath>js\angular.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\bootstrap.js">
-      <PackagePath>js\bootstrap.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\bootstrap.min.js">
-      <PackagePath>js\bootstrap.min.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>

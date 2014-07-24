@@ -5,35 +5,23 @@
     <WindowsUser>DIDI</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>28F773934F40924BD0FA747230489A9FCD5259CEC54E12A2307B25964D2056C2</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.10_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>D225366D196C0497995342932BDE47E14FBA961D34C1EE2E3723B82511392635</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.11_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>424618ed-0c7e-4a5f-bf7c-b703f257445e_2dvk2c9r5r43w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>424618ed-0c7e-4a5f-bf7c-b703f257445e</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=DIDI</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.10</RegisteredVersion>
+    <RegisteredVersion>1.0.0.11</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-21T20:09:24.248</Modified>
+      <Modified>2014-07-21T20:29:22.807</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\bootstrap-theme.css">
-      <PackagePath>css\bootstrap-theme.css</PackagePath>
-      <Modified>2014-05-29T11:44:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\bootstrap-theme.min.css">
-      <PackagePath>css\bootstrap-theme.min.css</PackagePath>
-      <Modified>2014-05-29T11:44:02.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\bootstrap.css">
       <PackagePath>css\bootstrap.css</PackagePath>
-      <Modified>2014-05-29T11:44:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\bootstrap.min.css">
-      <PackagePath>css\bootstrap.min.css</PackagePath>
       <Modified>2014-05-29T11:44:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\narrow.css">
@@ -70,7 +58,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-07-21T20:20:55.078</Modified>
+      <Modified>2014-07-24T13:52:22.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
@@ -1111,25 +1099,13 @@
       <PackagePath>images\g3.jpg</PackagePath>
       <Modified>2014-06-25T09:51:39.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\all.js">
-      <PackagePath>js\all.js</PackagePath>
-      <Modified>2014-07-13T10:59:13.660</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\angular.js">
       <PackagePath>js\angular.js</PackagePath>
       <Modified>2014-07-17T14:57:43.838</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\bootstrap.js">
-      <PackagePath>js\bootstrap.js</PackagePath>
-      <Modified>2014-05-29T11:44:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\bootstrap.min.js">
-      <PackagePath>js\bootstrap.min.js</PackagePath>
-      <Modified>2014-05-29T11:44:02.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-07-21T20:22:13.852</Modified>
+      <Modified>2014-07-24T13:50:21.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\image.js">
       <PackagePath>js\image.js</PackagePath>
@@ -1145,7 +1121,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\register.js">
       <PackagePath>js\register.js</PackagePath>
-      <Modified>2014-07-20T18:46:19.066</Modified>
+      <Modified>2014-07-24T13:49:44.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\script.js">
       <PackagePath>js\script.js</PackagePath>
@@ -1161,7 +1137,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-21T20:09:24.026</Modified>
+      <Modified>2014-07-21T20:29:22.612</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

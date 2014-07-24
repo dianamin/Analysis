@@ -54,10 +54,7 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <Content Include="css\bootstrap-theme.css" />
-    <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
     <Content Include="css\narrow.css" />
     <Content Include="data\Continuitate.txt" />
     <Content Include="data\Derivabilitate.txt" />
@@ -322,10 +319,7 @@
     <Content Include="images\subsequence.png" />
     <Content Include="images\vertical.png" />
     <Content Include="index.html" />
-    <Content Include="js\all.js" />
     <Content Include="js\angular.js" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
     <Content Include="js\image.js" />
