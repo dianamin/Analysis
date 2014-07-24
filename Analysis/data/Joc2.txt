@@ -1,0 +1,44 @@
+﻿[
+{
+	"intrebare" : "Orice șir mărginit este convergent?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice șir nemărginit este divergent?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice șir convergent este mărginit?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice șir strict crescător este nemărginit?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice șir care conține un subșir convergent este mărginit?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice subșir al unui șir monoton este monoton?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Fie x<sub>1</sub> = 1, x<sub>n+1</sub> = x<sup>2</sup></sub>n</sub> + 1. Șirul (x<sub>n</sub>) este convergent?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+}
+]

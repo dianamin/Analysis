@@ -20,7 +20,7 @@
 {
 	"intrebare" : "Cât este (e<sup>x</sup>)'",
 	"raspuns": ["ex", "e<sup>x</sup>"],
-	"raspunsCorect": 1,
+	"raspunsCorect": 2,
 	"pusa" : false
 },
 {

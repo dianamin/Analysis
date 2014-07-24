@@ -61,6 +61,7 @@
     <Content Include="data\Funcții.txt" />
     <Content Include="data\Grafice.txt" />
     <Content Include="data\Joc1.txt" />
+    <Content Include="data\Joc2.txt" />
     <Content Include="data\Șiruri.txt" />
     <Content Include="default.html" />
     <Content Include="images\a.png" />

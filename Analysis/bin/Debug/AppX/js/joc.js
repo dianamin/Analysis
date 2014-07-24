@@ -4,16 +4,8 @@ var nrq = 10;
 var intrebari = new Array();
 
 
-//răspunsuri
-
-//correct[i] = răspunsul corect pentru întrebarea i
-
-//taken[i] = 1 dacă am ales întrebarea i, 0 altfel
-var taken = [0, 0, 0, 0, 0, 0, 0];
 var scor = 0, nivel = 0, q = 0, nq = 0;;
 var lifec = 100, lifee = 100;
-var a, b; //range pentru intrebari
-var scorMaxim;
 
 
 var end = function () {
@@ -29,11 +21,6 @@ var end = function () {
         document.getElementById("stopjoc").setAttribute("style", "display: block;");
         document.getElementById("robot-joc").setAttribute("style", "");
     }, 2000);
-    if (scor > scorMaxim) {
-        scorMaxim = scor;
-        write("scor.txt", String(scor));
-    }
-    //read("scor.txt");
 
 }
 
@@ -63,29 +50,18 @@ choice = function (x) {
     }
     document.getElementById("scor").innerHTML = "Scor <br />" + String(scor); //update la scor
     if (lifee && lifec) { //dacă nu s-a terminat nivelul și utilizatorul nu a pierdut
-        if (nq < 4) {
-            //dacă nu este ultima întrebare
-            if (nivel > 0) q = 1;
-            else {
-                //aleg o noua întrebare
-                q = Math.floor(Math.random() * intrebari.length)
-                while (intrebari[q].pusa == 1) q = Math.floor(Math.random() * intrebari.length);
-            }
+            q = Math.floor(Math.random() * intrebari.length)
+            while (intrebari[q].pusa == 1) q = Math.floor(Math.random() * intrebari.length);
             nq++;
             puneIntrebare(q);
-        }
     }
     if (!lifee) {
-        console.log(nivel);
         document.getElementById("adv").setAttribute("style", "animation: lost; animation-duration: 2s;"); //adversarul a pierdut
         if (nivel != 5) {
             //dacă nu am ajuns la ultimul nivel, resetez unele variabile și creez o scenă nouă
             nivel++;
             newScene();
-            document.getElementById("adv").setAttribute("style", "animation: opacitate; animation-duration: 2s;");
-            q = 1;
-            nq = 0;
-            
+            document.getElementById("adv").setAttribute("style", "animation: opacitate; animation-duration: 2s;");           
         }
         else {
             end(); //utilizatorul a câștigat jocul
@@ -96,13 +72,11 @@ choice = function (x) {
 }
 
 
-
-
 var nrb = 11, nra = 6;
 
 newScene = function () {
     intrebari = [];
-    WinJS.xhr({ url: "data/Joc1.txt" }).then(function (xhr) {
+    WinJS.xhr({ url: "data/Joc" + String(nivel + 1) + ".txt" }).then(function (xhr) {
         var items = JSON.parse(xhr.responseText);
         items.forEach(function (item) {
             intrebari.push(item);
@@ -124,13 +98,12 @@ newScene = function () {
 
 startJoc = function () {
     newScene();
-    //marchez întrebariile ca nefiind alese
-    //aleg range-ul pentru primele întrebări (ușoare)
+
     scor = 0; //setez scorul
     nivel = 0; //setez nivelul
     lifec = 100; //setez viața robotului
     lifee = 100; //setez viața adversarului
-    nq = 0; //setez numărul de întrebari din nivelul actual
+    
     document.getElementById("character").setAttribute("value", lifec);
     document.getElementById("enemy").setAttribute("value", lifee);
     document.getElementById("scor").setAttribute("style", "display: block;");
