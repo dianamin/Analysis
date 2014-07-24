@@ -64,28 +64,33 @@ var getScore = function () {
         document.getElementById("puncte").innerText = 0 + " Puncte";
     });
 }
-/*
-var updateScor = function () {
-    function write(file, text) {
-        localFolder.createFileAsync(file, Windows.Storage.CreationCollisionOption.openIfExists)
-        .then(function(sampleFile) {
-            return Windows.Storage.FileIO.writeTextAsync(sampleFile, text);
-        })
-        .done(function() {
-        });
-    }
 
-    localFolder.getFileAsync(file)
+var updateScor = function (a) {
+    localFolder.getFileAsync("scor.txt")
     .then(function (sampleFile) {
         return Windows.Storage.FileIO.readTextAsync(sampleFile);
     }).done(function (x) {
-        //console.log(x);
-        document.getElementById("scorMaxim").innerText = "Scor maxim: " + x;
-        text = x;
+        x = parseInt(x) + parseInt(a);
+        console.log(x + a);
+        document.getElementById("puncte").innerText = x  + " puncte";
+        localFolder.createFileAsync("scor.txt", Windows.Storage.CreationCollisionOption.openIfExists)
+        .then(function(sampleFile) {
+            return Windows.Storage.FileIO.writeTextAsync(sampleFile, x);
+        })
+        .done(function() {
+        });
     }, function () {
+        console.log(a);
         console.log("No score yet!");
+        document.getElementById("puncte").innerText = a + " puncte";
+        localFolder.createFileAsync("scor.txt", Windows.Storage.CreationCollisionOption.openIfExists)
+        .then(function(sampleFile) {
+            return Windows.Storage.FileIO.writeTextAsync(sampleFile, a);
+        })
+        .done(function() {
+        });
     });
-}*/
+}
 
 
 
@@ -313,7 +318,10 @@ choice = function (x) {
             //  a = b + 1;
             //  b = b + 5;
         }
-        else end(); //utilizatorul a câștigat jocul
+        else {
+            end(); //utilizatorul a câștigat jocul
+            updateScor(scor);
+        }
     }
     if (!lifec) end(); //utilizatorul a pierdut jocul
 }
