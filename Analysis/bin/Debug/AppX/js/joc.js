@@ -70,7 +70,7 @@ choice = function (x) {
     }
     if (!lifec) {
         end(); //utilizatorul a pierdut jocul
-        updateScor(scor * 10 / time);
+        updateScor(scor * 1000 / time);
     }
 }
 
