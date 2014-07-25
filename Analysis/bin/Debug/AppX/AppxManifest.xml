@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="424618ed-0c7e-4a5f-bf7c-b703f257445e" Version="1.0.0.12" Publisher="CN=DIDI" ProcessorArchitecture="neutral" />
+  <Identity Name="424618ed-0c7e-4a5f-bf7c-b703f257445e" Version="1.0.0.13" Publisher="CN=DIDI" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>Analysis</DisplayName>
     <PublisherDisplayName>DIDI</PublisherDisplayName>

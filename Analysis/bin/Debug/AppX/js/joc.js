@@ -6,10 +6,11 @@ var intrebari = new Array();
 
 var scor = 0, nivel = 0, q = 0, nq = 0;;
 var lifec = 100, lifee = 100;
+var time;
 
 
 var end = function () {
-
+    time = (Date.now() - time) / 1000;
     if (lifec > 0) document.getElementById("rez").innerHTML = "Bravo :D";
     else {
         document.getElementById("robot-joc").setAttribute("style", "animation: lost; animation-duration: 2s;");
@@ -25,7 +26,6 @@ var end = function () {
 }
 
 var puneIntrebare = function (q) {
-    console.log(q);
     intrebari[q].pusa = true;
     document.getElementById("query").innerHTML = intrebari[q].intrebare;
     document.getElementById("a1").innerHTML = intrebari[q].raspuns[0];
@@ -34,6 +34,7 @@ var puneIntrebare = function (q) {
 
 
 choice = function (x) {
+    console.log(intrebari[q].raspunsCorect);
     if (String(x) == intrebari[q].raspunsCorect) {
         //dacă răspunsul este corect
         document.getElementById('ok').play(); //dau play la sunetul corespunzător răspunsului corect
@@ -45,15 +46,14 @@ choice = function (x) {
         document.getElementById('notOk').play(); //dau play la sunetul corespunzător răspunsului corect
         lifec -= 20; //robotul este lovit
         if (lifec <= 0) end();
-        console.log(lifec);
         document.getElementById("character").setAttribute("value", lifec);
     }
     document.getElementById("scor").innerHTML = "Scor <br />" + String(scor); //update la scor
     if (lifee && lifec) { //dacă nu s-a terminat nivelul și utilizatorul nu a pierdut
-            q = Math.floor(Math.random() * intrebari.length)
-            while (intrebari[q].pusa == 1) q = Math.floor(Math.random() * intrebari.length);
-            nq++;
-            puneIntrebare(q);
+        q = Math.floor(Math.random() * intrebari.length)
+        while (intrebari[q].pusa == 1) q = Math.floor(Math.random() * intrebari.length);
+        nq++;
+        puneIntrebare(q);
     }
     if (!lifee) {
         document.getElementById("adv").setAttribute("style", "animation: lost; animation-duration: 2s;"); //adversarul a pierdut
@@ -61,14 +61,17 @@ choice = function (x) {
             //dacă nu am ajuns la ultimul nivel, resetez unele variabile și creez o scenă nouă
             nivel++;
             newScene();
-            document.getElementById("adv").setAttribute("style", "animation: opacitate; animation-duration: 2s;");           
+            document.getElementById("adv").setAttribute("style", "animation: opacitate; animation-duration: 2s;");
         }
         else {
             end(); //utilizatorul a câștigat jocul
-            updateScor(scor);
+            updateScor(scor / time);
         }
     }
-    if (!lifec) end(); //utilizatorul a pierdut jocul
+    if (!lifec) {
+        end(); //utilizatorul a pierdut jocul
+        updateScor(scor * 10 / time);
+    }
 }
 
 
@@ -90,7 +93,7 @@ newScene = function () {
         //adversar nou
         //var a = Math.floor(Math.random() * nra) + 1;
         document.getElementById("adv").innerHTML = '<img src = "/images/adversari/' + String(nivel + 1) + '.png" class = "personaj-joc" style = "margin-right: 150px;"/>';
-
+        q = 0;
         puneIntrebare(0);
     });
 }
@@ -98,6 +101,8 @@ newScene = function () {
 
 startJoc = function () {
     newScene();
+    
+    time = Date.now();
 
     scor = 0; //setez scorul
     nivel = 0; //setez nivelul

@@ -5,18 +5,18 @@
     <WindowsUser>DIDI</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>1624661EA87D940777619D90F1B576A34B2F9289D2593989703599AD74E7A3DA</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.12_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>60D0545EFBEDD9B83928192BB110EFD5F8C1AF1D8698B5D9BE6582D95C37875F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.13_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>424618ed-0c7e-4a5f-bf7c-b703f257445e_2dvk2c9r5r43w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>424618ed-0c7e-4a5f-bf7c-b703f257445e</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=DIDI</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.12</RegisteredVersion>
+    <RegisteredVersion>1.0.0.13</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-24T18:57:05.793</Modified>
+      <Modified>2014-07-24T19:01:47.754</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -50,27 +50,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc1.txt">
       <PackagePath>data\Joc1.txt</PackagePath>
-      <Modified>2014-07-24T17:12:57.062</Modified>
+      <Modified>2014-07-25T18:36:34.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc2.txt">
       <PackagePath>data\Joc2.txt</PackagePath>
-      <Modified>2014-07-24T17:18:20.659</Modified>
+      <Modified>2014-07-25T18:39:24.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc3.txt">
       <PackagePath>data\Joc3.txt</PackagePath>
-      <Modified>2014-07-24T17:05:41.749</Modified>
+      <Modified>2014-07-25T18:43:36.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc4.txt">
       <PackagePath>data\Joc4.txt</PackagePath>
-      <Modified>2014-07-24T18:55:41.203</Modified>
+      <Modified>2014-07-25T18:35:01.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc5.txt">
       <PackagePath>data\Joc5.txt</PackagePath>
-      <Modified>2014-07-24T18:56:08.431</Modified>
+      <Modified>2014-07-25T19:07:55.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc6.txt">
       <PackagePath>data\Joc6.txt</PackagePath>
-      <Modified>2014-07-24T18:57:03.280</Modified>
+      <Modified>2014-07-25T19:16:38.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Șiruri.txt">
       <PackagePath>data\Șiruri.txt</PackagePath>
@@ -1137,7 +1137,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\joc.js">
       <PackagePath>js\joc.js</PackagePath>
-      <Modified>2014-07-24T17:10:03.971</Modified>
+      <Modified>2014-07-25T18:47:44.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
       <PackagePath>js\lectii.js</PackagePath>
@@ -1169,7 +1169,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-24T18:57:05.353</Modified>
+      <Modified>2014-07-24T19:01:47.412</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

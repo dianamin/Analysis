@@ -48,7 +48,7 @@
 	"pusa" : false
 },
 {
-	"intrebare" : "La ce tinde log<sub>a</sub>x cnd x tinde la -∞?",
+	"intrebare" : "La ce tinde log<sub>a</sub>x când x tinde la 1?",
 	"raspuns": ["La 0", "La -∞"],
 	"raspunsCorect": 1,
 	"pusa" : false

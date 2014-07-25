@@ -43,7 +43,7 @@
 },
 {
 	"intrebare" : "Ce funcție are derivata 1/x?",
-	"raspuns": ["ln a + c", "x<sup>-1</sup>"],
+	"raspuns": ["ln x + c", "x<sup>-1</sup>"],
 	"raspunsCorect": 1,
 	"pusa" : false
 },

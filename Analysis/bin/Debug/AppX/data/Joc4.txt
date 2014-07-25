@@ -1,61 +1,61 @@
 ﻿[
 {
-	"intrebare" : "Orice șir mărginit este convergent?",
-	"raspuns": ["Da", "Nu"],
-	"raspunsCorect": 2,
-	"pusa" : false
-},
-{
-	"intrebare" : "Orice șir nemărginit este divergent?",
+	"intrebare" : "Funcțiile elementare sunt continue.",
 	"raspuns": ["Da", "Nu"],
 	"raspunsCorect": 1,
 	"pusa" : false
 },
 {
-	"intrebare" : "Orice șir convergent este mărginit?",
+	"intrebare" : "Funcția signum prezintă discontinuități de speța ...?",
+	"raspuns": ["I", "II"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "O funcție care are proprietatea lui Darboux e sigur continuă.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "O funcție monotonă poate prezenta discontinuități de speța a II-a.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Funcțiile formate prin operațiile cu funcții continue sunt continue.",
 	"raspuns": ["Da", "Nu"],
 	"raspunsCorect": 1,
 	"pusa" : false
 },
 {
-	"intrebare" : "Orice șir strict crescător este nemărginit?",
+	"intrebare" : "Dacă limita în x<sub>0</sub> există, atunci f este continuă în x<sub>0</sub>.",
 	"raspuns": ["Da", "Nu"],
 	"raspunsCorect": 2,
 	"pusa" : false
 },
 {
-	"intrebare" : "Orice șir care conține un subșir convergent este mărginit?",
-	"raspuns": ["Da", "Nu"],
-	"raspunsCorect": 2,
-	"pusa" : false
-},
-{
-	"intrebare" : "Orice subșir al unui șir monoton este monoton?",
+	"intrebare" : "Dacă f : (a, b) → ℝ este continuă și are limite finite în a și b, atunci f este mărginita pe (a, b).",
 	"raspuns": ["Da", "Nu"],
 	"raspunsCorect": 1,
 	"pusa" : false
 },
 {
-	"intrebare" : "Orice șir descrescător și nemărginit are limita ...?",
-	"raspuns": ["0", "-∞"],
-	"raspunsCorect": 2,
+	"intrebare" : "Dacă f continuă pe intervalul compact E, atunci f(E) interval compact.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
 	"pusa" : false
 },
 {
-	"intrebare" : "Fie x<sub>1</sub> = 1, x<sub>n+1</sub> = x<sup>2</sup><sub>n</sub> + 1. Șirul (x<sub>n</sub>) este convergent?",
+	"intrebare" : "Dacă f are limite la stânga și la dreapta lui a, atunci f continuă în a.",
 	"raspuns": ["Da", "Nu"],
 	"raspunsCorect": 2,
 	"pusa" : false
 },
 {
-	"intrebare" : "La ce tinde log<sub>a</sub>x cnd x tinde la -∞?",
-	"raspuns": ["La 0", "La -∞"],
-	"raspunsCorect": 1,
-	"pusa" : false
-},
-{
-	"intrebare" : "Care este limita șirului cu termenul general (1+2+...+n)/(n<sup>2</sup>)?",
-	"raspuns": ["1/2", "∞"],
+	"intrebare" : "Dacă f continuă la stânga și la dreapta lui a, atunci f continuă în a.",
+	"raspuns": ["Da", "Nu"],
 	"raspunsCorect": 1,
 	"pusa" : false
 }

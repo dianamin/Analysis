@@ -1,8 +1,8 @@
 ﻿[
 {
 	"intrebare" : "f(x) = sin(1/x). Care este limita la dreapta lui 0?",
-	"raspuns": ["nu are", "0"],
-	"raspunsCorect": 1,
+	"raspuns": ["0", "nu are"],
+	"raspunsCorect": 2,
 	"pusa" : false
 },
 {
