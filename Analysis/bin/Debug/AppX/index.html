@@ -96,14 +96,14 @@
                 <div id ="enunt"> </div>
                 <div class="form-group" id ="divrezultat">
                     <table><tr>
-                    <td><label class="control-label" for="inputSuccess2" style ="transition: all 0.5s;">Răspuns = </label></td>
-                    <td><input type="text" class="form-control" id="rezultat"> </td><td> <img src ="/images/ag.png" class ="answer" id ="right"/> </td><td><img src ="/images/ab.png" class ="answer" id ="wrong"/></td>
+                    <td><label class="control-label" for="inputSuccess2" style ="transition: all 0.5s;" >Răspuns = </label></td>
+                    <td><input type="text" class="form-control" id="rezultat" onkeydown="if (event.keyCode == 13) document.getElementById('verif').click()"> </td><td> <img src ="/images/ag.png" class ="answer" id ="right"/> </td><td><img src ="/images/ab.png" class ="answer" id ="wrong"/></td>
                     </tr></table>
                 </div>
                 <div class ="hint" id ="h1">hint 1</div>
                 <div class ="hint" id ="h2">hint 2</div>
                 <div class ="hint" id ="h3">hint 3</div>
-                <div class ="btn btn-primary" onclick ="check()">Verifică</div>
+                <div class ="btn btn-primary" onclick ="check()" id ="verif">Verifică</div>
             </div>
             <div id ="joc" class ="c" style ="display:none;">
                 <audio id ="ok" controls style ="display: none;">
@@ -145,7 +145,7 @@
 
      <script src ="/js/image.js"></script>
      <script src ="/js/probleme.js"></script>
-     <script src ="/js/register.js"></script>
+     <script src ="/js/user.js"></script>
        
 </body>
 

@@ -147,6 +147,7 @@ images\Funcții\h93.png
 images\g2.jpg
 images\g3.jpg
 images\gf1.png
+images\grafic.png
 images\Grafice\e1.png
 images\Grafice\e2.png
 images\Grafice\e3.png
@@ -276,9 +277,9 @@ js\image.js
 js\joc.js
 js\lectii.js
 js\probleme.js
-js\register.js
 js\scor.js
 js\script.js
+js\user.js
 pages\about.html
 pages\preferences.html
 sounds\beep.mp3

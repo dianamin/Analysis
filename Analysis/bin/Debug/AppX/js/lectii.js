@@ -1,4 +1,4 @@
-﻿//continutul de la lectii si exemplele corespunzatoare
+﻿//continutul de la lectii si Exemple <span class = "caret"></span>le corespunzatoare
 
 var lectii = [
     ['<h2> Numere reale </h2> <img src = "/images/axa.png" class = "img-content" style = "width: 200px;"/> <br /> \
@@ -85,7 +85,7 @@ document.getElementById("test").innerHTML = "lol";\
                 <center> <img class = "img-med2" src = "/images/limsir3.png" /> </center> <br /> \
                 <div class = "alert alert-success"> <p> <span class ="glyphicon glyphicon-pencil"></span> Ideea de limită poate fi asemanată cu linia orizontului: pământul și cerul tind sa se atingă:</p> <center> <img class = "img-med" src = "/images/orizont.png" /> </center> </div> <br /> \
                 <p><span class ="glyphicon glyphicon-pencil"></span> Un șir se numește <i>convergent</i> dacă are limita finită. Altfel, se numește <i>divergent</i>. </p>\
-                <div class="alert alert-info"> într-un restaurant, intră o infinitate de matematicieni. Primul cere un pahar de suc. Al doilea, cere o jumătate. Al treilea, un sfert și tot așa. Chelnerul le spune sa lase glumele și le aduce două pahare. \
+                <div class="alert alert-info"> într-un restaurant, intră o infinitate de matematicieni. Primul cere un pahar de suc. Al doilea, cere o jumătate. Al treilea, un sfert și tot așa. Chelnerul le spune să lase glumele și le aduce două pahare. \
                 <br /> <center> <img src ="/images/limsir.png" id = "glasses"  class = "img-med2" /> </center> </div>\
                 <h2> Notații <img src = "/images/caiet.png" class = "img-content" style = "display: inline-block;"/> </h2> \
                  <center> <img src = "/images/i1.png" class = "img-content" /> <img src = "/images/i2.png" class = "img-content" />  </center>  \
@@ -309,7 +309,7 @@ document.getElementById("test").innerHTML = "lol";\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Funcțiile <i>elementare</i> sunt continue. </p>'
                 ,
           ' <h2>Continuitatea laterală</h2>\
-                <p><span class ="glyphicon glyphicon-pencil"></span> Fie f : D ⊂ ℝ → ℝ și x<sub>0</sub>, punct de acumulare în care există ambele limite laterale.</p>\
+                <p><span class ="glyphicon glyphicon-pencil"></span> Fie f : D ⊂ ℝ → ℝ și x<sub>0</sub>, punct de acumulare din domeniu în care există ambele limite laterale.</p>\
                 <p>Funcția f este <i>continuă la stânga</i> în x<sub>0</sub> dacă <img src ="/images/ls.png" class ="img-content" /> = f(x<sub>0</sub>).</p>\
                 <p>Funcția f este <i>continuă la dreapta</i> în x<sub>0</sub> dacă <img src ="/images/ld.png" class ="img-content" /> = f(x<sub>0</sub>).</p>\
                 <p><span class ="glyphicon glyphicon-pencil"></span> Funcția f este continuă în x<sub>0</sub> dacă și numai dacă este continuă la stânga și la dreapta în x<sub>0</sub>.</p>\
@@ -561,7 +561,7 @@ document.getElementById("test").innerHTML = "lol";\
     ],
     [
         '<h2>Asimptote</h2>\
-        <p><span class ="glyphicon glyphicon-pencil"></span> La o funcție nemărginită, se pune problema dacă ramurile graficului săul se apropie necontenit de o dreaptă,\
+        <p><span class ="glyphicon glyphicon-pencil"></span> La o funcție nemărginită, se pune problema dacă ramurile graficului său se apropie necontenit de o dreaptă,\
                 într-un sens care va fi precizat mai jos. Dacă există o asemenea dreaptă, se numește <i>asimptotă</i>.</p>\
         <ol>\
             <li><i>Asimptota oblică</i> este dreapta de ecuație <i>y = mx + n</i>, unde <img src ="/images/m.png" class ="img-content" /> și <img src ="/images/n.png" class ="img-content" />. </li>\
@@ -569,35 +569,34 @@ document.getElementById("test").innerHTML = "lol";\
              <li><i>Asimptota verticală</i> este dreapta de ecuație x = a, unde a este un punct în care cel puțin una dintre limitele la dreapta și la stânga este infinită.</li>\
         </ol>',
         '<h2>Grafice de funcții</h2>\
-                <p>Vom realiza graficul funcției <i> f(x) = ln(sin(x)) </i>.</p>\
+                <p>Vom realiza graficul funcției <i> f(x) = x<sup>3</sup> - x </i>.</p>\
                 <ul class="list-group">\
                     <li class="list-group-item">\
                         <h4><i>Domeniul de definiție</i></h4> Dacă domeniul de definiție nu este precizat trebuie să găsim mulțimea formată din toate punctele pentru care f(x) are sens.\
-                        <p> <span class ="glyphicon glyphicon-pencil"></span> Pentru funcția dată, domeniul de definiție este reuniunea intervalelor de forma (2kπ, (2k + 1)π), k ∈ ℤ. </p>\
-                        <div class="alert alert-danger"><b>De ce?</b> Pentru că domeniul de definiție al logaritmului este (0, ∞). Funcția sinus este definită pe ℝ și are valori în [-1, 1].\
-                        Ne uităm pe cercul trigonometric și observăm că valorile funcției sinus sunt pozitive pentru valori din intervalul (2kπ, (2k + 1)π), k ∈ ℤ.</div>\
+                        <p> <span class ="glyphicon glyphicon-pencil"></span> Pentru funcția dată, domeniul de definiție este mulțimea numerelor reale. </p>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Particularități ale funcției</i></h4> Verificăm dacă funcția este pară, impară sau periodică pentru a limita studiul proprietăților.\
-                        <p> <span class ="glyphicon glyphicon-pencil"></span> Funcția ln(sin(x)) este periodică. Perioada este <i>π</i>.</p>\
-                        <div class="alert alert-danger"><b>De ce?</b> Funcția sin este periodică, iar perioada este π. Putem analiza funcția doar pe intervalul (0, π), după care îl vom extinde.</div>\
+                        <p> <span class ="glyphicon glyphicon-pencil"></span> Funcția x<sup>3</sup> - x este impară. Este suficient să studiem funcția pe [0, ∞).</p>\
+                        <div class="alert alert-danger"><b>De ce?</b> f(-x) = (-x)<sup>3</sup> - (-x) = -(x<sup>3</sup> - x) = -f(x).</div>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Intersecția cu axele de coordonate</i></h4>Punctul (0, f(0)) pentru intersecția cu Oy și punctele (x, f(x)) unde f(x) = 0 pentru intersecțiile cu Ox.\
-                        <p><span class ="glyphicon glyphicon-pencil"></span> Funcția dată se intersectează cu Ox când sin(x) = 1, deci x = kπ/2, k ∈ ℤ. </p>\
+                        <p><span class ="glyphicon glyphicon-pencil"></span> f se intersectează cu Ox în (0, 0) și (1, 0) iar cu Oy în (0, 0).</p>\
+                        <div class="alert alert-danger"><b> De ce? </b> <br /> G<sub>f</sub> ∩ Ox : f(x) = 0 => x ∈ {0, 1} <br /> G<sub>f</sub> ∩ Oy: x = 0 => f(0) = 0.</div>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Asimptote</i></h4> Verificăm dacă graficul admite asimptote verticale, orizontale sau oblice.\
-                        <p><span class ="glyphicon glyphicon-pencil"></span> Pentru intervalul (0, π), funcția are asimptotă verticală la dreapta lui 0 și la stânga lui π. </p> \
-                        <div class="alert alert-danger"><b>De ce?</b> Pentru că limita când x tinde la 0 este ∞, iar limita când x tinde la π este -∞. </div>\
+                        <p><span class ="glyphicon glyphicon-pencil"></span> f nu are asimptote. </p> \
+                        <div class="alert alert-danger"><b>De ce?</b> Limita când x tinde la ∞ din f(x) este ∞, deci nu există asimptotă orizontală. Limita când x tinde la ∞ din f(x)/x este ∞, deci nu există nici asimptotă oblică. Funcția f este continuă, deci nu există nici asimptote verticale. </div>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Derivata întâi</i></h4> Rezolvăm ecuația f\'(x) = 0 pentru a determina punctele critice. Precizăm semnele derivatei de unde decurg intervalele de monotonie, punctele de extrem, unghiulare, de întoarcere.\
-                        <p><span class ="glyphicon glyphicon-pencil">Derivata funcției este ctg(x).</span> </p>\
+                        <p><span class ="glyphicon glyphicon-pencil"></span> Ecuația f\'(x) = 3x<sup>2</sup> - 1 are soluția √3/3. f(√3/3) = -2√3/9, iar (√3/3, -2√3/9) punct de extrem. </p>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Derivata a doua</i></h4> Precizăm semnul derivatei a II-a, de unde se deduc intervalele de convexitate, concavitate și eventualele puncte de inflexiune.\
-                        <p><span class ="glyphicon glyphicon-pencil"></span> Derivata a doua a funcției este 1/sin(x)<sup>2</sup> </p>\
+                        <p><span class ="glyphicon glyphicon-pencil"></span> f\'\'(x) = 6x. (0, 0) este punct de inflexiune. </p>\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Tabelul de variație</i></h4>\
@@ -613,6 +612,7 @@ document.getElementById("test").innerHTML = "lol";\
                     </li>\
                     <li class="list-group-item">\
                         <h4><i>Trasarea graficului</i></h4> Se trasează asimptotele, se marchează punctele remarcabile, care se unesc. Completăm graficul prin simetrie, repetare dacă funcția este para, impară, periodică etc.\
+                        <br /> Graficul funcției <i>f(x) = x<sup>3</sup> - x</i>: <br /> <img src = "/images/grafic.png" />\
                     </li>\
                 </ul>'
     ],
@@ -620,19 +620,19 @@ document.getElementById("test").innerHTML = "lol";\
 
 var exemple = [
     [
-        ' <h5> Exemple </h5> \
+        ' <h5> Exemple <span class = "caret"></span></h5> \
                 <ol>\
                     <li>[1, 3] </li>\
                     <li>(1, 3) </li>\
                     <li>(4, 5) </li>\
                 </ol>',
-        ' <h5> Exemple </h5>\
+        ' <h5> Exemple <span class = "caret"></span> </h5>\
                 <ol>\
                     <li> Mulțimea numerelor naturale este mărginită inferior (0 e minorant).</li>\
                     <li> Dacă A = {1, 2, 3, 4, 5} , atunci <i> min A </i> = 1, iar <i> max A </i> = 5.</li>\
                     <li> Dacă A = {n<sup>2</sup> | n ∈ <b>N*</b>}, atunci <i> min A </i> = 1, iar <i> max A </i> nu există. </li>\
                 </ol>',
-         ' <h5> Exemple </h5>\
+         ' <h5> Exemple <span class = "caret"></span> </h5>\
                 <ol>\
                     <li> [0, 3) este vecinătate a numărului 1. </li>\
                     <li> (-2, +∞) este vecinătate a lui +∞. </li>\
@@ -640,96 +640,96 @@ var exemple = [
                 </ol>'
 
     ],
-    [' <h5> Exemple </h5>\
+    [' <h5> Exemple <span class = "caret"></span> </h5>\
                    <p> Șirul lui Fibonacci: 1 1 2 3 5 8 13 ... are o recurență de ordinul 2: f<sub>n</sub> = f<sub>n-1</sub> + f<sub>n-2</sub>. </p>\
                    <img src = "/images/fibo.png" style = "height: 50px;"/>\
                ',
-        ' <h5> Exemple </h5>\
+        ' <h5> Exemple <span class = "caret"></span> </h5>\
             <img src = "/images/limsir2.png" /> \
         ',
-        ' <h5> Exemple </h5>\
+        ' <h5> Exemple <span class = "caret"></span> </h5>\
             <ol> \
             <li> Șirul <i> 2, 4, 6, 8, ... </i> este subșir al șirului <i> 1, 2, 3, 4, 5, 6, 7, 8, ... </i>  </li> \
             <li> Șirul <i> 1, 3, 1, 3, 1, 3 </i> nu are limită deoarece subșirul termenilor de rang par tinde la 3, iar cel al termenilor de rang impar tinde la 1. </i>\
         ',
-        ' <h5> Exemple </h5>\
-            Șirul cu termenul general a<sub>n</sub> = (-1)<sup>k</sup> este convergent. \
+        ' <h5> Exemple <span class = "caret"></span> </h5>\
+            Șirul cu termenul general a<sub>n</sub> = 1 - 1/n este convergent. \
         ',
-          '<h5> Exemple </h5>\
+          '<h5> Exemple <span class = "caret"></span> </h5>\
           <img src = "/images/cleste2.png" style = "height: 100px;"/>',
-          '<h5> Exemple </h5>\
-          lim (sin n)<sup>n</sup> este nedeterminare. \
+          '<h5> Exemple <span class = "caret"></span> </h5>\
+          Când n tinde la infinit, (ln n) / n poate fi nedeterminare. \
           ',
-        '<h5>Exemple</h5>\
+        '<h5>Exemple <span class = "caret"></span></h5>\
                 <p>În cazul limitelor de genul 1<sup>∞</sup>, vom face un artificiu de calcul: adăugăm 1 și scădem 1.</p>\
                 <img src ="/images/lime2.png" style ="height: 60px;"/>',
-         '<h5>Exemple</h5>\
+         '<h5>Exemple <span class = "caret"></span></h5>\
                 <p>În cazul limitelor de genul 1<sup>∞</sup>, vom face un artificiu de calcul: adăugăm 1 și scădem 1.</p>\
                 <img src ="/images/lime2.png" style ="height: 60px;"/>'
     ],
     [
-        '<h5> Exemple </h5>\
+        '<h5> Exemple <span class = "caret"></span> </h5>\
                 <ol>\
                     <li>Q\' = ℝ</li>\
                     <li>Mulțimea numerelor naturale nu are puncte de acumulare. Este formată doar din puncte izolate.</li>\
                     <li>Fie A = [0, 1) ∪ {2}. Atunci, A\' = [0, 1].</li>\
                 </ol>',
-        '<h5>Exemple</h5> \
+        '<h5>Exemple <span class = "caret"></span></h5> \
                     Funcția <img src ="/images/nolimit.png" style ="height: 80px;"/> nu are limită în nici un punct.',
-        '<h5>Exemple</h5>\
+        '<h5>Exemple <span class = "caret"></span></h5>\
                 <ol>\
                     <li>Pentru f : [-1, 1] → ℝ, are sens numai limita la dreapta în -1 și limita la stânga în -1.</li>\
                     <li>Funcția f(x) = <img src ="/images/lsld.png" style ="height: 50px;" /> are limită în 0.</li>\
                 </ol>',
-        '<h5>Exemple</h5> <img src ="/images/clestef.png" />',
-        '<h5>Exemple</h5> <img src ="/images/limr.png" />'
+        '<h5>Exemple <span class = "caret"></span></h5> <img src ="/images/clestef.png" />',
+        '<h5>Exemple <span class = "caret"></span></h5> <img src ="/images/limr.png" />'
     ],
     [
-        '<h5>Exemple</h5>\
+        '<h5>Exemple <span class = "caret"></span></h5>\
                 <ol>\
                     <li>Funcția sgn : ℝ → ℝ nu este continuă.</li>\
                     <li>Funcția sin : ℝ → ℝ este continuă.</li>\
                 </ol> ',
-        '<h5>Exemple</h5> \
+        '<h5>Exemple <span class = "caret"></span></h5> \
                 <ol> \
                     <li>Funcția f : ℝ → ℝ, f(x) = [x], prezintă discontinuități de speța I.</li> \
                     <li>Funcția tg prezintă discontinuități de speța a II-a.</li> \
                 </ol>',
-        '<h5>Exemple</h5> <p>Funcția f(x) = [x] nu are proprietatea Darboux.</p>'
+        '<h5>Exemple <span class = "caret"></span></h5> <p>Funcția f(x) = [x] nu are proprietatea Darboux.</p>'
     ],
     [
-        '<h5>Exemple</h5>\
+        '<h5>Exemple <span class = "caret"></span></h5>\
                 <ol>\
                     <li>Funcția f : ℝ → ℝ, f(x) = x<sup>2</sup> este derivabilă în 0 deoarece limita raportului în 0 există și este finită.</li>\
                     <li>Funcția f : ℝ → ℝ, f(x) = |x| nu este derivabilă în 0 deoarece limita raportului în 0 nu există.</li>\
                 </ol>',
-         '<h5>Exemple</h5> <p>Funcția f : ℝ → ℝ nu este continuă în x<sub>0</sub> înteg, deci nu este derivabilă în x<sub>0</sub>.</p>',
-         '<h5>Exemple</h5> Pentru funcția f : ℝ → ℝ, f(x) = x|x - 1|, 1 este punct unghiular.',
-         '<h5>Exemple</h5>\
+         '<h5>Exemple <span class = "caret"></span></h5> <p>Funcția f : ℝ → ℝ nu este continuă în x<sub>0</sub> înteg, deci nu este derivabilă în x<sub>0</sub>.</p>',
+         '<h5>Exemple <span class = "caret"></span></h5> Pentru funcția f : ℝ → ℝ, f(x) = x|x - 1|, 1 este punct unghiular.',
+         '<h5>Exemple <span class = "caret"></span></h5>\
                 <ol>\
                     <li>(x<sup>2</sup>)\' = 2x </li>\
                     <li>Pentru funcții compuse, <i>derivăm și argumentul</i>: (a<sup>sin 2x</sup>)\' = 2 a<sup>sin 2x</sup> ln(a) cos 2x </li>\
                 </ol>',
-        '<h5>Exemple</h5>\
+        '<h5>Exemple <span class = "caret"></span></h5>\
                 <ol>\
                     <li>(4x<sup>3</sup>)\' = 12 x<sup>2</sup></li>\
                     <li>(cos(x) ln(x))\' = -sin(x) ln(x) + cos(x) 1/x</li>\
                     <li>(x + 1)\' = 1</li>\
                 </ol>',
-        '<h5>Exemple</h5> Funcțiile arcsin, arccos, arctg, arcctg sunt inversele funcțiilor sin, cos, tg, ctg.',
-        '<h5>Exemple</h5> Funcțiile <i>sin</i> și <i>cos</i> sunt indefinit derivabile. //DE COMPLETAT',
-        '<h5>Exemple</h5> Fie funcția f (x) = x<sup>3</sup> - 4x<sup>2</sup> + 5x - 10. Utilizând șirul lui Rolle, observăm o singură rădăcină, în intervalul (5/3, ∞). \
+        '<h5>Exemple <span class = "caret"></span></h5> Funcțiile arcsin, arccos, arctg, arcctg sunt inversele funcțiilor sin, cos, tg, ctg.',
+        '<h5>Exemple <span class = "caret"></span></h5> Funcțiile <i>sin</i> și <i>cos</i> sunt indefinit derivabile. //DE COMPLETAT',
+        '<h5>Exemple <span class = "caret"></span></h5> Fie funcția f (x) = x<sup>3</sup> - 4x<sup>2</sup> + 5x - 10. Utilizând șirul lui Rolle, observăm o singură rădăcină, în intervalul (5/3, ∞). \
                 <img src ="/images/sirrolle.png" />',
-        '<h5>Exemple</h5> <img src="/images/hospital.png" />',
-        '<h5>Exemple</h5> <p>x<sup>2</sup> este o funcție convexă, iar -x<sup>2</sup> este concavă.</p>'
+        '<h5>Exemple <span class = "caret"></span></h5> <img src="/images/hospital.png" />',
+        '<h5>Exemple <span class = "caret"></span></h5> <p>x<sup>2</sup> este o funcție convexă, iar -x<sup>2</sup> este concavă.</p>'
     ],
     [
-        '<h5>Exemple</h5>\
+        '<h5>Exemple <span class = "caret"></span></h5>\
                 <ol>\
                     <li>Graficul funcției f : ℝ* → ℝ, f(x) = (x<sup>2</sup> - 1) / x admite dreapta x = 0 ca asimptotă verticală și dreapta y = x asimptotă oblica la +∞ și la -∞.</li>\
                     <li>f : (2, ∞) → ℝ, f (x) = x / (x - 1) admite ca asimptotă orizontală dreapta y = 1 la +∞ și la -∞.</li>\
                 </ol>',
-        '<h5>Ajutor</h5> Site-ul <a href ="https://www.wolframalpha.com/">Wolframalpha</a> este un bun ajutor pentru verificarea graficelor obținute! :)'
+        '<h5>Ajutor <span class = "caret"></span></h5> Site-ul <a href ="https://www.wolframalpha.com/">Wolframalpha</a> este un bun ajutor pentru verificarea graficelor obținute! :)'
     ]
 ];
 

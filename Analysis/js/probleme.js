@@ -21,6 +21,7 @@ check = function () {
     var r = document.getElementById("rezultat");
     if (r.value != probleme[crt].rezultat) {
         //dacă răspunsul nu este corect, utilizatorul este informat și afișez un indiciu
+        updateScor(-10);
         document.getElementById("divrezultat").setAttribute("class", "form-group has-error");
         document.getElementById("wrong").setAttribute("style", "display: block;");
         document.getElementById("right").setAttribute("style", "display: none;");
@@ -32,6 +33,7 @@ check = function () {
     }
     else {
         //în cazul în care răspunsul este corect, utilizatorul este informat
+        updateScor(100);
         document.getElementById("divrezultat").setAttribute("class", "form-group has-success");
         document.getElementById("wrong").setAttribute("style", "display: none;");
         document.getElementById("right").setAttribute("style", "display: block;");

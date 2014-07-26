@@ -202,6 +202,7 @@
     <Content Include="images\g2.jpg" />
     <Content Include="images\g3.jpg" />
     <Content Include="images\gf1.png" />
+    <Content Include="images\grafic.png" />
     <Content Include="images\Grafice\e1.png" />
     <Content Include="images\Grafice\e2.png" />
     <Content Include="images\Grafice\e3.png" />
@@ -332,7 +333,7 @@
     <Content Include="js\joc.js" />
     <Content Include="js\lectii.js" />
     <Content Include="js\probleme.js" />
-    <Content Include="js\register.js" />
+    <Content Include="js\user.js" />
     <Content Include="js\scor.js" />
     <Content Include="js\script.js" />
     <Content Include="pages\about.html" />

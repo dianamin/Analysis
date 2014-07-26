@@ -463,6 +463,9 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\gf1.png">
       <PackagePath>images\gf1.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\grafic.png">
+      <PackagePath>images\grafic.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Grafice\e1.png">
       <PackagePath>images\Grafice\e1.png</PackagePath>
     </AppxPackagedFile>
@@ -860,8 +863,8 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\probleme.js">
       <PackagePath>js\probleme.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\register.js">
-      <PackagePath>js\register.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\user.js">
+      <PackagePath>js\user.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\scor.js">
       <PackagePath>js\scor.js</PackagePath>
