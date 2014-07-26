@@ -13,15 +13,16 @@ var end = function () {
     time = (Date.now() - time) / 1000;
     if (lifec > 0) document.getElementById("rez").innerHTML = "Bravo :D";
     else {
-        document.getElementById("robot-joc").setAttribute("style", "animation: lost; animation-duration: 2s;");
+        document.getElementById("robot-joc").setAttribute("style", "animation: lost; animation-duration: 1s;");
         document.getElementById("rez").innerHTML = "Poți mai bine! :)";
     }
 
     setTimeout(function () {
+        document.getElementById("stopBtn").setAttribute("style", "display: none;");
         document.getElementById("combat").setAttribute("style", "display: none;");
         document.getElementById("stopjoc").setAttribute("style", "display: block;");
         document.getElementById("robot-joc").setAttribute("style", "");
-    }, 2000);
+    }, 1000);
 
 }
 
@@ -109,6 +110,7 @@ startJoc = function () {
     lifec = 100; //setez viața robotului
     lifee = 100; //setez viața adversarului
     
+    document.getElementById("stopBtn").setAttribute("style", "display: block;");
     document.getElementById("character").setAttribute("value", lifec);
     document.getElementById("enemy").setAttribute("value", lifee);
     document.getElementById("scor").setAttribute("style", "display: block;");

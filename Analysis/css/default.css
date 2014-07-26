@@ -437,3 +437,8 @@ i, h5 {
     border-radius: 100%;
     box-shadow: 0 0 10px white;
 }
+
+#stopBtn {
+    display: none;
+    float: right;
+}

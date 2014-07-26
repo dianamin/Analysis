@@ -30,7 +30,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-07-20T18:50:47.898</Modified>
+      <Modified>2014-07-26T20:40:35.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Continuitate.txt">
       <PackagePath>data\Continuitate.txt</PackagePath>
@@ -50,19 +50,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc1.txt">
       <PackagePath>data\Joc1.txt</PackagePath>
-      <Modified>2014-07-25T18:36:34.658</Modified>
+      <Modified>2014-07-26T20:35:14.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc2.txt">
       <PackagePath>data\Joc2.txt</PackagePath>
-      <Modified>2014-07-25T18:39:24.268</Modified>
+      <Modified>2014-07-26T20:35:17.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc3.txt">
       <PackagePath>data\Joc3.txt</PackagePath>
-      <Modified>2014-07-25T18:43:36.238</Modified>
+      <Modified>2014-07-26T20:35:20.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc4.txt">
       <PackagePath>data\Joc4.txt</PackagePath>
-      <Modified>2014-07-25T18:35:01.760</Modified>
+      <Modified>2014-07-26T20:35:24.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc5.txt">
       <PackagePath>data\Joc5.txt</PackagePath>
@@ -82,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-07-26T20:32:57.487</Modified>
+      <Modified>2014-07-26T20:40:42.143</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
@@ -1141,7 +1141,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\joc.js">
       <PackagePath>js\joc.js</PackagePath>
-      <Modified>2014-07-25T19:40:19.229</Modified>
+      <Modified>2014-07-26T20:42:22.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
       <PackagePath>js\lectii.js</PackagePath>
