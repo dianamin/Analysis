@@ -5,18 +5,18 @@
     <WindowsUser>DIDI</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>AF0BF45036A7E2A30D555FE09221F450DE8557BF54ACA9B244D28687F03DD8FD</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.14_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>E12ACCF7D4382FE35B876CB535A65D8581E629DF496A552DF5455649BD04E4E8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>424618ed-0c7e-4a5f-bf7c-b703f257445e_1.0.0.15_neutral__2dvk2c9r5r43w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>424618ed-0c7e-4a5f-bf7c-b703f257445e_2dvk2c9r5r43w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>424618ed-0c7e-4a5f-bf7c-b703f257445e</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=DIDI</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.14</RegisteredVersion>
+    <RegisteredVersion>1.0.0.15</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-27T11:41:30.004</Modified>
+      <Modified>2014-07-27T12:23:03.068</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -26,7 +26,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\narrow.css">
       <PackagePath>css\narrow.css</PackagePath>
-      <Modified>2014-07-20T11:11:00.118</Modified>
+      <Modified>2014-07-27T12:28:42.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
@@ -652,6 +652,21 @@
       <PackagePath>images\i2.png</PackagePath>
       <Modified>2014-07-03T13:39:27.360</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\icon.png">
+      <PackagePath>images\icon.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-27T12:16:25.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\icon.scale-100.png">
+      <PackagePath>images\icon.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-27T12:16:25.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\iconsm.png">
+      <PackagePath>images\iconsm.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-27T12:19:57.492</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\impartire.png">
       <PackagePath>images\impartire.png</PackagePath>
       <Modified>2014-06-03T20:01:39.254</Modified>
@@ -973,6 +988,14 @@
       <PackagePath>images\sirrolle.png</PackagePath>
       <Modified>2014-06-02T12:37:11.351</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <Modified>2014-07-27T12:19:57.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <Modified>2014-07-27T12:16:25.026</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e1.png">
       <PackagePath>images\Șiruri\e1.png</PackagePath>
       <Modified>2014-06-03T11:38:07.520</Modified>
@@ -1087,7 +1110,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-06-04T23:44:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\splashscreen.png">
@@ -1098,7 +1120,7 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-03T20:57:56.357</Modified>
+      <Modified>2014-06-03T21:27:43.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\SplashScreen.scale-140.png">
       <PackagePath>images\SplashScreen.scale-140.png</PackagePath>
@@ -1112,7 +1134,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-06-04T23:44:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\subsequence.png">
@@ -1145,7 +1166,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\joc.js">
       <PackagePath>js\joc.js</PackagePath>
-      <Modified>2014-07-27T11:42:09.485</Modified>
+      <Modified>2014-07-27T11:42:30.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
       <PackagePath>js\lectii.js</PackagePath>
@@ -1185,7 +1206,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-27T11:41:28.679</Modified>
+      <Modified>2014-07-27T12:23:02.890</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -487,6 +487,18 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\i2.png">
       <PackagePath>images\i2.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\icon.png">
+      <PackagePath>images\icon.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\icon.scale-100.png">
+      <PackagePath>images\icon.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\iconsm.png">
+      <PackagePath>images\iconsm.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\impartire.png">
       <PackagePath>images\impartire.png</PackagePath>
     </AppxPackagedFile>
@@ -728,6 +740,12 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\sirrolle.png">
       <PackagePath>images\sirrolle.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\Șiruri\e1.png">
       <PackagePath>images\Șiruri\e1.png</PackagePath>
     </AppxPackagedFile>
@@ -814,7 +832,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
@@ -834,7 +851,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\subsequence.png">
       <PackagePath>images\subsequence.png</PackagePath>

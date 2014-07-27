@@ -156,6 +156,9 @@ images\Grafice\e3.png
 images\hospital.png
 images\i1.png
 images\i2.png
+images\icon.png
+images\icon.scale-100.png
+images\iconsm.png
 images\impartire.png
 images\inflexiune.png
 images\inmultire.png
@@ -237,11 +240,13 @@ images\sc.png
 images\sir.png
 images\sirrolle.png
 images\smalllogo.png
+images\smalllogo.scale-100.png
 images\splashscreen.png
 images\SplashScreen.scale-100.png
 images\SplashScreen.scale-140.png
 images\SplashScreen.scale-180.png
 images\storelogo.png
+images\storelogo.scale-100.png
 images\subsequence.png
 images\Șiruri\e1.png
 images\Șiruri\e2.png

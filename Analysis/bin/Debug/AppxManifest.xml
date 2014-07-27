@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="424618ed-0c7e-4a5f-bf7c-b703f257445e" Version="1.0.0.14" Publisher="CN=DIDI" ProcessorArchitecture="neutral" />
+  <Identity Name="424618ed-0c7e-4a5f-bf7c-b703f257445e" Version="1.0.0.15" Publisher="CN=DIDI" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>Analysis</DisplayName>
     <PublisherDisplayName>DIDI</PublisherDisplayName>
-    <Logo>images\storelogo.png</Logo>
+    <Logo>images\icon.png</Logo>
   </Properties>
   <Prerequisites>
     <OSMinVersion>6.2.1</OSMinVersion>
@@ -23,7 +23,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="Analysis" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Analysis" ForegroundText="light" BackgroundColor="#464646">
+      <VisualElements DisplayName="Analysis" Logo="images\logo.png" SmallLogo="images\iconsm.png" Description="Analysis" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" ShortName="Mathematical Analysis" />
         <SplashScreen Image="images\splashscreen.png" />
       </VisualElements>
