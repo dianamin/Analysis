@@ -1,0 +1,62 @@
+﻿[
+{
+	"intrebare" : "Cât este (2x<sup>2</sup>)'?",
+	"raspuns": ["4x", "2x"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Cât este (ln x)'?",
+	"raspuns": ["e<sup>x</sup>", "1/x"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Cât este (cos(2x))'?",
+	"raspuns": ["-2sin(2x)", "2sin(x)"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Cât este (e<sup>x</sup>)'",
+	"raspuns": ["ex", "e<sup>x</sup>"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Cât este (e<sup>sinx</sup>)'?",
+	"raspuns": ["e<sup>sin(x)</sup>", "cos(x)e<sup>sin(x)</sup>"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Ce funcție are ca derivată e<sup>x</sup>?",
+	"raspuns": ["e<sup>x</sup> + x", "e<sup>x</sup> + c"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Cât este x<sup>-1</sup> derivat?",
+	"raspuns": ["-x<sup>-2</sup>", "1"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Ce funcție are derivata 1/x?",
+	"raspuns": ["ln x + c", "x<sup>-1</sup>"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "(f(x) + g(x))' = ?",
+	"raspuns": ["f(x)'g(x)'", "f(x)' + g(x)'"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Pot deriva sgn(x)?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+}
+]

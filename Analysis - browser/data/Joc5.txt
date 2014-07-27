@@ -1,0 +1,62 @@
+﻿[
+{
+	"intrebare" : "Cât e f'(x), unde x este un punct de extrem?",
+	"raspuns": ["0", "∞"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Reciproca teoremei lui l'Hopital este adevarată.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Dacă f'(x) > 0, f este descrescătoare.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Dacă f este pară, f' este impara.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "O funcție concavă are derivata a doua nulă.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Arcsin este o funcție liniară.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "f(x) = x<sup>2</sup> are un punct de maxim.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "f(x) = x<sup>3</sup> are puncte de extrem.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Dacă f'(x) = g'(x) atunci sigur f(x) = g(x).",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Extremul global al unei funcții este și local?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+}
+]

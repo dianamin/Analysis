@@ -1,0 +1,131 @@
+﻿[{
+    "enunt" : "Calculați limita <img src ='/images/Funcții/e1.png'>.",
+    "capitol" : "Funcții",
+    "rezultat" : "sqrt(e)",
+	"indiciu" : [
+		"<img src ='/images/Funcții/h11.png'/>",
+		"<img src ='/images/Funcții/h12.png'/>",
+		"<img src ='/images/Funcții/h13.png'/>"
+	]
+},
+{
+    "enunt" : "Fie funcția <img src ='/images/Funcții/e2a.png' />. <br /> Să se calculeze <img src ='/images/Funcții/e2b.png' class = 'img-content' />.",
+    "capitol" : "Funcții",
+    "rezultat" : "1/3",
+	"indiciu" : [
+		"Înlocuim x cu f(y).", 
+		"<img src ='/images/Funcții/h42.png' />",
+		"<img src ='/images/Funcții/h43.png' />"
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e3.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "-2",
+	"indiciu" : [
+		"Observăm că este o funcție polinomială.", 
+		"Verificăm dacă putem înlocui x cu 0.", 
+		"<img src ='/images/Funcții/h33.png'  />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e4.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "-4/5",
+	"indiciu" : [
+		"Este o funcție polinomială", 
+		"<img src ='/images/Funcții/h42.png'/>.", 
+		"<img src ='/images/Funcții/h43.png'/>."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e5.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "1",
+	"indiciu" : [
+		"Raționalizăm: <img src = '/images/Funcții/h51.png' />", 
+		"<img src ='/images/Funcții/h52.png' />.", 
+		"<img src ='/images/Funcții/h53.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e6.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "1/2",
+	"indiciu" : [
+		"Știm că <img src ='/images/Funcții/h61.png' />", 
+		"<img src ='/images/Funcții/h62.png' />.", 
+		"<img src ='/images/Funcții/h63.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e7.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "-2",
+	"indiciu" : [
+		"Este cazul de nedeterminare ∞/∞.", 
+		"<img src ='/images/Funcții/h72.png' />.", 
+		"<img src ='/images/Funcții/h73.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e8.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "1/5",
+	"indiciu" : [
+		"Pentru a, unde 0 < a < 1, avem <img src ='/images/Funcții/h81.png' />", 
+		"<img src ='/images/Funcții/h82.png' />", 
+		"<img src ='/images/Funcții/h83.png' />"
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e9.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "15",
+	"indiciu" : [
+		"Folosim limita remarcabilă <img src = '/images/Funcții/h91.png' />", 
+		"<img src ='/images/Funcții/h92.png' />.", 
+		"<img src ='/images/Funcții/h93.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e10.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "3",
+	"indiciu" : [
+		"Folosim limita remarcabilă <img src = '/images/Funcții/h101.png' />", 
+		"<img src ='/images/Funcții/h102.png' />.", 
+		"<img src ='/images/Funcții/h103.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e11.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "3/5",
+	"indiciu" : [
+		"Pentru a > 0, <img src = '/images/Funcții/h111.png' />", 
+		"<img src ='/images/Funcții/h112.png' />.", 
+		"<img src ='/images/Funcții/h113.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e10.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "3/5",
+	"indiciu" : [
+		"Pentru a > 0, <img src = '/images/Funcții/h111.png' />", 
+		"<img src ='/images/Funcții/h112.png' />.", 
+		"<img src ='/images/Funcții/h113.png' />."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Funcții/e10.png' /> = ?",
+    "capitol" : "Funcții",
+    "rezultat" : "3/5",
+	"indiciu" : [
+		"Pentru a > 0, <img src = '/images/Funcții/h111.png' />", 
+		"<img src ='/images/Funcții/h112.png' />.", 
+		"<img src ='/images/Funcții/h113.png' />."
+	]
+}
+]  

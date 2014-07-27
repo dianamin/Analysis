@@ -1,0 +1,62 @@
+﻿[
+{
+	"intrebare" : "Funcțiile elementare sunt continue.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Funcția signum prezintă discontinuități de speța ...?",
+	"raspuns": ["I", "II"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "O funcție care are proprietatea lui Darboux e sigur continuă.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "O funcție monotonă poate prezenta discontinuități de speța a II-a.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Funcțiile formate prin operațiile cu funcții continue sunt continue.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Dacă limita în x<sub>0</sub> există, atunci f este continuă în x<sub>0</sub>.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Dacă f : (a, b) → ℝ este continuă și are limite finite în a și b, atunci f este mărginita pe (a, b).",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Dacă f continuă pe intervalul compact E, atunci f(E) interval compact.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Dacă f are limite la stânga și la dreapta lui a, atunci f continuă în a.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Dacă f continuă la stânga și la dreapta lui a, atunci f continuă în a.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+}
+]

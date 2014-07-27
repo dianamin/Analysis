@@ -1,0 +1,62 @@
+﻿[
+{
+	"intrebare" : "f(x) = sin(1/x). Care este limita la dreapta lui 0?",
+	"raspuns": ["0", "nu are"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Care este limita în 0 a funcției f(x) = x sin(1/x)?",
+	"raspuns": ["nu există", "0"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Care este limita unei funcții constante?",
+	"raspuns": ["constanta", "0"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Limita unei funcții polinomiale la ±∞ este limita termenului ...?",
+	"raspuns": ["de grad maxim", "de grad minim"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Limita sumei este egală cu produsul limitelor.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Limita când x tinde la 0 din (a<sup>x</sup> - 1)/x = ?",
+	"raspuns": ["ln a", "ln x"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Cos are limita la ±∞?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Sin are limita la ±∞?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Arctg are limită la ±∞?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Arctg are limită la ±∞??",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+}
+]

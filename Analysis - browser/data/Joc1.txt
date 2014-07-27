@@ -1,0 +1,62 @@
+﻿[
+{
+	"intrebare" : "Orice șir mărginit este convergent?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice șir nemărginit este divergent?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice șir convergent este mărginit?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice șir strict crescător este nemărginit?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice șir care conține un subșir convergent este mărginit?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice subșir al unui șir monoton este monoton?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Orice șir descrescător și nemărginit are limita ...?",
+	"raspuns": ["0", "-∞"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "Fie x<sub>1</sub> = 1, x<sub>n+1</sub> = x<sup>2</sup><sub>n</sub> + 1. Șirul (x<sub>n</sub>) este convergent?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "La ce tinde log<sub>a</sub>x când x tinde la 1?",
+	"raspuns": ["La 0", "La -∞"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "Care este limita șirului cu termenul general (1+2+...+n)/(n<sup>2</sup>)?",
+	"raspuns": ["1/2", "∞"],
+	"raspunsCorect": 1,
+	"pusa" : false
+}
+]

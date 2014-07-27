@@ -1,0 +1,81 @@
+﻿[{
+    "enunt" : "Fie f : ℝ → ℝ. Funcția este continuă în punctul a = 3? <img src = '/images/Continuitate/e1.png' />",
+    "capitol" : "Continuitate",
+    "rezultat" : "Da",
+	"indiciu" : [
+		"Calculăm limita la stânga și limita la dreapta lui a = 3.",
+		"Calculăm f(a).",
+		"Deoarece f(a), l<sub>s</sub>(a) și l<sub>d</sub>(a) sunt egale cu 27, funcția este continuă în a."
+	]
+},
+{
+    "enunt" : "Fie f : ℝ → ℝ. Funcția este continuă în punctul a = 4? <img src = '/images/Continuitate/e2.png' />",
+    "capitol" : "Continuitate",
+    "rezultat" : "Da",
+	"indiciu" : [
+		"Calculăm limita la stânga și limita la dreapta lui a = 4.",
+		"Calculăm f(a).",
+		"Deoarece f(a), l<sub>s</sub>(a) și l<sub>d</sub>(a) sunt egale cu 8, funcția este continuă în a."
+	]
+},
+{
+    "enunt" : "Fie f : ℝ → ℝ. Funcția este continuă în punctul a = 0? <img src = '/images/Continuitate/e3.png' />",
+    "capitol" : "Continuitate",
+    "rezultat" : "Nu",
+	"indiciu" : [
+		"Calculăm limita la stânga și limita la dreapta lui a = 0.",
+		"Observăm că limita la stânga este -1, iar limita la dreapta 1.",
+		"Deoarece limitele laterale sunt diferite, funcția nu este continuă în a."
+	]
+},
+{
+    "enunt" : "Să se determine parametrul real a pentru care următoarea funcție este continuă în a = 1. <br /> <img src = '/images/Continuitate/e4.png' />",
+    "capitol" : "Continuitate",
+    "rezultat" : "1/2",
+	"indiciu" : [
+		"Calculăm limitele la stânga și la dreapta lui a.", 
+		"Trebuie îndeplinită condiția l<sub>s</sub>(a) = l<sub>d</sub>(a).", 
+		"2a + 1 = a + 3a, deci a = 1/2."
+	]
+},
+{
+    "enunt" : "Punctul de discontinuitate de speța I al funcției <img src = '/images/Continuitate/e5.png' /> este x = ?",
+    "capitol" : "Continuitate",
+    "rezultat" : "0",
+	"indiciu" : [
+		"Verificăm dacă funcția este continuă în 0.", 
+		"Calculăm limitele laterale.", 
+		"Limitele laterale sunt diferite, deci punctul x = 0 este punct de descontinuitate de speța I."
+	]
+},
+{
+    "enunt" : "<img src = '/images/Continuitate/e6.png' /> este continuă la stânga sau la dreapta lui a = 1? (1 pentru stânga, 2 pentru dreapta, 3 pentru ambele).",
+    "capitol" : "Continuitate",
+    "rezultat" : "1",
+	"indiciu" : [
+		"Calculăm limitele la stânga și la dreapta lui a.", 
+		"l<sub>s</sub>(1) = -2, l<sub>d</sub>(1) = 4, deci f nu este continuă în a.", 
+		"Deoarece f(a) = l<sub>s</sub>(a) = -2, funcția este continuă la stânga lui a. Deci, răspunsul este 1."
+	]
+},
+{
+    "enunt" : "Fie f : [0, 3] → ℝ, <img src = '/images/Continuitate/e7.png' />. Este continuă pe [0, 3]? (Da/Nu)",
+    "capitol" : "Continuitate",
+    "rezultat" : "Nu",
+	"indiciu" : [
+		"Deoarece ramurile sunt formate prin compunerea funcțiilor elementare, f este continuă pe [0, 3] - {1}.", 
+		"Verificăm continuitatea în 1. Observăm că funcția este continuă la dreapta lui 1.", 
+		"Funcția nu este continuă pe tot intervalul, este continuă pe [0, 1) și (1, 3]."
+	]
+},
+{
+    "enunt" : "Funcția <img src = '/images/Continuitate/e8.png' /> are proprietatea lui Darboux? (Da/Nu)",
+    "capitol" : "Continuitate",
+    "rezultat" : "Nu",
+	"indiciu" : [
+		"Verificăm domeniul de definiție.", 
+		"Valorile funcției f nu formează un interval.", 
+		"Deoarece f(ℝ) = {0, 1}, f nu are proprietatea lui Darboux."
+	]
+}
+]  

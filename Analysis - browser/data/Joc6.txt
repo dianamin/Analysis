@@ -1,0 +1,62 @@
+﻿[
+{
+	"intrebare" : "f(x) = 1/x are asimptotă verticală în 0.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "f(x) = 1/x are doar asimptotă verticală.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "f(x) = x<sup>2</sup> are asimptotă orizontală y = 0.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "f(x) = x<sup>3</sup> este simetrică față de Oy?",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "f(x) = |x<sup>3</sup>| e convexă.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "f(x) = x<sup>-2</sup>, x > 0, are asimptotă orizontală.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "f(x) = x<sup>-2</sup>, x > 0, are asimptotă verticală.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "ln este o funcție ...?",
+	"raspuns": ["concavă", "convexă"],
+	"raspunsCorect": 1,
+	"pusa" : false
+},
+{
+	"intrebare" : "e<sup>x</sup> e o funcție ...",
+	"raspuns": ["concavă", "convexă"],
+	"raspunsCorect": 2,
+	"pusa" : false
+},
+{
+	"intrebare" : "ln are o asimptotă verticală.",
+	"raspuns": ["Da", "Nu"],
+	"raspunsCorect": 1,
+	"pusa" : false
+}
+]
