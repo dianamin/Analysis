@@ -283,3 +283,5 @@ js\user.js
 pages\about.html
 sounds\beep.mp3
 sounds\beep2.mp3
+sounds\lose.mp3
+sounds\win.mp3

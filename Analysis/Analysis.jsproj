@@ -339,6 +339,8 @@
     <Content Include="pages\about.html" />
     <Content Include="sounds\beep.mp3" />
     <Content Include="sounds\beep2.mp3" />
+    <Content Include="sounds\lose.mp3" />
+    <Content Include="sounds\win.mp3" />
     <None Include="Analysis_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

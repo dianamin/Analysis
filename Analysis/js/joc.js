@@ -2,17 +2,23 @@
 var intrebari = new Array();
 
 
-var scor = 0, nivel = 0, q = 0, nq = 0;;
+var scor = 0, nivel = 0, q = 0;
 var lifec = 100, lifee = 100;
 var time;
 
 
 var end = function () {
-    time = (Date.now() - time) / 1000;
-    if (lifec > 0) document.getElementById("rez").innerHTML = "Bravo :D";
+    time = (Date.now() - time) * 1000;
+    updateScor(scor / time * scor * 1000 + 10);
+    var sound;
+    if (lifec > 0 && !lifee) {
+        document.getElementById("rez").innerHTML = "Bravo :D";
+        sound = "win";
+    }
     else {
         document.getElementById("robot-joc").setAttribute("style", "animation: lost; animation-duration: 1s;");
         document.getElementById("rez").innerHTML = "Poți mai bine! :)";
+        sound = "lose";
     }
 
     setTimeout(function () {
@@ -20,6 +26,7 @@ var end = function () {
         document.getElementById("combat").setAttribute("style", "display: none;");
         document.getElementById("stopjoc").setAttribute("style", "display: block;");
         document.getElementById("robot-joc").setAttribute("style", "");
+        document.getElementById(sound).play();
     }, 1000);
 
 }
@@ -33,7 +40,6 @@ var puneIntrebare = function (q) {
 
 
 choice = function (x) {
-    console.log(intrebari[q].raspunsCorect);
     if (String(x) == intrebari[q].raspunsCorect) {
         //dacă răspunsul este corect
         document.getElementById('ok').play(); //dau play la sunetul corespunzător răspunsului corect
@@ -51,7 +57,6 @@ choice = function (x) {
     if (lifee && lifec) { //dacă nu s-a terminat nivelul și utilizatorul nu a pierdut
         q = Math.floor(Math.random() * intrebari.length)
         while (intrebari[q].pusa == 1) q = Math.floor(Math.random() * intrebari.length);
-        nq++;
         puneIntrebare(q);
     }
     if (!lifee) {
@@ -64,12 +69,10 @@ choice = function (x) {
         }
         else {
             end(); //utilizatorul a câștigat jocul
-            updateScor(scor / time);
         }
     }
     if (!lifec) {
         end(); //utilizatorul a pierdut jocul
-        updateScor(scor * 1000 / time);
     }
 }
 
@@ -92,8 +95,9 @@ newScene = function () {
         //adversar nou
         //var a = Math.floor(Math.random() * nra) + 1;
         document.getElementById("adv").innerHTML = '<img src = "/images/adversari/' + String(nivel + 1) + '.png" class = "personaj-joc" style = "margin-right: 150px;"/>';
-        q = 0;
-        puneIntrebare(0);
+        q = Math.floor(Math.random() * intrebari.length)
+        while (intrebari[q].pusa == 1) q = Math.floor(Math.random() * intrebari.length);
+        puneIntrebare(q);
     });
 }
 

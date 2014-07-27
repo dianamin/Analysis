@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-27T09:03:43.376</Modified>
+      <Modified>2014-07-27T09:42:00.034</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Joc6.txt">
       <PackagePath>data\Joc6.txt</PackagePath>
-      <Modified>2014-07-25T19:16:38.923</Modified>
+      <Modified>2014-07-27T09:17:27.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Șiruri.txt">
       <PackagePath>data\Șiruri.txt</PackagePath>
@@ -82,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2014-07-26T20:40:42.143</Modified>
+      <Modified>2014-07-27T09:41:52.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
@@ -1137,7 +1137,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\joc.js">
       <PackagePath>js\joc.js</PackagePath>
-      <Modified>2014-07-26T20:51:48.683</Modified>
+      <Modified>2014-07-27T10:10:44.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
       <PackagePath>js\lectii.js</PackagePath>
@@ -1167,9 +1167,17 @@
       <PackagePath>sounds\beep2.mp3</PackagePath>
       <Modified>2014-06-29T13:09:54.354</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\sounds\lose.mp3">
+      <PackagePath>sounds\lose.mp3</PackagePath>
+      <Modified>2014-07-27T09:41:30.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\sounds\win.mp3">
+      <PackagePath>sounds\win.mp3</PackagePath>
+      <Modified>2014-07-27T09:22:22.551</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-27T09:03:42.022</Modified>
+      <Modified>2014-07-27T09:41:59.869</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
