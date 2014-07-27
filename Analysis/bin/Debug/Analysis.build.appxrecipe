@@ -106,6 +106,12 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\11.png">
       <PackagePath>images\bg\11.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\12.png">
+      <PackagePath>images\bg\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\13.png">
+      <PackagePath>images\bg\13.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\2.png">
       <PackagePath>images\bg\2.png</PackagePath>
     </AppxPackagedFile>

@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-27T09:42:00.034</Modified>
+      <Modified>2014-07-27T11:41:30.004</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +143,14 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\11.png">
       <PackagePath>images\bg\11.png</PackagePath>
       <Modified>2014-07-12T09:42:25.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\12.png">
+      <PackagePath>images\bg\12.png</PackagePath>
+      <Modified>2014-07-26T17:26:33.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\13.png">
+      <PackagePath>images\bg\13.png</PackagePath>
+      <Modified>2014-07-26T17:40:52.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\bg\2.png">
       <PackagePath>images\bg\2.png</PackagePath>
@@ -1137,7 +1145,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\joc.js">
       <PackagePath>js\joc.js</PackagePath>
-      <Modified>2014-07-27T10:10:44.768</Modified>
+      <Modified>2014-07-27T11:42:09.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\js\lectii.js">
       <PackagePath>js\lectii.js</PackagePath>
@@ -1177,7 +1185,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-27T09:41:59.869</Modified>
+      <Modified>2014-07-27T11:41:28.679</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

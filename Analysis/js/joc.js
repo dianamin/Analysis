@@ -9,7 +9,7 @@ var time;
 
 var end = function () {
     time = (Date.now() - time) * 1000;
-    updateScor(scor / time * scor * 1000 + 10);
+    updateScor(scor);
     var sound;
     if (lifec > 0 && !lifee) {
         document.getElementById("rez").innerHTML = "Bravo :D";
