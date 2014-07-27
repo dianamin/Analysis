@@ -64,9 +64,6 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\about.html">
       <PackagePath>pages\about.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\pages\preferences.html">
-      <PackagePath>pages\preferences.html</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\images\a.png">
       <PackagePath>images\a.png</PackagePath>
     </AppxPackagedFile>

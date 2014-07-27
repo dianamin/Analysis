@@ -1,6 +1,4 @@
-﻿//întrebări
-var nrq = 10;
-
+﻿
 var intrebari = new Array();
 
 
@@ -76,7 +74,7 @@ choice = function (x) {
 }
 
 
-var nrb = 11, nra = 6;
+var nrb = 13, nra = 6;
 
 newScene = function () {
     intrebari = [];
