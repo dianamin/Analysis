@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-27T12:23:03.068</Modified>
+      <Modified>2014-07-27T13:49:16.833</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -30,7 +30,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-07-26T20:40:35.901</Modified>
+      <Modified>2014-07-27T13:51:18.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\BuxtonSketch.eot">
+      <PackagePath>css\BuxtonSketch.eot</PackagePath>
+      <Modified>1685-01-22T22:13:25.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\BuxtonSketch.ttf">
+      <PackagePath>css\BuxtonSketch.ttf</PackagePath>
+      <Modified>2014-07-27T13:48:46.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\BuxtonSketch.woff">
+      <PackagePath>css\BuxtonSketch.woff</PackagePath>
+      <Modified>2014-07-27T13:48:46.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Continuitate.txt">
       <PackagePath>data\Continuitate.txt</PackagePath>
@@ -1206,7 +1218,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-27T12:23:02.890</Modified>
+      <Modified>2014-07-27T13:49:15.278</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

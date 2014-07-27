@@ -22,6 +22,15 @@
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\BuxtonSketch.eot">
+      <PackagePath>css\BuxtonSketch.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\BuxtonSketch.ttf">
+      <PackagePath>css\BuxtonSketch.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\css\BuxtonSketch.woff">
+      <PackagePath>css\BuxtonSketch.woff</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DIDI\Desktop\c#\Analysis\Analysis\data\Continuitate.txt">
       <PackagePath>data\Continuitate.txt</PackagePath>
     </AppxPackagedFile>

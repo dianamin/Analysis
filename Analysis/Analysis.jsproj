@@ -55,6 +55,9 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\bootstrap.css" />
+    <Content Include="css\BuxtonSketch.eot" />
+    <Content Include="css\BuxtonSketch.ttf" />
+    <Content Include="css\BuxtonSketch.woff" />
     <Content Include="css\narrow.css" />
     <Content Include="data\Continuitate.txt" />
     <Content Include="data\Derivabilitate.txt" />

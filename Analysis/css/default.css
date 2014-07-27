@@ -112,9 +112,14 @@ header {
         background-color: #eeeeee;
     }
 
+@font-face {
+	font-family: 'BuxtonSketch';
+	src: url('BuxtonSketch.eot');
+	src: local('BuxtonSketch'), url('./BuxtonSketch.woff') format('woff'), url('./BuxtonSketch.ttf') format('truetype');
+}
 
 #titlu {
-    font-family: 'Buxton Sketch';
+	font-family: 'BuxtonSketch';
     font-weight: 100;
     text-shadow: 0 0 5px #428bca;
     color: #428bca;
